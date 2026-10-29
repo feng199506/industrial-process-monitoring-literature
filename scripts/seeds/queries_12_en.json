@@ -1,0 +1,86 @@
+[
+ {
+  "qid": "12x1",
+  "src": "arxiv",
+  "q": "(abs:\"blast furnace\" OR abs:\"hot rolling\" OR abs:\"hot strip\" OR abs:steelmaking OR abs:\"continuous casting\" OR abs:\"aluminum electrolysis\" OR abs:\"aluminium electrolysis\" OR abs:smelting OR abs:ironmaking OR abs:\"electric arc furnace\") AND (abs:monitoring OR abs:fault OR abs:\"soft sensor\" OR abs:anomaly)",
+  "max": 150
+ },
+ {
+  "qid": "12x2",
+  "src": "arxiv",
+  "q": "(abs:\"thermal power plant\" OR abs:\"power plant\" OR abs:\"coal-fired\" OR abs:boiler OR abs:\"nuclear power plant\" OR abs:\"coal mill\" OR abs:\"gas turbine\" OR abs:\"steam turbine\") AND (abs:\"fault detection\" OR abs:\"fault diagnosis\" OR abs:\"anomaly detection\" OR abs:\"soft sensor\" OR abs:\"process monitoring\" OR abs:\"condition monitoring\")",
+  "max": 150
+ },
+ {
+  "qid": "12x3",
+  "src": "arxiv",
+  "q": "(abs:wastewater OR abs:\"water treatment\" OR abs:\"activated sludge\" OR abs:\"drinking water treatment\") AND (abs:\"fault detection\" OR abs:\"soft sensor\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\" OR abs:\"sensor fault\")",
+  "max": 150
+ },
+ {
+  "qid": "12x4",
+  "src": "arxiv",
+  "q": "(abs:semiconductor OR abs:wafer OR abs:\"plasma etch\" OR abs:etching OR abs:lithography OR abs:\"chemical vapor deposition\") AND (abs:\"fault detection\" OR abs:\"virtual metrology\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\" OR abs:\"fault classification\") AND (abs:process OR abs:manufacturing)",
+  "max": 150
+ },
+ {
+  "qid": "12x5",
+  "src": "arxiv",
+  "q": "(abs:refinery OR abs:\"crude oil\" OR abs:distillation OR abs:\"catalytic cracking\" OR abs:polymerization OR abs:\"chemical plant\" OR abs:ethylene OR abs:petrochemical OR abs:\"gas processing\" OR abs:hydrocracking) AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"soft sensor\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\")",
+  "max": 150
+ },
+ {
+  "qid": "12x6",
+  "src": "arxiv",
+  "q": "(abs:flotation OR abs:\"mineral processing\" OR abs:\"grinding circuit\" OR abs:cement OR abs:kiln OR abs:\"paper machine\" OR abs:\"pulp and paper\" OR abs:hydrometallurgy OR abs:thickener OR abs:\"glass\" OR abs:\"mining\") AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"soft sensor\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\")",
+  "max": 150
+ },
+ {
+  "qid": "12x7",
+  "src": "doaj",
+  "q": "bibjson.title:(flotation OR grinding OR cement OR clinker OR kiln OR \"paper\" OR pulp OR hydrometallurg OR leaching OR thickener OR \"zinc\" OR \"alumina\") AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR \"anomaly detection\" OR \"soft measurement\")",
+  "max": 200
+ },
+ {
+  "qid": "12x8",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"industrial data\" OR \"real plant\" OR \"field data\" OR \"actual production\" OR \"real industrial\" OR \"plant data\") AND bibjson.abstract:(\"fault detection\" OR \"process monitoring\" OR \"soft sensor\" OR \"fault diagnosis\") AND bibjson.abstract:(refinery OR distillation OR \"blast furnace\" OR steel OR \"power plant\" OR boiler OR wastewater OR cement OR semiconductor OR flotation OR polymerization OR pharmaceutical)",
+  "max": 200
+ },
+ {
+  "qid": "12x9",
+  "src": "hal",
+  "q": "abstract_t:(flotation OR grinding OR cement OR kiln OR paper OR \"blast furnace\" OR \"hot rolling\" OR \"power plant\" OR boiler OR distillation OR refinery OR wastewater OR \"activated sludge\" OR semiconductor OR wafer OR pharmaceutical) AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"soft sensor\" OR \"fault diagnosis\" OR \"anomaly detection\")",
+  "max": 200
+ },
+ {
+  "qid": "12x10",
+  "src": "epmc",
+  "q": "TITLE:(\"blast furnace\" OR steel OR \"hot rolling\" OR smelting OR \"power plant\" OR boiler OR wastewater OR cement OR semiconductor OR wafer OR refinery OR distillation OR flotation OR grinding OR \"paper\" OR polymerization OR \"chemical process\") AND TITLE:(\"fault\" OR monitoring OR \"soft sensor\" OR \"anomaly\" OR \"virtual metrology\" OR diagnosis)",
+  "max": 250
+ },
+ {
+  "qid": "12c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.arcontrol.2012.09.004",
+  "max": 120
+ },
+ {
+  "qid": "12c2",
+  "src": "cite",
+  "q": "bwd:10.1021/acsomega.4c01254",
+  "max": 120
+ },
+ {
+  "qid": "12x11",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"fault detection\" OR \"process monitoring\" OR \"soft sensor\" OR \"fault diagnosis\" OR \"anomaly detection\") AND bibjson.abstract:(\"blast furnace\" OR steel OR \"power plant\" OR boiler OR wastewater OR cement OR semiconductor OR wafer OR refinery OR distillation OR flotation OR grinding OR \"paper machine\" OR pharmaceutical OR polymerization OR \"aluminum electrolysis\") AND bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLOS ONE\" OR \"IEEE Open Journal of the Industrial Electronics Society\")",
+  "max": 250
+ },
+ {
+  "qid": "12r1",
+  "src": "crossref",
+  "q": "industrial process fault detection real plant data IEEE Access",
+  "max": 150
+ }
+]

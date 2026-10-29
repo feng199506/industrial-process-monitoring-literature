@@ -1,0 +1,14 @@
+[
+ {"qid":"01x1","src":"arxiv","q":"(abs:\"alarm management\" OR abs:\"alarm flood\" OR abs:\"alarm floods\" OR abs:\"nuisance alarm\" OR abs:\"nuisance alarms\" OR abs:\"chattering alarm\" OR abs:\"alarm system\" OR ti:alarm OR ti:alarms) AND (abs:process OR abs:plant OR abs:industrial)","max":120},
+ {"qid":"01x2","src":"hal","q":"title_t:(alarm OR alarms OR alarming) AND abstract_t:(process OR plant OR industrial OR operator)","max":120},
+ {"qid":"01x3","src":"doaj","q":"bibjson.title:(alarm OR alarms) AND bibjson.abstract:(\"process\" OR plant OR industrial) AND bibjson.abstract:(management OR flood OR nuisance OR chattering OR design OR rationalization OR operator)","max":150},
+ {"qid":"01x4","src":"epmc","q":"TITLE:(\"alarm management\" OR \"alarm flood\" OR \"alarm floods\" OR \"alarm system\" OR \"nuisance alarm\" OR \"alarm systems\")","max":100},
+ {"qid":"01x5","src":"arxiv","q":"(ti:review OR ti:survey OR ti:perspective OR ti:tutorial OR ti:overview OR ti:challenges OR ti:roadmap) AND (abs:\"process monitoring\" OR abs:\"fault detection and diagnosis\" OR abs:\"process industry\" OR abs:\"process industries\" OR abs:\"chemical process\" OR abs:\"process systems engineering\")","max":150},
+ {"qid":"01x6","src":"arxiv","q":"(ti:\"statistical process monitoring\" OR ti:\"profile monitoring\" OR ti:\"multivariate control chart\" OR ti:\"process monitoring\" OR ti:\"statistical process control\" OR ti:\"control chart\") AND (cat:stat.ME OR cat:stat.AP OR cat:stat.ML OR cat:stat.CO)","max":150},
+ {"qid":"01x7","src":"hal","q":"title_t:(\"process monitoring\" OR \"fault detection and diagnosis\" OR \"statistical process\" OR \"control chart\" OR \"fault diagnosis\") AND title_t:(review OR survey OR overview OR perspective OR tutorial OR challenges OR \"state of the art\")","max":120},
+ {"qid":"01x8","src":"doaj","q":"bibjson.title:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"abnormal event\" OR \"abnormal situation\") AND bibjson.title:(review OR survey OR overview OR perspective OR tutorial OR \"state of the art\") AND bibjson.abstract:(process OR industrial OR plant OR chemical)","max":200},
+ {"qid":"01x9","src":"arxiv","q":"(abs:\"statistical process control\" OR abs:\"control chart\" OR abs:\"profile monitoring\" OR abs:\"statistical process monitoring\") AND (abs:manufacturing OR abs:industrial OR abs:\"production process\" OR abs:semiconductor OR abs:\"additive manufacturing\")","max":150},
+ {"qid":"01x10","src":"crossref","q":"multivariate statistical process monitoring review industrial process","max":100},
+ {"qid":"01c1","src":"cite","q":"fwd:10.1016/j.arcontrol.2012.09.004","max":120},
+ {"qid":"01c2","src":"cite","q":"bwd:10.3390/s25010060","max":120}
+]

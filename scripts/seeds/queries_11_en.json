@@ -1,0 +1,116 @@
+[
+ {
+  "qid": "11x1",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" AND (ti:benchmark OR ti:dataset OR ti:revisit OR ti:revisiting OR ti:evaluation OR ti:simulator OR ti:simulation OR ti:\"data set\" OR ti:comparison OR ti:comparative)",
+  "max": 100
+ },
+ {
+  "qid": "11x2",
+  "src": "arxiv",
+  "q": "(ti:dataset OR ti:benchmark OR ti:\"data set\" OR ti:testbed) AND (abs:\"industrial process\" OR abs:\"process monitoring\" OR abs:\"chemical process\" OR abs:\"process plant\" OR abs:\"manufacturing process\" OR abs:\"fault diagnosis\" OR abs:\"fault detection\")",
+  "max": 150
+ },
+ {
+  "qid": "11x3",
+  "src": "arxiv",
+  "q": "(ti:\"anomaly detection\" OR ti:anomaly) AND (ti:evaluation OR ti:benchmark OR ti:metrics OR ti:metric OR ti:pitfalls OR ti:flaws OR ti:rigorous OR ti:revisiting OR ti:\"point adjustment\") AND (abs:\"time series\" OR abs:\"time-series\" OR abs:multivariate)",
+  "max": 120
+ },
+ {
+  "qid": "11x4",
+  "src": "arxiv",
+  "q": "abs:\"point adjustment\" OR abs:\"point-adjust\" OR abs:\"point adjust\" OR abs:\"point-adjusted\"",
+  "max": 80
+ },
+ {
+  "qid": "11x5",
+  "src": "hal",
+  "q": "abstract_t:(\"Tennessee Eastman\" OR benchmark OR dataset OR \"data set\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"anomaly detection\") AND abstract_t:(process OR plant OR industrial)",
+  "max": 150
+ },
+ {
+  "qid": "11x6",
+  "src": "doaj",
+  "q": "bibjson.title:(dataset OR benchmark OR \"data set\" OR testbed OR simulator) AND bibjson.abstract:(\"fault detection\" OR \"fault diagnosis\" OR \"process monitoring\" OR \"anomaly detection\") AND bibjson.abstract:(industrial OR process OR plant)",
+  "max": 200
+ },
+ {
+  "qid": "11x7",
+  "src": "epmc",
+  "q": "TITLE:(dataset OR benchmark OR \"data set\" OR testbed) AND ABSTRACT:(fault OR anomaly OR monitoring) AND ABSTRACT:(industrial OR manufacturing OR \"process plant\" OR \"chemical process\" OR \"production\")",
+  "max": 200
+ },
+ {
+  "qid": "11x8",
+  "src": "arxiv",
+  "q": "(abs:\"data leakage\" OR abs:\"evaluation protocol\" OR abs:reproducibility OR abs:\"chronological split\" OR abs:\"temporal split\" OR abs:\"benchmarking\") AND (abs:\"fault detection\" OR abs:\"soft sensor\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\") AND (abs:process OR abs:industrial OR abs:plant)",
+  "max": 120
+ },
+ {
+  "qid": "11x9",
+  "src": "arxiv",
+  "q": "(abs:IndPenSim OR abs:\"penicillin\" OR abs:\"three-phase flow\" OR abs:\"benchmark simulation model\" OR abs:BSM1 OR abs:BSM2 OR abs:\"Tennessee Eastman\" OR abs:\"CSTR\" OR abs:\"continuous stirred\" OR abs:\"pulp mill\" OR abs:\"cyber-physical testbed\") AND (abs:fault OR abs:anomaly OR abs:monitoring)",
+  "max": 150
+ },
+ {
+  "qid": "11x10",
+  "src": "arxiv",
+  "q": "(abs:\"fault injection\" OR abs:\"synthetic faults\" OR abs:\"injected faults\") AND (abs:process OR abs:plant OR abs:industrial) AND (abs:dataset OR abs:benchmark OR abs:simulation)",
+  "max": 80
+ },
+ {
+  "qid": "11c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.compchemeng.2021.107377",
+  "max": 120
+ },
+ {
+  "qid": "11c2",
+  "src": "cite",
+  "q": "bwd:10.1609/aaai.v36i7.20680",
+  "max": 80
+ },
+ {
+  "qid": "11c3",
+  "src": "cite",
+  "q": "fwd:10.1109/tkde.2021.3112126",
+  "max": 120
+ },
+ {
+  "qid": "11c4",
+  "src": "cite",
+  "q": "bwd:10.1038/s41597-026-07225-z",
+  "max": 80
+ },
+ {
+  "qid": "11c5",
+  "src": "cite",
+  "q": "fwd:10.1016/j.petrol.2019.106223",
+  "max": 100
+ },
+ {
+  "qid": "11x11",
+  "src": "crossref",
+  "q": "Tennessee Eastman process benchmark dataset revisited simulation fault detection",
+  "max": 100
+ },
+ {
+  "qid": "11x12",
+  "src": "hal",
+  "q": "title_t:(benchmark OR dataset OR \"data set\" OR evaluation OR metric OR metrics) AND abstract_t:(\"anomaly detection\" OR \"fault detection\" OR \"fault diagnosis\") AND abstract_t:(industrial OR process OR plant OR manufacturing)",
+  "max": 150
+ },
+ {
+  "qid": "11x13",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" OR abs:\"Tennessee-Eastman\" OR abs:TEP",
+  "max": 200
+ },
+ {
+  "qid": "11x14",
+  "src": "arxiv",
+  "q": "(abs:\"public dataset\" OR abs:\"open dataset\" OR abs:\"publicly available dataset\" OR abs:\"real industrial data\" OR abs:\"open-source simulator\" OR abs:\"simulation benchmark\") AND (abs:\"fault detection\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"soft sensor\") AND (abs:process OR abs:plant OR abs:reactor OR abs:refinery)",
+  "max": 150
+ }
+]

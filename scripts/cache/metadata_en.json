@@ -1,0 +1,139 @@
+{
+ "doi:10.1109/access.2024.3494042": {
+  "title": "Enhanced Process Monitoring for the Maxwell Process via the CUSUM Control Chart and Its Application to the Carbon Fiber Industry",
+  "authors": [
+   "Zahid Khan",
+   "Faisal Shah",
+   "Attila I. Katona",
+   "Zsolt T. Kosztyán"
+  ],
+  "venue": "IEEE Access",
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "published_online": "",
+  "published_print": "2024",
+  "issued": "2024",
+  "posted": "",
+  "created": "2024-11-08",
+  "type": "journal-article",
+  "license": [
+   "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  ],
+  "links": [
+   "http://xplorestaging.ieee.org/ielx8/6287639/10380310/10747337.pdf?arnumber=10747337"
+  ],
+  "volume": "12",
+  "issue": "",
+  "page": "166402-166413",
+  "has_preprint": [],
+  "abstract": "",
+  "language": ""
+ },
+ "doi:10.1038/s41598-025-01734-4": {
+  "title": "Improved adaptive CUSUM control chart for industrial process monitoring under measurement error",
+  "authors": [
+   "Abdullah Ali H. Ahmadini",
+   "Imad Khan",
+   "Shokrya Saleh A. Alshqaq",
+   "Hadeel AlQadi",
+   "Refka Ghodhbani",
+   "Bakhtiyar Ahmad"
+  ],
+  "venue": "Scientific Reports",
+  "publisher": "Springer Science and Business Media LLC",
+  "published_online": "2025-05-13",
+  "published_print": "",
+  "issued": "2025-05-13",
+  "posted": "",
+  "created": "2025-05-13",
+  "type": "journal-article",
+  "license": [
+   "https://creativecommons.org/licenses/by-nc-nd/4.0",
+   "https://creativecommons.org/licenses/by-nc-nd/4.0"
+  ],
+  "links": [
+   "https://www.nature.com/articles/s41598-025-01734-4.pdf",
+   "https://www.nature.com/articles/s41598-025-01734-4",
+   "https://www.nature.com/articles/s41598-025-01734-4.pdf"
+  ],
+  "volume": "15",
+  "issue": "1",
+  "page": "",
+  "has_preprint": [],
+  "abstract": "",
+  "language": "en"
+ },
+ "doi:10.3389/fams.2025.1682448": {
+  "title": "An innovative hybrid control chart combining wavelet decomposition and support vector machine for effective outlier detection",
+  "authors": [
+   "Taha Hussein Ali",
+   "Hutheyfa Hazem Taha",
+   "Bekhal Samad Sedeeq",
+   "Heyam A. A. Hayawi"
+  ],
+  "venue": "Frontiers in Applied Mathematics and Statistics",
+  "publisher": "Frontiers Media SA",
+  "published_online": "2025-10-15",
+  "published_print": "",
+  "issued": "2025-10-15",
+  "posted": "",
+  "created": "2025-10-15",
+  "type": "journal-article",
+  "license": [
+   "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "links": [
+   "https://www.frontiersin.org/articles/10.3389/fams.2025.1682448/full"
+  ],
+  "volume": "11",
+  "issue": "",
+  "page": "",
+  "has_preprint": [],
+  "abstract": "IntroductionStatistical Process Control (SPC) charts are widely used to detect process shifts, yet classical Shewhart X̄ charts often fail in the presence of outliers and non-normal data distributions. To address these shortcomings, we propose a hybrid approach that integrates discrete wavelet decomposition with support vector machine (SVM) classification for enhanced outlier detection.MethodsThe proposed Dynamic Wavelet-SVM X̄ Chart (DWS-X̄) combines multi-resolution wavelet feature extraction with an SVM classifier to distinguish between in-control and out-of-control states. Its performance was assessed through extensive simulations varying subgroup size, number of subgroups, and contamination levels. Key metrics included Detection Rate (DR), False Alarm Rate (FAR), and Average Run Length (ARL).ResultsSimulation results consistently demonstrated the superiority of the DWS-X̄ chart compared to the traditional X̄ chart. The hybrid chart achieved higher detection rates (above 96%), lower false alarm rates (below 1-6% depending on variability), and shorter ARLs (1.6-5.1). Application to real neonatal heart rate data further confirmed its enhanced sensitivity in identifying abnormal cardiac patterns.DiscussionThe findings indicate that the proposed DWS-X̄ chart provides more reliable monitoring under contamination and high variability, offering earlier detection of abnormal signals with fewer false alarms. This hybrid method holds promise for both industrial quality control and healthcare process monitoring.",
+  "language": ""
+ },
+ "doi:10.3390/e28020151": {
+  "title": "Mathematical and Algorithmic Advances in Machine Learning for Statistical Process Control: A Systematic Review",
+  "authors": [
+   "Yulong Qiao",
+   "Tingting Han",
+   "Zixing Wu",
+   "Ge Jin",
+   "Qian Zhang",
+   "Qin Xu"
+  ],
+  "venue": "Entropy",
+  "publisher": "MDPI AG",
+  "published_online": "2026-01-29",
+  "published_print": "",
+  "issued": "2026-01-29",
+  "posted": "",
+  "created": "2026-01-29",
+  "type": "journal-article",
+  "license": [
+   "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "links": [
+   "https://www.mdpi.com/1099-4300/28/2/151/pdf"
+  ],
+  "volume": "28",
+  "issue": "2",
+  "page": "151",
+  "has_preprint": [],
+  "abstract": "Integrating machine learning (ML) with Statistical Process Control (SPC) is important for Industry 4.0 environments. Contemporary manufacturing data exhibit high-dimensionality, autocorrelation, non-stationarity, and class imbalance, which challenge classical SPC assumptions. This systematic review, conducted following the PRISMA 2020 guidelines, provides a problem-driven synthesis that links these data challenges to corresponding methodological families in ML-based SPC. Specifically, we review approaches for (1) high-dimensional and redundant data (dimensionality reduction and feature selection), (2) autocorrelated and dynamic processes (time-series and state-space models), and (3) data scarcity and imbalance (cost-sensitive learning, generative modeling, and transfer learning). Nonlinearity is treated as a cross-cutting property within each category. For each, we outline the mathematical rationale of representative algorithms and illustrate their use with industrial examples. We also summarize open issues in interpretability, thresholding, and real-time deployment. This review offers structured guidance for selecting ML techniques suited to complex manufacturing data and for designing reliable online monitoring pipelines.",
+  "language": "en"
+ },
+ "arxiv:2503.01858": {
+  "title": "A Review of Artificial Intelligence Impacting Statistical Process Monitoring and Future Directions",
+  "authors": [
+   "Shing I Chang",
+   "Parviz Ghafariasl"
+  ],
+  "v1_date": "2025-02-23",
+  "latest_version": 1,
+  "latest_date": "2025-02-23",
+  "journal_ref": "",
+  "doi": "",
+  "comment": "44 pages, 5 figures",
+  "abstract": "It has been 100 years since statistical process control (SPC) or statistical process monitoring (SPM) was first introduced for production processes and later applied to service, healthcare, and other industries. The techniques applied to SPM applications are mostly statistically oriented. Recent advances in Artificial Intelligence (AI) have reinvigorated the imagination of adopting AI for SPM applications. This manuscript begins with a concise review of the historical development of the statistically based SPM methods. Next, this manuscript explores AI and Machine Learning (ML) algorithms and methods applied in various SPM applications, addressing quality characteristics of univariate, multivariate, profile, and image. These AI methods can be classified into the following categories: classification, pattern recognition, time series applications, and generative AI. Specifically, different kinds of neural networks, such as artificial neural networks (ANN), convolutional neural networks (CNN), recurrent neural networks (RNN), and generative adversarial networks (GAN), are among the most implemented AI methods impacting SPM. Finally, this manuscript outlines a couple of future directions that harness the potential of the Large Multimodal Model (LMM) for advancing SPM research and applications in complex systems. The ultimate objective is to transform statistical process monitoring (SPM) into smart process control (SMPC), where corrective actions are autonomously implemented to either prevent quality issues or restore process performance."
+ }
+}

@@ -1,0 +1,380 @@
+{
+ "01": [
+  {
+   "qid": "01d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"process monitoring\" OR \"statistical process control\" OR \"control chart\" OR \"fault detection and diagnosis\" OR \"process fault\") AND bibjson.title:(review OR survey OR overview OR tutorial OR perspective OR \"state of the art\")"
+  },
+  {
+   "qid": "01d2",
+   "src": "doaj",
+   "q": "bibjson.title:\"multivariate statistical process\" OR bibjson.abstract:\"multivariate statistical process monitoring\""
+  },
+  {
+   "qid": "01d3",
+   "src": "doaj",
+   "q": "bibjson.title:(\"control chart\" OR \"control charts\") AND bibjson.abstract:(process OR manufacturing)",
+   "max": 200
+  },
+  {
+   "qid": "01a1",
+   "src": "arxiv",
+   "q": "(ti:\"process monitoring\" OR ti:\"statistical process control\" OR ti:\"control chart\" OR ti:\"fault detection and diagnosis\") AND (ti:review OR ti:survey OR ti:tutorial OR ti:overview OR ti:perspective)"
+  },
+  {
+   "qid": "01a2",
+   "src": "arxiv",
+   "q": "abs:\"multivariate statistical process monitoring\" OR abs:\"statistical process monitoring\""
+  },
+  {
+   "qid": "01a3",
+   "src": "arxiv",
+   "q": "ti:\"control chart\" OR ti:\"control charts\""
+  },
+  {
+   "qid": "01e1",
+   "src": "epmc",
+   "q": "TITLE:(\"process monitoring\" OR \"statistical process control\" OR \"control chart\") AND TITLE:(review OR survey OR overview OR tutorial)"
+  },
+  {
+   "qid": "01e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"statistical process monitoring\" OR \"multivariate statistical process control\" OR \"multivariate statistical process monitoring\" OR \"statistical process control\")",
+   "max": 300
+  },
+  {
+   "qid": "01h1",
+   "src": "hal",
+   "q": "title_t:(\"process monitoring\" OR \"statistical process control\" OR \"control chart\" OR \"fault detection\" OR \"fault diagnosis\") AND abstract_t:(process OR industrial OR plant)",
+   "max": 200
+  }
+ ],
+ "02": [
+  {
+   "qid": "02d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"principal component\" OR PCA OR \"partial least squares\" OR PLS OR \"independent component\" OR \"canonical correlation\" OR \"canonical variate\" OR \"slow feature\" OR \"latent variable\" OR \"kernel\") AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"statistical process\")",
+   "max": 300
+  },
+  {
+   "qid": "02a1",
+   "src": "arxiv",
+   "q": "(ti:PCA OR ti:\"principal component\" OR abs:\"partial least squares\" OR ti:\"slow feature\" OR ti:\"canonical variate\" OR ti:\"canonical correlation\" OR ti:\"latent variable\" OR ti:\"independent component\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"statistical process\")"
+  },
+  {
+   "qid": "02a2",
+   "src": "arxiv",
+   "q": "(abs:Hotelling OR abs:\"squared prediction error\" OR abs:\"T2 statistic\") AND (abs:process OR abs:monitoring)"
+  },
+  {
+   "qid": "02e1",
+   "src": "epmc",
+   "q": "(TITLE:(\"principal component\" OR \"partial least squares\" OR \"latent variable\" OR \"slow feature\" OR \"canonical variate\") AND ABSTRACT:(\"process monitoring\" OR \"fault detection\"))"
+  },
+  {
+   "qid": "02e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"principal component analysis\" OR \"partial least squares\" OR \"latent variable\") AND ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"statistical process control\") AND ABSTRACT:(process OR manufacturing)",
+   "max": 300
+  },
+  {
+   "qid": "02a3",
+   "src": "arxiv",
+   "q": "(abs:\"principal component\" OR abs:\"partial least squares\" OR abs:\"canonical correlation\" OR abs:\"latent variable\" OR abs:\"slow feature\" OR abs:\"kernel PCA\") AND (abs:\"fault detection\" OR abs:\"process monitoring\") AND (abs:process OR abs:plant OR abs:industrial)",
+   "max": 150
+  }
+ ],
+ "03": [
+  {
+   "qid": "03d1",
+   "src": "doaj",
+   "q": "bibjson.title:(autoencoder OR LSTM OR transformer OR \"graph neural\" OR \"graph convolutional\" OR \"deep learning\" OR \"self-supervised\" OR contrastive OR \"neural network\" OR attention) AND bibjson.abstract:(\"process monitoring\" OR \"Tennessee Eastman\" OR \"industrial process\" OR \"chemical process\")",
+   "max": 300
+  },
+  {
+   "qid": "03a1",
+   "src": "arxiv",
+   "q": "(abs:\"process monitoring\" OR abs:\"Tennessee Eastman\" OR abs:\"industrial process\" OR abs:\"chemical process\") AND (ti:autoencoder OR ti:transformer OR ti:LSTM OR ti:graph OR ti:deep OR ti:\"self-supervised\" OR ti:contrastive OR ti:neural OR ti:learning)",
+   "max": 200
+  },
+  {
+   "qid": "03e1",
+   "src": "epmc",
+   "q": "TITLE:(autoencoder OR LSTM OR transformer OR \"graph neural\" OR \"deep learning\" OR \"self-supervised\") AND ABSTRACT:(\"process monitoring\" OR \"Tennessee Eastman\" OR \"industrial process\")"
+  },
+  {
+   "qid": "03e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\" OR \"manufacturing process\" OR \"process plant\") AND ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"anomaly detection\" OR \"soft sensor\" OR \"statistical process control\") AND ABSTRACT:(\"deep learning\" OR autoencoder OR \"neural network\" OR transformer OR LSTM OR \"graph neural\")",
+   "max": 300
+  }
+ ],
+ "04": [
+  {
+   "qid": "04d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"incipient fault\" OR \"early fault\" OR \"weak fault\" OR \"small fault\" OR \"anomaly detection\" OR \"early warning\" OR \"slow drift\") AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"process monitoring\" OR \"Tennessee Eastman\" OR plant)",
+   "max": 300
+  },
+  {
+   "qid": "04a1",
+   "src": "arxiv",
+   "q": "(ti:incipient OR ti:\"anomaly detection\" OR ti:\"early fault\" OR ti:\"early warning\") AND (abs:\"industrial process\" OR abs:\"process monitoring\" OR abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"process plant\")",
+   "max": 150
+  },
+  {
+   "qid": "04a2",
+   "src": "arxiv",
+   "q": "(abs:\"detection delay\" OR abs:\"false alarm rate\") AND (abs:\"process monitoring\" OR abs:\"industrial process\" OR abs:\"Tennessee Eastman\")"
+  },
+  {
+   "qid": "04e1",
+   "src": "epmc",
+   "q": "TITLE:(\"incipient fault\" OR \"anomaly detection\" OR \"early fault\") AND ABSTRACT:(\"industrial process\" OR \"process monitoring\" OR \"Tennessee Eastman\" OR \"chemical process\")"
+  },
+  {
+   "qid": "04e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\" OR \"manufacturing process\" OR \"process plant\") AND ABSTRACT:(\"incipient fault\" OR \"anomaly detection\" OR \"early warning\" OR \"early detection\" OR \"detection delay\" OR \"false alarm\")",
+   "max": 300
+  }
+ ],
+ "05": [
+  {
+   "qid": "05d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"root cause\" OR \"fault isolation\" OR \"fault propagation\" OR \"contribution plot\" OR causal OR causality OR \"fault identification\" OR \"fault localization\" OR interpretable OR explainable) AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"process monitoring\" OR \"Tennessee Eastman\" OR plant)",
+   "max": 300
+  },
+  {
+   "qid": "05a1",
+   "src": "arxiv",
+   "q": "(ti:\"root cause\" OR ti:\"fault propagation\" OR ti:\"fault isolation\" OR ti:causal OR ti:explainable OR ti:interpretable OR ti:\"fault diagnosis\") AND (abs:\"industrial process\" OR abs:\"process monitoring\" OR abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"process plant\")",
+   "max": 150
+  },
+  {
+   "qid": "05e1",
+   "src": "epmc",
+   "q": "TITLE:(\"root cause\" OR \"fault diagnosis\" OR \"fault isolation\" OR causal) AND ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\")"
+  },
+  {
+   "qid": "05e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\" OR \"manufacturing process\" OR \"process plant\") AND ABSTRACT:(\"root cause\" OR \"fault diagnosis\" OR \"fault isolation\" OR \"fault propagation\" OR \"causal\" OR \"contribution plot\" OR \"explainable\")",
+   "max": 300
+  },
+  {
+   "qid": "05h1",
+   "src": "hal",
+   "q": "abstract_t:(\"root cause\" OR \"fault diagnosis\" OR \"fault isolation\") AND abstract_t:(\"chemical process\" OR \"industrial process\" OR plant)",
+   "max": 150
+  }
+ ],
+ "06": [
+  {
+   "qid": "06d1",
+   "src": "doaj",
+   "q": "bibjson.title:(multimode OR \"multi-mode\" OR \"multiple operating\" OR nonstationary OR \"non-stationary\" OR \"time-varying\" OR \"transfer learning\" OR \"domain adaptation\" OR \"continual learning\" OR \"incremental\" OR drift OR dynamic OR \"mode switching\") AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\") AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR plant)",
+   "max": 300
+  },
+  {
+   "qid": "06a1",
+   "src": "arxiv",
+   "q": "(abs:multimode OR abs:\"multi-mode\" OR abs:nonstationary OR abs:\"non-stationary\" OR abs:\"domain adaptation\" OR abs:\"continual learning\" OR abs:\"transfer learning\" OR abs:\"operating conditions\" OR abs:drift) AND (abs:\"process monitoring\" OR abs:\"Tennessee Eastman\" OR abs:\"industrial process\" OR abs:\"chemical process\")",
+   "max": 150
+  },
+  {
+   "qid": "06e1",
+   "src": "epmc",
+   "q": "TITLE:(multimode OR \"multi-mode\" OR nonstationary OR \"domain adaptation\" OR \"transfer learning\" OR \"continual learning\") AND ABSTRACT:(\"process monitoring\" OR \"fault diagnosis\" OR \"industrial process\")"
+  },
+  {
+   "qid": "06e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\" OR \"manufacturing process\" OR \"process plant\") AND ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"anomaly detection\" OR \"soft sensor\" OR \"statistical process control\") AND ABSTRACT:(multimode OR \"multi-mode\" OR \"operating condition\" OR \"operating mode\" OR nonstationary OR \"time-varying\" OR drift OR \"domain adaptation\" OR \"transfer learning\" OR \"continual learning\")",
+   "max": 300
+  }
+ ],
+ "07": [
+  {
+   "qid": "07d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"soft sensor\" OR \"soft sensors\" OR \"soft sensing\" OR \"virtual sensor\" OR \"quality prediction\" OR \"quality-related\" OR \"quality relevant\" OR \"inferential sensor\")",
+   "max": 300
+  },
+  {
+   "qid": "07a1",
+   "src": "arxiv",
+   "q": "ti:\"soft sensor\" OR ti:\"soft sensing\" OR ti:\"soft sensors\" OR ti:\"quality-related\" OR ti:\"virtual sensor\" OR (abs:\"quality prediction\" AND abs:\"industrial process\")",
+   "max": 150
+  },
+  {
+   "qid": "07e1",
+   "src": "epmc",
+   "q": "TITLE:(\"soft sensor\" OR \"soft sensing\" OR \"virtual sensor\" OR \"quality prediction\" OR \"quality-related\")"
+  },
+  {
+   "qid": "07a2",
+   "src": "arxiv",
+   "q": "abs:\"soft sensor\" OR abs:\"soft sensing\" OR abs:\"inferential sensor\" OR (abs:\"quality-related\" AND abs:process)",
+   "max": 150
+  }
+ ],
+ "08": [
+  {
+   "qid": "08d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"batch process\" OR \"batch processes\" OR fermentation OR \"batch monitoring\" OR bioprocess OR \"fed-batch\" OR \"pharmaceutical manufacturing\" OR \"process analytical technology\" OR \"injection molding\") AND bibjson.abstract:(monitoring OR fault OR \"soft sensor\" OR \"quality prediction\")",
+   "max": 300
+  },
+  {
+   "qid": "08a1",
+   "src": "arxiv",
+   "q": "(abs:\"batch process\" OR abs:\"batch processes\" OR abs:bioprocess OR abs:fermentation OR abs:\"fed-batch\" OR abs:\"penicillin\") AND (abs:monitoring OR abs:fault OR abs:\"soft sensor\")",
+   "max": 150
+  },
+  {
+   "qid": "08e1",
+   "src": "epmc",
+   "q": "(TITLE:(\"batch process\" OR bioprocess OR fermentation OR \"fed-batch\" OR \"process analytical technology\")) AND (ABSTRACT:(monitoring OR \"fault detection\" OR \"soft sensor\" OR \"multivariate statistical\"))",
+   "max": 300
+  }
+ ],
+ "09": [
+  {
+   "qid": "09d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"hybrid model\" OR \"hybrid modeling\" OR \"hybrid modelling\" OR \"digital twin\" OR \"physics-informed\" OR \"first-principles\" OR \"first principles\" OR \"state estimation\" OR observer OR \"system identification\" OR \"grey-box\" OR \"gray-box\" OR mechanism) AND bibjson.abstract:(\"chemical process\" OR \"industrial process\" OR reactor OR plant) AND bibjson.abstract:(monitoring OR fault OR \"soft sensor\" OR diagnosis)",
+   "max": 300
+  },
+  {
+   "qid": "09a1",
+   "src": "arxiv",
+   "q": "(ti:\"hybrid model\" OR ti:\"hybrid modeling\" OR ti:\"physics-informed\" OR ti:\"digital twin\" OR ti:\"state estimation\" OR ti:\"grey-box\" OR ti:\"first-principles\" OR ti:\"system identification\") AND (abs:\"chemical process\" OR abs:\"process monitoring\" OR abs:fault OR abs:\"industrial process\" OR abs:\"soft sensor\")",
+   "max": 150
+  },
+  {
+   "qid": "09e1",
+   "src": "epmc",
+   "q": "TITLE:(\"hybrid model\" OR \"hybrid modeling\" OR \"digital twin\" OR \"physics-informed\" OR \"state estimation\") AND ABSTRACT:(\"chemical process\" OR \"bioprocess\" OR \"process monitoring\" OR \"fault\")"
+  },
+  {
+   "qid": "09h1",
+   "src": "hal",
+   "q": "abstract_t:(\"hybrid model\" OR \"digital twin\" OR \"state estimation\" OR observer OR \"first principles\") AND abstract_t:(\"fault\" OR monitoring OR \"soft sensor\") AND abstract_t:(process OR reactor OR plant)",
+   "max": 150
+  }
+ ],
+ "10": [
+  {
+   "qid": "10a1",
+   "src": "arxiv",
+   "q": "(abs:\"large language model\" OR abs:\"large language models\" OR abs:LLM OR abs:\"foundation model\" OR abs:\"vision-language\" OR abs:multimodal OR abs:\"multi-modal\") AND (abs:\"industrial process\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\" OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:\"process control\" OR abs:\"process industry\")",
+   "max": 200
+  },
+  {
+   "qid": "10d1",
+   "src": "doaj",
+   "q": "(bibjson.title:(\"large language model\" OR \"large language models\" OR LLM OR \"foundation model\" OR \"knowledge graph\" OR \"few-shot\" OR multimodal OR \"multi-modal\" OR \"generative AI\") OR bibjson.abstract:(\"large language model\" OR \"foundation model\")) AND bibjson.abstract:(\"fault diagnosis\" OR \"process monitoring\" OR \"industrial process\" OR \"anomaly detection\" OR \"process industry\")",
+   "max": 300
+  },
+  {
+   "qid": "10e1",
+   "src": "epmc",
+   "q": "(TITLE:(\"large language model\" OR LLM OR \"foundation model\" OR \"knowledge graph\" OR multimodal)) AND (ABSTRACT:(\"fault diagnosis\" OR \"process monitoring\" OR \"industrial process\" OR \"process industry\"))"
+  }
+ ],
+ "11": [
+  {
+   "qid": "11a1",
+   "src": "arxiv",
+   "q": "ti:\"Tennessee Eastman\" OR (abs:\"Tennessee Eastman\" AND (ti:benchmark OR ti:dataset OR ti:simulator OR ti:evaluation OR ti:revisit))",
+   "max": 150
+  },
+  {
+   "qid": "11a2",
+   "src": "arxiv",
+   "q": "(ti:benchmark OR ti:dataset OR ti:evaluation OR ti:reproducib OR abs:\"point adjustment\" OR abs:\"point-adjust\") AND (abs:\"industrial\" OR abs:\"process monitoring\" OR abs:\"fault detection\") AND (abs:\"time series\" OR abs:process)",
+   "max": 150
+  },
+  {
+   "qid": "11d1",
+   "src": "doaj",
+   "q": "bibjson.title:(benchmark OR dataset OR simulator OR \"Tennessee Eastman\" OR reproducibility OR \"data leakage\" OR evaluation OR testbed) AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"anomaly detection\" OR \"soft sensor\") AND bibjson.abstract:(industrial OR process OR plant)",
+   "max": 300
+  },
+  {
+   "qid": "11e1",
+   "src": "epmc",
+   "q": "(TITLE:(benchmark OR dataset OR \"Tennessee Eastman\" OR simulator)) AND (ABSTRACT:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"anomaly detection\")) AND ABSTRACT:(industrial OR process)"
+  },
+  {
+   "qid": "11e2",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"Tennessee Eastman\" OR \"benchmark process\" OR \"pilot plant\" OR \"penicillin\" OR \"three-phase flow\") AND ABSTRACT:(\"fault\" OR monitoring OR \"anomaly\")",
+   "max": 300
+  }
+ ],
+ "12": [
+  {
+   "qid": "12d1",
+   "src": "doaj",
+   "q": "bibjson.title:(\"blast furnace\" OR steel OR \"hot rolling\" OR \"cold rolling\" OR metallurg OR smelting OR \"electrolytic\" OR aluminum OR copper OR \"zinc\" OR \"sintering\") AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR anomaly)",
+   "max": 200
+  },
+  {
+   "qid": "12d2",
+   "src": "doaj",
+   "q": "bibjson.title:(wastewater OR \"water treatment\" OR \"activated sludge\" OR desalination) AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR anomaly)",
+   "max": 200
+  },
+  {
+   "qid": "12d3",
+   "src": "doaj",
+   "q": "bibjson.title:(\"power plant\" OR \"thermal power\" OR boiler OR \"coal mill\" OR \"nuclear power\" OR \"steam turbine\" OR \"combined cycle\" OR \"flue gas\") AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR \"anomaly detection\")",
+   "max": 200
+  },
+  {
+   "qid": "12d4",
+   "src": "doaj",
+   "q": "bibjson.title:(semiconductor OR wafer OR \"etch\" OR \"chemical vapor\" OR \"plasma\") AND bibjson.abstract:(\"fault detection\" OR \"process monitoring\" OR \"virtual metrology\" OR \"anomaly detection\" OR \"fault diagnosis\")",
+   "max": 200
+  },
+  {
+   "qid": "12d5",
+   "src": "doaj",
+   "q": "bibjson.title:(cement OR \"paper machine\" OR pulp OR papermaking OR kiln OR glass OR \"mineral processing\" OR flotation OR grinding) AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR anomaly)",
+   "max": 200
+  },
+  {
+   "qid": "12d6",
+   "src": "doaj",
+   "q": "bibjson.title:(refinery OR petrochemical OR \"crude oil\" OR distillation OR \"catalytic cracking\" OR \"chemical plant\" OR polymerization OR ethylene OR \"gas processing\") AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR anomaly)",
+   "max": 200
+  },
+  {
+   "qid": "12d7",
+   "src": "doaj",
+   "q": "bibjson.title:(pharmaceutical OR \"food processing\" OR dairy OR brewing OR \"continuous manufacturing\" OR tablet OR granulation OR \"spray drying\") AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"process analytical technology\" OR \"soft sensor\" OR \"multivariate statistical\")",
+   "max": 200
+  },
+  {
+   "qid": "12a1",
+   "src": "arxiv",
+   "q": "(abs:\"blast furnace\" OR abs:\"steel\" OR abs:\"wastewater\" OR abs:\"cement\" OR abs:\"semiconductor manufacturing\" OR abs:\"refinery\" OR abs:\"power plant\" OR abs:\"pulp\" OR abs:\"pharmaceutical\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"fault diagnosis\" OR abs:\"soft sensor\" OR abs:\"anomaly detection\")",
+   "max": 200
+  },
+  {
+   "qid": "12e1",
+   "src": "epmc",
+   "q": "ABSTRACT:(\"blast furnace\" OR steel OR wastewater OR cement OR \"semiconductor manufacturing\" OR refinery OR \"power plant\" OR \"paper machine\" OR pulp OR pharmaceutical OR \"coal\" OR \"mineral processing\" OR flotation OR distillation) AND ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"soft sensor\" OR \"anomaly detection\")",
+   "max": 300
+  },
+  {
+   "qid": "12h1",
+   "src": "hal",
+   "q": "abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"soft sensor\" OR \"fault diagnosis\") AND abstract_t:(wastewater OR steel OR cement OR refinery OR \"power plant\" OR semiconductor OR pharmaceutical OR \"water treatment\")",
+   "max": 150
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 """Candidate discovery for the IPM library.
 
-  python3 -I scripts/discover_en.py run NN [--only SRC]   run the queries of category NN from seeds/queries_cn.json
+  python3 -I scripts/discover_en.py run NN [--only SRC]   run the queries of category NN from seeds/queries_en.json
   python3 -I scripts/discover_en.py show NN [--all] [--grep REGEX] [--limit N]
                                                          compact table of candidates hit by NN's queries, for screening
   python3 -I scripts/discover_en.py abs KEY [KEY ...]    print title/venue/abstract of candidates
@@ -177,7 +177,64 @@ def src_crossref(q, maxn=200, start=WINDOW_START):
     return total, out[:maxn]
 
 
-SOURCES = {"arxiv": src_arxiv, "doaj": src_doaj, "epmc": src_epmc, "crossref": src_crossref}
+def src_hal(q, maxn=200, start=WINDOW_START):
+    """HAL open archive; only records with a deposited full-text file."""
+    url = ("https://api.archives-ouvertes.fr/search/?" + urllib.parse.urlencode([
+        ("q", q), ("fq", f"producedDateY_i:[{start[:4]} TO 2026]"), ("fq", "submitType_s:file"),
+        ("fl", "title_s,authFullName_s,docid,halId_s,fileMain_s,producedDate_s,submittedDate_s,doiId_s,"
+               "journalTitle_s,conferenceTitle_s,abstract_s,language_s,docType_s,uri_s"),
+        ("rows", maxn), ("wt", "json")]))
+    d = get_json(url)
+    if d is None:
+        return None, []
+    out = []
+    for r in d["response"]["docs"]:
+        out.append({
+            "doi": (r.get("doiId_s") or "").lower(), "hal": r.get("halId_s", ""),
+            "title": " ".join((r.get("title_s") or [""])[0].split()),
+            "authors": r.get("authFullName_s", []),
+            "date": r.get("producedDate_s", ""), "date_basis": "HAL producedDate",
+            "hal_submitted": (r.get("submittedDate_s") or "")[:10],
+            "venue": r.get("journalTitle_s") or r.get("conferenceTitle_s") or "HAL",
+            "abstract": " ".join(((r.get("abstract_s") or [""])[0]).split()),
+            "links": [r["fileMain_s"]] if r.get("fileMain_s") else [],
+            "hal_pdf": r.get("fileMain_s", ""), "hal_type": r.get("docType_s", ""),
+            "lang": ",".join(r.get("language_s", [])),
+        })
+    return d["response"]["numFound"], out
+
+
+def src_cite(q, maxn=150, start=WINDOW_START):
+    """Citation chasing. q = "fwd:DOI" (works citing DOI, OpenCitations index, created >= start)
+    or "bwd:DOI" (DOI's Crossref reference list, any year). Each hit gets Crossref metadata."""
+    mode, doi = q.split(":", 1)
+    dois = []
+    if mode == "bwd":
+        d = get_json("https://api.crossref.org/works/" + urllib.parse.quote(doi))
+        if d is None:
+            return None, []
+        dois = [r["DOI"].lower() for r in d["message"].get("reference", []) if r.get("DOI")]
+    else:
+        st, body, _, _ = http("https://api.opencitations.net/index/v2/citations/doi:" + doi,
+                              accept="application/json")
+        if st != 200:
+            return None, []
+        for r in json.loads(body):
+            m = re.search(r"doi:(\S+)", r.get("citing", ""))
+            if m and (r.get("creation", "") or "9999") >= start[:7]:
+                dois.append(m.group(1).lower())
+    out = []
+    for x in dois[:maxn]:
+        d = get_json("https://api.crossref.org/works/" + urllib.parse.quote(x))
+        if d:
+            rec = cr_record(d["message"])
+            rec["cite_of"] = f"{mode}:{doi}"
+            out.append(rec)
+    return len(dois), out
+
+
+SOURCES = {"arxiv": src_arxiv, "doaj": src_doaj, "epmc": src_epmc, "crossref": src_crossref, "hal": src_hal,
+           "cite": src_cite}
 
 
 # ---------------------------------------------------------------- merge
@@ -224,7 +281,15 @@ def merge(cands, recs, cat, qid):
 
 
 def run(cat, only=None):
-    queries = load(SEEDS / "queries_cn.json", {}).get(cat, [])
+    import fcntl
+    STATE.mkdir(parents=True, exist_ok=True)
+    with open(STATE / "discover.lock", "a") as lk:
+        fcntl.flock(lk, fcntl.LOCK_EX)
+        _run(cat, only)
+
+
+def _run(cat, only=None):
+    queries = load(SEEDS / "queries_en.json", {}).get(cat, []) + load(SEEDS / f"queries_{cat}_en.json", [])
     cands = load(CAND, {})
     done = {(x["cat"], x["qid"]) for x in map(json.loads, open(LOG)) } if LOG.exists() else set()
     for q in queries:

@@ -1,0 +1,80 @@
+[
+ {
+  "qid": "08x1",
+  "src": "arxiv",
+  "q": "(abs:\"batch process\" OR abs:\"batch processes\" OR abs:\"multiphase batch\" OR abs:\"multistage batch\" OR abs:\"batch-to-batch\" OR abs:\"batch trajectories\") AND (abs:monitoring OR abs:\"quality prediction\" OR abs:phase OR abs:fault OR abs:\"soft sensor\")",
+  "max": 150
+ },
+ {
+  "qid": "08x2",
+  "src": "arxiv",
+  "q": "(abs:bioprocess OR abs:\"cell culture\" OR abs:bioreactor OR abs:biopharmaceutical OR abs:biomanufacturing) AND (abs:\"soft sensor\" OR abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"quality prediction\")",
+  "max": 150
+ },
+ {
+  "qid": "08x3",
+  "src": "doaj",
+  "q": "bibjson.title:(\"batch process\" OR \"batch processes\" OR \"multiphase batch\" OR \"multistage batch\" OR \"batch trajectories\" OR \"batch-to-batch\" OR \"batch quality\")",
+  "max": 200
+ },
+ {
+  "qid": "08x4",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"batch process\" OR \"fed-batch\" OR fermentation) AND bibjson.abstract:(\"phase division\" OR \"phase partition\" OR multiphase OR \"unequal length\" OR \"uneven length\" OR \"batch-to-batch\" OR multiway OR \"dynamic time warping\") AND bibjson.abstract:(monitoring OR fault OR \"quality prediction\")",
+  "max": 200
+ },
+ {
+  "qid": "08x5",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"batch process monitoring\" OR \"batch-to-batch\" OR \"multiway principal component\" OR \"multiway partial least squares\" OR \"phase division\" OR \"batch trajectory\" OR \"golden batch\" OR \"batch statistical process\" OR \"batch evolution\")",
+  "max": 200
+ },
+ {
+  "qid": "08x6",
+  "src": "epmc",
+  "q": "TITLE:(bioreactor OR \"cell culture\" OR biopharmaceutical OR fermentation OR \"fed-batch\" OR bioprocess OR \"upstream process\") AND ABSTRACT:(\"soft sensor\" OR \"multivariate statistical process\" OR \"fault detection\" OR \"anomaly detection\" OR \"process monitoring\" OR \"multivariate data analysis\") AND ABSTRACT:(\"machine learning\" OR \"partial least squares\" OR \"neural network\" OR \"principal component\" OR \"hybrid model\")",
+  "max": 200
+ },
+ {
+  "qid": "08x7",
+  "src": "hal",
+  "q": "abstract_t:(\"batch process\" OR \"batch processes\" OR \"fed-batch\" OR fermentation OR bioprocess OR \"injection molding\" OR bioreactor) AND abstract_t:(monitoring OR \"fault detection\" OR \"soft sensor\" OR \"quality prediction\" OR diagnosis)",
+  "max": 150
+ },
+ {
+  "qid": "08x8",
+  "src": "doaj",
+  "q": "bibjson.title:(\"injection molding\" OR \"injection moulding\" OR \"freeze drying\" OR lyophilization OR crystallization OR \"batch reactor\" OR \"batch distillation\") AND bibjson.abstract:(\"quality prediction\" OR \"process monitoring\" OR \"fault detection\" OR \"soft sensor\" OR \"anomaly detection\")",
+  "max": 200
+ },
+ {
+  "qid": "08x9",
+  "src": "epmc",
+  "q": "TITLE:(\"continuous manufacturing\" OR granulation OR tableting OR lyophilization OR \"freeze drying\" OR crystallization OR \"spray drying\" OR \"pharmaceutical manufacturing\" OR \"pharmaceutical process\") AND ABSTRACT:(\"process analytical technology\" OR \"multivariate statistical process\" OR \"soft sensor\" OR \"process monitoring\" OR \"fault detection\")",
+  "max": 200
+ },
+ {
+  "qid": "08c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.compchemeng.2019.05.037",
+  "max": 120
+ },
+ {
+  "qid": "08c2",
+  "src": "cite",
+  "q": "fwd:10.1016/j.arcontrol.2009.08.001",
+  "max": 120
+ },
+ {
+  "qid": "08x10",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"batch process\" OR \"batch processes\" OR \"fed-batch\" OR fermentation OR \"injection molding\" OR bioprocess) AND bibjson.abstract:(monitoring OR \"fault detection\" OR \"quality prediction\" OR \"soft sensor\") AND bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLOS ONE\" OR \"Frontiers in Bioengineering and Biotechnology\" OR \"Frontiers in Chemical Engineering\")",
+  "max": 200
+ },
+ {
+  "qid": "08r1",
+  "src": "crossref",
+  "q": "batch process monitoring phase IEEE Access",
+  "max": 150
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+  "qid": "07x1",
+  "src": "arxiv",
+  "q": "(abs:\"quality-related\" OR abs:\"quality-relevant\" OR abs:\"key performance indicator\" OR abs:\"output-relevant\") AND (abs:\"fault detection\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\")",
+  "max": 120
+ },
+ {
+  "qid": "07x2",
+  "src": "arxiv",
+  "q": "abs:\"virtual metrology\"",
+  "max": 120
+ },
+ {
+  "qid": "07x3",
+  "src": "arxiv",
+  "q": "(abs:\"soft sensor\" OR abs:\"soft sensing\" OR abs:\"soft sensors\") AND (abs:\"semi-supervised\" OR abs:\"just-in-time\" OR abs:multirate OR abs:\"multi-rate\" OR abs:\"transfer learning\" OR abs:\"domain adaptation\" OR abs:\"irregular\" OR abs:\"missing\")",
+  "max": 150
+ },
+ {
+  "qid": "07x4",
+  "src": "arxiv",
+  "q": "(abs:\"soft sensor\" OR abs:\"soft sensing\" OR abs:\"quality prediction\" OR abs:\"quality variable\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"process industry\" OR abs:debutanizer OR abs:\"sulfur recovery\" OR abs:\"industrial processes\")",
+  "max": 150
+ },
+ {
+  "qid": "07x5",
+  "src": "doaj",
+  "q": "bibjson.title:(\"quality-related\" OR \"quality-relevant\" OR \"key performance indicator\" OR \"quality relevant\" OR \"output-relevant\") AND bibjson.abstract:(\"fault detection\" OR monitoring OR \"fault diagnosis\")",
+  "max": 200
+ },
+ {
+  "qid": "07x6",
+  "src": "doaj",
+  "q": "bibjson.title:(\"virtual metrology\" OR \"inferential sensor\" OR \"inferential sensors\" OR \"soft measurement\" OR \"soft-sensor\")",
+  "max": 150
+ },
+ {
+  "qid": "07x7",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"soft sensor\" OR \"soft sensing\") AND bibjson.title:(\"semi-supervised\" OR \"just-in-time\" OR \"transfer\" OR graph OR transformer OR ensemble OR multirate OR \"multi-rate\" OR \"latent variable\" OR \"local\" OR \"adaptive\" OR \"variational\" OR \"Gaussian process\")",
+  "max": 200
+ },
+ {
+  "qid": "07x8",
+  "src": "hal",
+  "q": "abstract_t:(\"soft sensor\" OR \"soft sensors\" OR \"virtual sensor\" OR \"inferential sensor\" OR \"quality-related\" OR \"virtual metrology\" OR \"quality prediction\")",
+  "max": 150
+ },
+ {
+  "qid": "07x9",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"soft sensor\" OR \"soft sensing\" OR \"quality-related fault\" OR \"virtual metrology\") AND ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"process industry\" OR plant OR refinery OR debutanizer)",
+  "max": 200
+ },
+ {
+  "qid": "07c1",
+  "src": "cite",
+  "q": "fwd:10.1109/jsen.2020.3033153",
+  "max": 120
+ },
+ {
+  "qid": "07c2",
+  "src": "cite",
+  "q": "bwd:10.1016/j.conengprac.2024.105841",
+  "max": 120
+ },
+ {
+  "qid": "07x10",
+  "src": "doaj",
+  "q": "bibjson.title:(\"soft sensor\" OR \"soft sensors\" OR \"soft sensing\" OR \"quality prediction\" OR \"quality-related\" OR \"virtual metrology\") AND bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLOS ONE\" OR \"IEEE Open Journal of the Industrial Electronics Society\" OR \"Frontiers in Chemical Engineering\")",
+  "max": 200
+ },
+ {
+  "qid": "07r1",
+  "src": "crossref",
+  "q": "soft sensor industrial process IEEE Access",
+  "max": 200
+ },
+ {
+  "qid": "07r2",
+  "src": "crossref",
+  "q": "quality-related fault detection process monitoring IEEE Access",
+  "max": 150
+ }
+]
