@@ -1,0 +1,8214 @@
+{
+ "01-001": {
+  "benchmarks": {
+   "高炉": {
+    "n": 1,
+    "ctx": "] used neural networks for the identiﬁcation and control of blast furnace hot metal qual- ity. Shi et al. [189] developed a ICA and m"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "nel regression for semi-supervised soft sensing modeling of fed-batch processes. Ge et al. [275] introduced the self- training st"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-002": {
+  "benchmarks": {
+   "高炉": {
+    "n": 1,
+    "ctx": "with TOPSIS and a grey model to enhance fault detection in blast furnace ironmaking. Zheng, Li, and Zhao (2016) combined hypothesis"
+   },
+   "半导体刻蚀/晶圆数据": {
+    "n": 3,
+    "ctx": "pping, improving process monitoring in biomanufacturing and wafer production. Xue et al. (2023) developed a multi -feature f"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "electronics such as LEDs (Zheng, Chen, and Luo 2018), and fermentation profiles of microorganisms over time (Quinn-Bohmann et al."
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-003": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "particular emphasis on chemical plants and the widely used Tennessee Eastman Process (TEP) benchmark. State-of-the-art machine learning"
+   },
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 5,
+    "ctx": "monitoring, including the Tennessee Eastman Process (TEP), PenSim, RAYMOND, DAMADICS, IndPenSim, FCC fractionator, Cranfield"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": "P), PenSim, RAYMOND, DAMADICS, IndPenSim, FCC fractionator, Cranfield Multiphase Flow Facility Melo et al. (2022). In this resear"
+   },
+   "DAMADICS": {
+    "n": 1,
+    "ctx": "uding the Tennessee Eastman Process (TEP), PenSim, RAYMOND, DAMADICS, IndPenSim, FCC fractionator, Cranfield Multiphase Flow Fac"
+   },
+   "Fed-batch/发酵": {
+    "n": 4,
+    "ctx": "tabilityanddiagnosticaccuracy.ValidatedontheTEPandpenicillinfermentation processes, GLACNN demonstrates superior accuracy compared t"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ent datasets in their experiments. Only two studies use the Tennessee-Eastman Dataset (TED) [ 11,12,101], while another four studies used"
+   },
+   "半导体刻蚀/晶圆数据": {
+    "n": 6,
+    "ctx": "hods used in Fault Detection and Diagnosis within the metal etching process in semiconductor manufacturing. The authors cate"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-005": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "nd MPC layers and demonstrated the benefits for a simulated CSTR and distillation column. Notice that most of these applicat"
+   },
+   "Fed-batch/发酵": {
+    "n": 5,
+    "ctx": ". [30] developed a serial hybrid model of a lignocellulosic fermentation process, whereby the glu- cose concentration is estimated f"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-006": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-007": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-008": {
+  "benchmarks": {},
+  "metrics": [
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-009": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "y validated using a publicly available dataset based on the Tennessee-Eastman process. The results show that our method outperforms two n"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 8,
+    "ctx": "in the process automation of chemical plants (Arroyo,2017; Bathelt et al.,2015; Melo et al.,2022). Its academic significance i"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 1,
+    "ctx": "al publication in 1993, the TEP has gained recognition as a benchmark simulation model in the process automation of chemical plants (Arroyo,2017;"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-010": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "m presentation is simplified to give an overview. Using the Tennessee Eastman process simulation, Li, Wang, and Yang [50] demonstrated a"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-011": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "cross varied operational settings, we employed a Stratified Shuffle Split cross-validation strategy with 1000 folds. Additiona",
+  "code_links": []
+ },
+ "01-012": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-013": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/panr2000?tab=projects"
+  ]
+ },
+ "01-015": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-016": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "reasoning method for fault detection and diagnosis of the Tennessee Eastman process. The authors also proposed a case maintenance stra"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "el -agnostic technique that assesses feature importance by shuffling (permuting) t he values of a single feature and observi",
+  "code_links": []
+ },
+ "01-017": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-019": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-020": {
+  "benchmarks": {},
+  "metrics": [
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "pertaining to the ten spot welds measured on 20 car bodies randomly selected from the dataset analyzed in the case study. 4 Case study T",
+  "code_links": []
+ },
+ "01-021": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-022": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-023": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "monitoring (Zhang et al., 2015). The reference data set is randomly split into three non- overlapping sets, referred to astraining, v",
+  "code_links": [
+   "https://github.com/unina-sfere/FNNCC"
+  ]
+ },
+ "01-024": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "and a tuning set are obtained from the simulated IC data by randomly splitting it into 500 and 1500 observations, respectively. The nu",
+  "code_links": []
+ },
+ "01-025": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-026": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-027": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-028": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "tor complex analytical and industrial processes, including fermentation, pharmaceutical continuous manufacturing, polymer producti"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-030": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/christopherburger/"
+  ]
+ },
+ "01-031": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-032": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-033": {
+  "benchmarks": {
+   "DAMADICS": {
+    "n": 24,
+    "ctx": "bels for training or event structuring, and is evaluated on DAMADICS Phase III, a representative case study of coupled actuator"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-034": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-035": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-036": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "en classifiers, demonstrating improved per- formance on the Tennessee Eastman process. Chao et al. [7] developed a hybrid prognostics fra"
+   },
+   "CSTR 仿真": {
+    "n": 11,
+    "ctx": "of the condition monitoring frame- work are evaluated on a continuous stirred-tank reactor (CSTR) benchmark using several machine learning mod"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-038": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 13,
+    "ctx": "frared datasets from materials like rocks, coffee, and beer fermentation, we highlight practical strategies for integrating samplin"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "face to illustrate spatial sampling at the interface. Five randomly selected points were analysed on the upper surface (defined accordi",
+  "code_links": []
+ },
+ "01-039": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "and two data preparation techniques (KFDA and KPCA). Using Tennessee Eastman benchmark process data, an ANN model was verified and compa"
+   },
+   "半导体刻蚀/晶圆数据": {
+    "n": 4,
+    "ctx": "s. By considering the long-term tendencies of semiconductor wafer batches, Peres et al. [15] enhanced the multivariate SPC (M"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-043": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-044": {
+  "benchmarks": {
+   "SKAB": {
+    "n": 14,
+    "ctx": "data used were the open-source Skoltech Anomaly Benchmark (SKAB) dataset [6], which consists of a water circulation loop wi"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-046": {
+  "benchmarks": {},
+  "metrics": [
+   "漏报率 MDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-047": {
+  "benchmarks": {},
+  "metrics": [
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-048": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 4,
+    "ctx": "data used in this study. Well-established datasets such as SWaT (Secure Water Treatment) [24], WADI (Water Distribution) [2"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "ndom forests: the number of trees (ntree) and the number of randomly selected variables (mtry). It is generally known that the parameter",
+  "code_links": []
+ },
+ "01-049": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-051": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-052": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 1,
+    "ctx": "Montgomery26, consists of 25 samples, each comprising five wafers. Within semiconductor manufacturing, this dataset corresp"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-053": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 1,
+    "ctx": "ring. The dataset consists of 45 samples, each containing 5 wafers, resulting in a total of 225 data points. These measureme"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-054": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-055": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-056": {
+  "benchmarks": {},
+  "metrics": [
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-057": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-059": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "modes Number of variables Number of faults Refs. Benchmarks Tennessee Eastman process 6 53 20 [13,15\u001817] Continuous stirred tank reactor"
+   },
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "fs. Benchmarks Tennessee Eastman process 6 53 20 [13,15\u001817] Continuous stirred tank reactor 2 9 6 [18\u001820] Fluidized catalytic cracking unit 2 3"
+   }
+  },
+  "metrics": [
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "01-060": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-001": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 8,
+    "ctx": "re contribution plots. The framework is evaluated using the Tennessee Eastman Process benchmark. The results show that posterior-mean mon"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/sab-in-"
+  ]
+ },
+ "02-002": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-003": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "ost sophisticated centralized or distributed methods on the Tennessee Eastman Plant bench- mark. Since the decomposition algorithm relies"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "n in the original TEP paper [34] and was not unconcealed by Bathelt et al. [42] in their revision of the code. By analyzing the"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-005": {
+  "benchmarks": {},
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-006": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "ical experiments on a synthetic process and on a replicated Tennessee Eastman Process show that the conceptually simpler manifold-fitting"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 4,
+    "ctx": "trollers, making it inherently unstable. We use instead the revised TE simulator of Bathelt et al. (2015), which includes feedback"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "R²",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/iburaktas/Manifold-SPC"
+  ]
+ },
+ "02-007": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "R²",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-008": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "For each variable pair, the source time series is randomly shuffled 50 times to generate a set of surrogate TE values. The 95",
+  "code_links": []
+ },
+ "02-009": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "local models. Finally, the fault detection results for the Tennessee Eastman production system and a diesel engine working system valida"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-010": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "2×32, respectively. For each configuration, we reserve 5000 randomly selected data points for testing, while the remaining data is divide",
+  "code_links": []
+ },
+ "02-011": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "odology is evaluated with multiple cases from the benchmark Tennessee Eastman Process. The faults are detected for all evaluated cases, i"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/sab-in-science/k-mspc"
+  ]
+ },
+ "02-012": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "ng performance is studied using numerical examples a nd the Tennessee Eastman process. The eﬀectiveness is veriﬁed on a rea l data in Sec"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/NetManAIOps/OmniAnomaly",
+   "https://github.com/kchen-2024/RBPCA.git"
+  ]
+ },
+ "02-013": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "he effectiveness of the proposed method is validated by the Tennessee Eastman process and electric servo mechanisms. 1. INTRODUCTION In r"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-014": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "two well-known benchmarks (multivariate dynamic process and Tennessee Eastman process) and a real-world application (actual tube leakage"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-015": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 19,
+    "ctx": "as fault thresholds, thereby achieving robust detection on BSM1 and real-world datasets. Navato et al. 17 demonstrated 1Ma"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-016": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-017": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 3,
+    "ctx": "ls (ASMs) No. 1, 2, 2d and 3 (Henze et al., 2000) and the benchmark simulation models Supplementary Information The online version contains su"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-018": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-019": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-020": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "r fault detection in two different industrial case studies: Tennessee Eastman (TE) process and the cement rotary kiln data is well given."
+   },
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "near models, as demonstrated with synthetic and simu- lated continuous stirred tank reactor (CSTR) data. Similarly, the combination of KPCA wit"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-021": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "t al. [59] conducted a com- parative analysis of the GC and Tennessee-Eastman process, yet the challenge of nonlinearity still needed to"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 12,
+    "ctx": "e proposed CPSO-DKPCA-GC method. The first case employed a benchmark simulation model, while the second involved an actual wastewater treatment"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-022": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-023": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-024": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 8,
+    "ctx": "ference provides a global decision for fault detection. The Tennessee Eastman benchmark validates the efficiency and feasibility of the p"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-025": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "s of FBSLA, in this paper, experiments are conducted on the Tennessee Eastman Process and the Penicillin Fermentation Process data sets."
+   },
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 6,
+    "ctx": "ents are conducted on the Tennessee Eastman Process and the Penicillin Fermentation Process data sets. According to experimental r"
+   },
+   "Fed-batch/发酵": {
+    "n": 5,
+    "ctx": "nducted on the Tennessee Eastman Process and the Penicillin Fermentation Process data sets. According to experimental results, FBSLA"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-026": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-027": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-028": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "racteristics . The proposed approach has been tested on the Tennessee Eastman Process (TEP). The findings suggest that the proposed appro"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-029": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-030": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "osed method is veriﬁed through numerical exam- ples and the Tennessee-Eastman (TE) process, which is hoped to provide a potential refere"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-032": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-033": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-034": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-035": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-036": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ditional K-fold cross-validation, this method avoids random shuffling. Instead, it ensures that the validation set in each fol",
+  "code_links": []
+ },
+ "02-037": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-038": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-001": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/petrobras/3W",
+   "https://github.com/petrobras/3W/tree/main/community"
+  ]
+ },
+ "11-002": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 14,
+    "ctx": "is generated by the test dataset of secure water treatment (SWaT) (Goh et al. 2016). Blue and orange colors indicate the nor"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "most studies apply a peculiar evaluation pro- tocol called point adjustment ( PA) before scoring. In this paper, we theoretically a",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-003": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "ly detection (aD). Simulation-based benchmarks, such as the tennessee Eastman process, are widely used to develop and train aD methods."
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/aparnamuraleedharan/DataProcessing"
+  ]
+ },
+ "11-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": ". 1 arXiv:2604.09166v3 [cs.LG] 31 Aug 2026 the fictitious Tennessee Eastman process [7, 17, 18]. Only recently have datasets from real"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://zenodo.org/records/17395543",
+   "https://zenodo.org/records/19520510"
+  ]
+ },
+ "11-006": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ng of each tree on these sub- sets, the classifier executes random splits on the predic- tors, choosing the optimal split to divide",
+  "code_links": [
+   "https://github.com/TovNephesh/MTS_CAN",
+   "https://zenodo.org/records/12807317"
+  ]
+ },
+ "11-007": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 2,
+    "ctx": "e series (qualita- tive only); industrial-control coverage (SWaT/WADI) and a published-leaderboard SOTA reference remain the"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC"
+  ],
+  "point_adjust": "lly Fix It? An Independent Adversarial Stress- Test of Post-Point-Adjustment Evaluation Metrics for Time- Series Anomaly Detection Z",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-008": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "检测延迟",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "aluate the models’ ability to recognise normal behaviour on randomly selected events. However, since the time series may contain unlabell",
+  "code_links": [
+   "https://github.com/AEFDI/EnergyFaultDetector/tree/v0.3.0"
+  ]
+ },
+ "11-011": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-014": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 1,
+    "ctx": "5/6 20%{𝐶,𝑃,𝑅𝑊} SMAP Sensor (Telemetry) 27 25 5/27 4%{𝐶,𝐶𝑃} SWaT Sensor (Cybersecurity) 2 59 1/2 2%{𝐶,𝐶𝑃} GECCO Sensor (Wate"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/magaliparrino/StrAD.git"
+  ]
+ },
+ "11-015": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "sion, Recall and F1-score at point- level, with and without point-adjustment, and under different aggrega- tion strategies across ma",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/NetManAIOps/"
+  ]
+ },
+ "11-016": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-017": {
+  "benchmarks": {},
+  "metrics": [
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "/min. We ﬁrst generate 7.7 ×104 chunks of 2 s that are then randomly split into nonoverlapping win- dows of lengthn = 256 to create ve",
+  "code_links": []
+ },
+ "11-018": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://zenodo.org/records/19891670”"
+  ]
+ },
+ "11-019": {
+  "benchmarks": {},
+  "metrics": [
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-020": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ig. 9 Scatter plots of the MAE obtained by MTSF algorithms. Randomly selected examples are used to show the forecasting results individu",
+  "code_links": []
+ },
+ "11-021": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-022": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-023": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-024": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 15,
+    "ctx": "dit dedicated to multivariate benchmarks and concluded that SWaT, W ADI (water treatment and distribution), MSL, and SMAP (s"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC"
+  ],
+  "point_adjust": "(in the same way that a single positive prediction inflates point- adjusted metrics [31]). To quantify this persistence, we define th",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/marcpinet/"
+  ]
+ },
+ "11-025": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "commodate this, anomaly predictions are adjusted, called as point adjustment (PA), before the F1-score evaluation. However, these ad",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/summukhe/balanced"
+  ]
+ },
+ "11-026": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 7,
+    "ctx": "metrics across various benchmark datasets. Datasets SMD MSL SWaT PSM Models PATE PA-F1 Standard-F1 PA-AUC-ROC AUC-ROC VUS-RO"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "aluation scheme. The results show that a common metric like Point-Adjusted F1 Score fails to characterize the detection per- formanc",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Raminghorbanii/PATE"
+  ]
+ },
+ "11-027": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 4,
+    "ctx": "ternet company contains 3 entity groups across 28 machines. SWaT [34] Secure Water Treatment (SWaT) dataset collected from a"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "ased evaluators: the classical point-wise evaluator PW, the point adjustment evaluator P A [18], and the top-k point adjustment eval",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/weatherjyh/OIPR"
+  ]
+ },
+ "11-028": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "at increase the transparency of evaluations. 3 Related Work Point-adjusted metricsTo remedy some of the un- wanted effects of point-",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/wagner-d/tsadm"
+  ]
+ },
+ "11-029": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "guessing, and that widely adopted metrics—including NAB and Point-Adjust—show critically limited resistance to score inflation. Thes",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-031": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "trics includePA-F1 (Xu et al., 2018) that applies heuristic point adjustment,Event-based-F1 (Garg et al., 2021) that treats each ano",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-032": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-033": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/nikolaiwest/pyscrew"
+  ]
+ },
+ "11-034": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "any? The original paper detailed that the raw dataset was shuffled and divided into training and test sets, with 416 and 10",
+  "code_links": []
+ },
+ "11-036": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-037": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/BJhof/",
+   "https://github.com/BJhof/cfc-analysis"
+  ]
+ },
+ "11-038": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "ater Treatment (SWaT ), Water Distribution (W ADI), and the Tennessee Eastman Process (TEP) are de-facto CPS bench- marks (Goh et al. 201"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "fault detection and diagnosis tasks. This work utilizes the Reinartz version of TEP (Reinartz, Ku- lahci, and Ravn 2021), which"
+   },
+   "SKAB": {
+    "n": 9,
+    "ctx": "e models on five public anomaly datasets (SWaT, W ADI, SMD, SKAB, TEP) and two indus- trial datasets (steam turbine, nuclear"
+   },
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 28,
+    "ctx": "e 14 representative models on five public anomaly datasets (SWaT, W ADI, SMD, SKAB, TEP) and two indus- trial datasets (stea"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "chmidl, and Papenbrock 2022). Prior work has also shown thatpoint-adjustcounting any hit within an anomaly range as a true positive",
+  "random_split": "every time step. •Robustness to sensor failure and driftWe randomly selected 10% of the feature channels and set their values to zero to",
+  "code_links": []
+ },
+ "11-039": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 2,
+    "ctx": "[cs.LG] 17 Sep 2024 A. Datasets 1) Secure Water Treatment (SWaT) Dataset [9]: The SWaT dataset is derived from a water trea"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "scores before applying any transformation, thresholding, or point adjustment. We plot the density for training, validation, and test",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-040": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://figshare.com/articles/"
+  ]
+ },
+ "11-041": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "gital Object Identifier 10.1 109/ACCESS.2026.3691935 Beyond Random Splits: A Temporal Robustness Benchmark for Industrial Food Anoma",
+  "code_links": []
+ },
+ "11-042": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 128,
+    "ctx": "ent–Level Evaluation of ICS Anomaly Detection: Lessons From SWaT and WADI VAHID HEYDARI 1, (Member, IEEE), AND KOFI NYARKO"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "OLATION FOREST) Isolation Forest isolates anomalies through random partition- ing trees; points isolated with fewer splits receive highe",
+  "code_links": []
+ },
+ "11-043": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "acturing processes. The ﬁrst dataset employs the well-known Tennessee Eastman simulator for fault detection and process control. The seco"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/causalens/",
+   "https://github.com/giovanniMen",
+   "https://github.com/microsoft/dowhy"
+  ]
+ },
+ "11-044": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "sually in less populated regions of the dataset, and fewer random partitions are usu- ally needed to isolate them at nodes in the tree",
+  "code_links": []
+ },
+ "11-045": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 3,
+    "ctx": "isture Active Passive Satellite SMD Server machine dataset SWAT Secure water treatment USAD UnSupervised anomaly detecti"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "ic thresholding OCSVM One-class support vector machine PA Point adjust PCA Principal component analysis * Bruno F. Santos B.F.",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-046": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-047": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 23,
+    "ctx": "onstrated successfully for a relatively simple exother- mic CSTR process model. Then, we improved our meth- ods for more-com"
+   }
+  },
+  "metrics": [
+   "漏报率 MDR",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-049": {
+  "benchmarks": {
+   "SKAB": {
+    "n": 2,
+    "ctx": "ltiple multivariate time series. For instance, the Daphnet, SKAB, Exathlon, ASD, and TODS datasets contain 7, 34, 30, 12, an"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "ption. of the testing set is inconsistent. [ 78, 90]. (iii) Point Adjustment. This is a technique for modifying predictions to compl",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/decisionintelligence/TAB"
+  ]
+ },
+ "11-051": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "tstheseinherentcorrelationstructuresratherthanthroughpurely random partitioning, ensuring that training and evaluation data remain genui",
+  "code_links": []
+ },
+ "11-052": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/sltzgs/Wind_Turbine_SCADA_open_",
+   "https://zenodo.org/doi/10.5281/zenodo.10958774"
+  ]
+ },
+ "11-053": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-054": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "11-055": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "g method for final prediction over three splitting methods: random splitting, time-based splitting, and run-based splitting. Random",
+  "code_links": [
+   "https://github.com/subhande/"
+  ]
+ },
+ "11-056": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/DHI/tsod"
+  ]
+ },
+ "11-057": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "- level detection capability, including R-based F1, F1 with point adjustment (F1-PA), Reduced-F1, Affiliation F1 (Aff- F1), VUS-ROC,",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/EmorZz1G/CCE"
+  ]
+ },
+ "11-058": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC"
+  ],
+  "point_adjust": "ive anomalous region is sufficient, and accordingly apply a point-adjustment strategy to the F1-score. Kim et al. [12] propose point",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Yueweilirepo/DQE"
+  ]
+ },
+ "11-059": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/TheDatumOrg/",
+   "https://github.com/mcyeh/mmpad_tsb"
+  ]
+ },
+ "07-001": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "evaluated on larger-scale benchmark processes, such as the Tennessee Eastman Process, to examine its scalability and generalization abil"
+   },
+   "CSTR 仿真": {
+    "n": 21,
+    "ctx": "sed method is verified on a three-phase flow facility and a continuous stirred tank reactor process. Compared with PLS, CCA, DCCA, and DVCCA, t"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 6,
+    "ctx": "t operating condition. The proposed method is verified on a three-phase flow facility and a continuous stirred tank reactor process. Com"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-002": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 1,
+    "ctx": "range of processes, including: polymerization process [11], debutanizer column process [12], CTC fermentation process [13, 14], amm"
+   },
+   "硫回收装置数据": {
+    "n": 1,
+    "ctx": "metering [23], solid waste incineration process [24], and a sulfur recovery unit process [25]. This paper shows how to leverage the two"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "rization process [11], debutanizer column process [12], CTC fermentation process [13, 14], ammonia synthesis process [15, 16, 17], b"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "or was found by performing a hyperparameter optimization on randomly selected validation data. 23 Table 3: Dimensions of variables in the",
+  "code_links": []
+ },
+ "07-003": {
+  "benchmarks": {
+   "硫回收装置数据": {
+    "n": 8,
+    "ctx": "ive–Exogenous GRU Soft Sensor for Dynamic SO2 Estimation in Sulfur Recovery Units Maha Mesfer Alghamdi Department of Computer Science a"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "cal order was preserved throughout the study, and no random shuffling was applied before constructing the training, validation",
+  "code_links": []
+ },
+ "07-004": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 7,
+    "ctx": "lidated on a simple linear Raman-based soft sensor from the penicillin fermentation process (Section IV-C). Finally, experiments o"
+   },
+   "Fed-batch/发酵": {
+    "n": 4,
+    "ctx": "a simple linear Raman-based soft sensor from the penicillin fermentation process (Section IV-C). Finally, experiments on a neural ne"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-005": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 6,
+    "ctx": ". Next, we describe the performed experiments in detail. A. DEBUTANIZER COLUMN DATASET The debutanizer column dataset has been comm"
+   },
+   "硫回收装置数据": {
+    "n": 4,
+    "ctx": "e real-world datasets from desulfuring, polymerization, and sulfur recovery processes. Results are analyzed from both the data perspect"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-006": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 36,
+    "ctx": "M)hasthereforeemergedasaneffectivealternative by predicting wafer-level characteristics from equipment sensor data. Despite r"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-007": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/lucadellalib/bayestorch"
+  ]
+ },
+ "07-009": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-010": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 4,
+    "ctx": "petroleum refining and chemical processing industries, the debutanizer column is primarily used to remove propane and butane from"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-011": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 3,
+    "ctx": "on and reaction unit operation in chemical process, namely, debutanizer column (DBC), carbon-dioxide absorber column (CAC), and cat"
+   },
+   "硫回收装置数据": {
+    "n": 1,
+    "ctx": "hen et al. [19] introduced the Transformer architecture for sulfur recovery unit modeling. It should be noted that neural network modul"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-012": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 24,
+    "ctx": "TDGC 0.326 TDTE 176.046 TDCCM 853.170 TDPCM 855.241 4.2 Continuous Stirred Tank Reactor 4.2.1 Dataset Description The continuous stirred"
+   },
+   "脱丁烷塔数据": {
+    "n": 28,
+    "ctx": "ection methods, PLS is used for soft sensor modeling. 4.1 Debutanizer Column 4.1.1 Dataset Description The debutanizer column p"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ge in the prediction task, the time series samples are not shuffled. Instead, a chronological cutoff point is selected on the",
+  "code_links": [
+   "https://github.com/dirge1/TDPCM"
+  ]
+ },
+ "07-013": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 12,
+    "ctx": "e is a carbon absorber simulation data and the other is the debutanizer column actual data. Moreover, we have selected several base"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-014": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "considered spatiotem- poral relations in GNN to predict the penicillin fermentation process [15]. Wang et al. utilized GNN to pred"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 3,
+    "ctx": "PHASE SEPARATOR 2-INCH RISER4-INCH RISER Fig. 2: Diagram of Cranfield Multiphase Flow (MFP) facility TABLE I: LIST OF INFORMATION"
+   },
+   "半导体刻蚀/晶圆数据": {
+    "n": 1,
+    "ctx": "al. leveraged GNN to capture the correlation of sensors in wafer manufacturing process [21]. One the one hand, they face cha"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "spatiotem- poral relations in GNN to predict the penicillin fermentation process [15]. Wang et al. utilized GNN to predict the volat"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-015": {
+  "benchmarks": {
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": "t experiments on a real-world industrial process, i.e., the Cranfield Multiphase Flow Process (MFP) facility [29]. This MFP facil"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/htew0001/ST-HCSS.git"
+  ]
+ },
+ "07-016": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ms regression predictions on OOB data both before and after shuffling, calcu- Sensors 2024, 24, 4442 5 of 19 lating the mean s",
+  "code_links": []
+ },
+ "07-017": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 16,
+    "ctx": "ducted on two publicly available chemical process datasets, Debutanizer and Sulfur Recovery Unit (SRU). For more information of the"
+   },
+   "硫回收装置数据": {
+    "n": 1,
+    "ctx": "blicly available chemical process datasets, Debutanizer and Sulfur Recovery Unit (SRU). For more information of the dataset please refe"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-018": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-019": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 4,
+    "ctx": "ced AVMCNN prediction results on depth of the semiconductor ETCH process. Advanced Automatic Virtual Metrology with Convolut"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-020": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 54,
+    "ctx": "bject Identifier 10.1 109/ACCESS.2025.3544244 Prediction of Wafer Performance: Use of Functional Outlier Detection and Regres"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "d B-spline basis function expansion to the dataset and used randomly selected training-test splits to evaluate how changing the number of",
+  "code_links": [
+   "https://github.com/qsoon/"
+  ]
+ },
+ "07-021": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 148,
+    "ctx": "12 Aug 2026 nested physical entities of fabrication (batch, wafer, die) with an explicit cross- level linkage score. The norm"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "for a process with strong between-run variance: a standard random split would leak run-level information between train and test and",
+  "code_links": [
+   "https://github.com/mahshid-amirabgir/"
+  ]
+ },
+ "07-022": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-023": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "in biofuel production, high- and very-high-gravity ethanol fermentations have been investigated using initial glucose concentration"
+   }
+  },
+  "metrics": [
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-024": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 2,
+    "ctx": "Anaerobic digestion model ASM Activated sludge model BSM Benchmark simulation model DSA Dynamical systems analysis ODE Ordinary differential"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://gitlab.com/sbrml/dsa-signal-features/"
+  ]
+ },
+ "07-025": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 15,
+    "ctx": "comparing the results with other regression models. 3.3.1. Debutanizer Column The debutanizer column is an important part of the"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-026": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 2,
+    "ctx": "or chemical mechanical planarization (CMP) of semiconductor wafers and demonstrated the effectiveness of data-driven modeling"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-027": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 29,
+    "ctx": "CTIONS ON SEMICONDUCTOR MANUFACTURING 1 Detecting Defective Wafers Via Modular Networks Yifeng Zhang, Bryan Baker, Shi Chen,"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-028": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ng performance of the proposed methods, one of which is the Tennessee Eastman (TE) benchmark, and the other is a gasoline catalytic crack"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-029": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 6,
+    "ctx": "itoring campaigns for N2O emissions (n = 16). The modified BSM2 layout simplifies the WWT layout from (Solís et al., 2022)"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-031": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "ft sensor method is evaluated through ap- plications to the Tennessee Eastman (TE) chemical process and an industrial fed-batch chlortetr"
+   },
+   "Fed-batch/发酵": {
+    "n": 30,
+    "ctx": "e Tennessee Eastman (TE) chemical process and an industrial fed-batch chlortetracycline (CTC) fermentation process. The compared"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-032": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-033": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "tion is proposed, which places the activation function in a randomly selected region of the input space and then selects the random param",
+  "code_links": []
+ },
+ "07-034": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 7,
+    "ctx": "t al. (2008); Rawlings et al. (2017); Baker et al. (2000), acontinuous stirred-tank mixingprocess Kot (2001); Smith and Thieme (2011); Brauer a"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-035": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 5,
+    "ctx": "miconductor manufacturing where each lot comprises 10 to 25 wafers, with physical metrology typically conducted on only 1 or"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-036": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ated number for particle k. xiter rand is the position of a randomly selected particle among the K particles. δiter is obtained with (19)",
+  "code_links": []
+ },
+ "07-037": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "nsor modeling of wine alcohol concentration Wine, a natural fermentation product, is produced by crushing mature grape fruits and un"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-038": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "ture and humidity (time scale 5–10 min) in the cut tobacco fermentation stage through the memory enhancement network, and its 28-d"
+   }
+  },
+  "metrics": [
+   "漏报率 MDR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-039": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "erformance assessment. The entire dataset of 125 samples is randomly partitioned into 5 folds of equal size (25 samples per fold). In each f",
+  "code_links": []
+ },
+ "07-040": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-041": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "data of a textile enterprise in Anhui Province, where a few randomly selected data are shown in Table5. The data normalization method in",
+  "code_links": []
+ },
+ "07-043": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 1,
+    "ctx": "were recorded. Micrographs were prepared using 3 % ni- tal etchant, ﬁnal hardness was measured using a Buehler VH3300 micro"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-057": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "oving average, EWMA)修正统计量, 并构造综合检测指标; 最后, 通过数值仿真和 田纳西−伊斯曼过程(Tennessee-Eastman process, TEP)实验验证了所提方法的可行性和有效性. 关键词 工业过程, 质量相关变量, 变量划分, 质"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2025, 51(5): 1118−1130 DOI 10.16383/j.aas.c240627 CSTR 32138.14.j.aas.c240627 Quality-related Variable Division"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-058": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2026, 52(9): 2068−2081 DOI 10.16383/j.aas.c250725 CSTR 32138.14.j.aas.c250725 Enhancing Adversarial Robustness o"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-044": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-045": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/EPFL-IMOS/PEGNN_SS"
+  ]
+ },
+ "07-046": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 3,
+    "ctx": "iopharmaceutical quality decisions. Our case study uses the IndPenSim industrial-scale fed-batch fermenta- tion simulator by Gold"
+   },
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "cisions. Our case study uses the IndPenSim industrial-scale fed-batch fermenta- tion simulator by Goldrick et al. (2019). The LST"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/awindmann/Industrial-AI-Robustness-Card"
+  ]
+ },
+ "07-047": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-050": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 7,
+    "ctx": "t Real-time monitoring of wire bow is critical for ensuring wafer quality and preventing wire breakage in diamond multi-wire"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "subset partitioning: The 996 training samples are randomly shuffled. This random shuffling strategy is chosen for the hyperpa",
+  "code_links": []
+ },
+ "07-053": {
+  "benchmarks": {},
+  "metrics": [
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-055": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "07-056": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-002": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 10,
+    "ctx": "with Clostridium butyricum. The input variables used were fermentation time, capacitance, conductivity, pH, initial total sugar c"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-003": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 15,
+    "ctx": "ion, showing more significant accuracy in streptokinase and penicillin processes than traditional SVM- based methods [19]. Albeit,"
+   },
+   "Fed-batch/发酵": {
+    "n": 41,
+    "ctx": "issected. In Section 4, case studies on simulation and real fermentation processes are provided to evaluate the prediction performan"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-004": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-005": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "e-series sensor readings on standard problems 2 such as the Tennessee Eastman Process (Downs and Vogel, 1993). Two limi- tations persist."
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "e test distribution. With only∼40 training experiments, the random split seed determines which specific experiments land in each par",
+  "code_links": []
+ },
+ "08-006": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 28,
+    "ctx": "senting different real-world conditions and challenges. The IndPenSim in silico dataset (Goldrick et al., 2015) is a simulated be"
+   },
+   "Fed-batch/发酵": {
+    "n": 5,
+    "ctx": "ced mathematical simulation of a 100,000-litre peni- cillin fermentation system referenced as IndPenSim ( Goldrick et al. , 2015). T"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-007": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 55,
+    "ctx": "product quality. In industrial Chinese hamster ovary (CHO) fed-batch processes, glucose concentrations are commonly controlled"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-009": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 12,
+    "ctx": "d Quality-irrelevant Fault Detection and Diagnosis in Batch Fermentation Process Based on NSSAE LIU Zhong, ZHANG Zheng, LOU Xuyang,"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-010": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "5 Datasets from therapeu- tic fusion protein production (84 fed-batch runs at a 3.5 L scale) and mAb production (106 fed-batch ru"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-011": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 8,
+    "ctx": "ow has been developed for a previously published industrial fed-batch dataset for the mAb production process. The workflow provid"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "development and evaluation, the complete imputed dataset is randomly split into separate training and test sets. The split can be chos",
+  "code_links": []
+ },
+ "08-012": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "monitoring tool for key analytes in mammalian cell culture fermentations. However, significant challenges accompany this promising"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-013": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 3,
+    "ctx": "uction, there are two main methods for culturing CHO cells: fed-batch culture and perfusion culture. When employing either of th"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-014": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 7,
+    "ctx": "twork for soft sensor development using CHO stable pools in fed-batch process for SARS-CoV-2 spike protein production as a vaccin"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-015": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 15,
+    "ctx": "ARTICLE Real‐Time Biomass Estimation in High‐Density Yeast Fermentations Using Soft Sensor Modeling Ana G. Del Hierro 1,2,3 | José"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-016": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "e learning (NN). Our experimental design involved galactose-fed batch cultures. MMK excelled in predicting growth and production,"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-017": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 6,
+    "ctx": "stract: Real-time information on key state variables during fermentation is crucial for the effective optimization and control of bi"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-018": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 1,
+    "ctx": "ale analyzer was validated in a simulated wastewater plant, benchmark simulation model No.2, and a full-scale oxidation ditch wastewater plant. Wa"
+   },
+   "Fed-batch/发酵": {
+    "n": 59,
+    "ctx": "odeling and Optimization of an Enhanced Soft Sensor for the Fermentation Process of Pichia pastoris. Sensors 2024, 24, 3017. https:/"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-019": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "d Harris hawks optimization-long short-term memory) for the penicillin fer- mentation process. The simulation results show that th"
+   },
+   "Fed-batch/发酵": {
+    "n": 73,
+    "ctx": "Zhu, X. Soft Sensor Modeling Method for the Marine Lysozyme Fermentation Process Based on ISOA-GPR Weighted Ensemble Learning. Senso"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-020": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 44,
+    "ctx": "4 www.nature.com/scientificreports Soft sensing modeling of penicillin fermentation process based on local selection ensemble l"
+   },
+   "Fed-batch/发酵": {
+    "n": 42,
+    "ctx": ".com/scientificreports Soft sensing modeling of penicillin fermentation process based on local selection ensemble learning Feixia"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "tion found by the explorer. The watchers are some sparrows randomly selected from the explorers and followers of the sparrow population",
+  "code_links": []
+ },
+ "08-021": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 30,
+    "ctx": "s over time. Methods Firstly, multiple sub-databases in the fermentation process are constructed offline by an improved fuzzy C-mea"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-022": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 42,
+    "ctx": "n, H.J.; Shiu, J.H.; Yamakawa, C.K.; Rivera, E.C. Enhancing Fermentation Process Monitoring through Data-Driven Modeling and Synthet"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "alidation (LOOCV) technique. Of the 11 experiments, 10 were randomly selected to comprise the training datasets (10 sets × 500 data point",
+  "code_links": []
+ },
+ "08-023": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 68,
+    "ctx": "control of abnormal pigment formation in sodium gluconate fermentation by Aspergillus niger Jingchun Sun a , b , 1 , Yuanyuan Jian"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": ", Random Forest, XGBoost, and Extra Trees. The dataset was randomly split into training (80%) and testing (20%) sets. A 5-fold cross",
+  "code_links": []
+ },
+ "08-024": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 11,
+    "ctx": "Using permittivity measurements from recombinantP. pastoris fermentations, this study aimed to develop an algorithm for detecting an"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-025": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 101,
+    "ctx": "-x Development of a chemometric platform for mid-infrared fermentation monitoring Mario A. Torres-Acosta1,2 , Naresh Mohan2,3, Yih"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-026": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 76,
+    "ctx": "Lu, Y.-C.; Wu, J.-S.; Huang, Y.-F.; Liao, C.-S. Predictive Fermentation Control of Lactiplantibacillus plantarum Using Deep Learnin"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-027": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Chow-kk/DATASET_4th_industrial-"
+  ]
+ },
+ "08-028": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 28,
+    "ctx": "ial Batch Process. Experiments on a substantial dataset of penicillin simulations demonstrate that the proposed model significant"
+   },
+   "Fed-batch/发酵": {
+    "n": 9,
+    "ctx": "dataset, M denotes the number of attributes. The penicillin fermentation data used in this study source the Pensim2.0 simulation pla"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-029": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-030": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-031": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-032": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 2,
+    "ctx": "f Poly- brene Transfection Reagent (Merck KGaA, USA) and 1% Penicillin-Streptomycin (GibcoTM, Neosho, MO, USA) before addition to"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "l projection algorithm to monitor the production of mAbs in fed-batch with pre-existing models for batch production. The transfer"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-033": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 20,
+    "ctx": "ed method consisting of a fed-batch reactor process and the penicillin fermentation process. INDEX TERMS Soft sensor, batch produc"
+   },
+   "Fed-batch/发酵": {
+    "n": 22,
+    "ctx": "fy the effectiveness of the proposed method consisting of a fed-batch reactor process and the penicillin fermentation process. IN"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/shenfeifan/MMJITL-LSTM-soft-sensor"
+  ]
+ },
+ "08-034": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 12,
+    "ctx": "methodology including a fed-batch reactor and the fed-batch penicillin fermentation process. INDEX TERMS Batch production systems,"
+   },
+   "Fed-batch/发酵": {
+    "n": 14,
+    "ctx": "e the effectiveness of the proposed methodology including a fed-batch reactor and the fed-batch penicillin fermentation process."
+   }
+  },
+  "metrics": [
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-037": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 56,
+    "ctx": "Based on Off-Gas Response for Real-Time NH4+ Monitoring in Fermentation Xiaoqin Zhang 1, * , Daqi Gao 1 and Yuan Wang2 1 Departmen"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-038": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 48,
+    "ctx": "n method for commercial pneumococcal vaccine drug substance fermentation manufacturing process control Griffin P. Thomas1 | Brian C."
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-039": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 16,
+    "ctx": "facturing [14]. For instance, predicting the final state of fermentation allows for a wider range of conditions to be tested more ef"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-040": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-041": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 68,
+    "ctx": "cal and microbio - logical cleanness (Jacques et al. 2003). Fermentation parameters can be monitored in-line, on- line, at-line or o"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-043": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 128,
+    "ctx": "e, J.; Jeong, J.; Kim, S. Pressure-Guided LSTM Modeling for Fermentation Quantification Prediction. Sensors 2025, 25, 5251. https://"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "the development environment. The acquired image dataset was randomly partitioned into training, validation, and test subsets at an 8:1:1 rat",
+  "code_links": []
+ },
+ "08-044": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 23,
+    "ctx": "Process Control in Food Production: A Case Study on Beer Fermentation Quality https://doi.org/10.15255/KUI.2025.018 KUI-37/2025 O"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-045": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 47,
+    "ctx": "ess Analytical Technology (PAT) tool developed on batch and fed-batch precipitation experiments of Hepatitis B core Antigen VLPs."
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-046": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "oldrick et al. generated synthetic Raman spectra simulating penicillin fermentation by combining empirical baseline spectra with s"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "al. generated synthetic Raman spectra simulating penicillin fermentation by combining empirical baseline spectra with simulated char"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-047": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 79,
+    "ctx": "llular metabolites and carbon substrates during submerged fermentation of oleaginous and carotenogenic microorganisms Simona Dzur"
+   }
+  },
+  "metrics": [
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-048": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-049": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 31,
+    "ctx": "osic substrates can be saccharified either separately from fermentation (separate hydrolysis and fermentation; SHF) or simultaneous"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-050": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 91,
+    "ctx": "sing Method Based on Adam-FCNN Inversion in Pichia pastoris Fermentation. Sensors 2025, 25, 4105. https://doi.org/10.3390/s25134105"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-051": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 20,
+    "ctx": "s concentration in a controlled feeding strategy during the fed-batch cultivations for the production of a recombinant model anti"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "n the training data set using six ML models. Instance 3 was randomly selected to explain the local interpretations. Some aspects could be",
+  "code_links": []
+ },
+ "08-052": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-053": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 74,
+    "ctx": "ompound data supplementation to enhance transferability of fermentation specific Raman spectroscopy models Maarten Klaverdijk1 · Ma"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "08-054": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "ted success in various bio- process applications, including fermentation profile generation, sensor data augmentation, and fault sce"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/shawngibford/qgan"
+  ]
+ },
+ "08-055": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-001": {
+  "benchmarks": {
+   "高炉": {
+    "n": 48,
+    "ctx": "ve been successfully used in both the sintering process and blast furnace, they have not been comprehensively reviewed. In this work,"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/ylkyc/"
+  ]
+ },
+ "12-002": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "cross-site transfer. A leaderboard based only on ran- domly shuffled frames would reinforce the existing validation problem. P",
+  "code_links": []
+ },
+ "12-003": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "160 labeled training windows; the unlabeled windows were reshuffled and resampled without replacement within each epoch. Trai",
+  "code_links": []
+ },
+ "12-004": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-005": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "datasets because it isolates anomalies through recur- sive random partitioning without imposing strong distributional assumptions. Samp",
+  "code_links": []
+ },
+ "12-007": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 12,
+    "ctx": "Ps in [33], these have been applied to detect faults in the BSM1 benchmark model. However, most of these methods are used to"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/wwtmodels/Benchmark-Simulation-Models"
+  ]
+ },
+ "12-008": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "fault operations in complex chemical processes such as the Tennessee Eastman process. Han et al. [ 17] utilized LSTM in order to analyze"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-009": {
+  "benchmarks": {
+   "高炉": {
+    "n": 6,
+    "ctx": ".7 introduced a vision-based system for analyzing flames in blast furnaces. Their work focuses on processing flame images to study t"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-010": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-011": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "tire sequence was labeled accordingly. The training set was shuffled to reduce temporal bias, while the validation and test se",
+  "code_links": []
+ },
+ "12-012": {
+  "benchmarks": {
+   "高炉": {
+    "n": 2,
+    "ctx": "uality of sintered ore as well as the output and quality of blast furnace ironmaking. The burn-through point (BTP) is a key state par"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-013": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-014": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-015": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-016": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "omprising 3,000 data samples. These two 3,000 points are a randomly selected subset from two complete datasets of approximately 20,000 p",
+  "code_links": []
+ },
+ "12-017": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-018": {
+  "benchmarks": {
+   "高炉": {
+    "n": 1,
+    "ctx": "was proposed to predict changes in the level of liquid in a blast furnace’s gasifier [35]. This algorithm exhibits superior abilities"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-019": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-020": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-021": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 9,
+    "ctx": "is demonstrated through experiments using the dataset from Benchmark Simulation Model No.1 (BSM1). The experimental results indicate that the pro"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-022": {
+  "benchmarks": {},
+  "metrics": [
+   "漏报率 MDR",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-025": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "tion train was established. The continuous process involved fed-batch cell culture harvest, clarification using acoustic wave sep"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-026": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 7,
+    "ctx": "t in losses ranging from $500K to $1M per batch of scrapped wafers [1]. Similarly, unplanned equipment downtime can cost betw"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-027": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 120,
+    "ctx": "2026.3665643 Arc Detection and Severity Analysis for Plasma Etching Processes DOOCHAN KO , DANIEL JIN HUN KIM , RICHARD WON"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-028": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 39,
+    "ctx": "nufacturers (OEMs), Integrated Device Manufacturers (IDMs), wafer foundries, and software providers. A common challenge is th"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-029": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "tails of both datasets are shown inTable 1. The dataset was randomly divided into training (80%) and testing (20%) subsets to facilitate",
+  "code_links": []
+ },
+ "12-030": {
+  "benchmarks": {
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "ene; C3, propylene; C2H4, ethylene; C3H6, propylene; TEAL, triethylaluminum; Ti, titanium; SCA, selectivity control agent; MF"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "red state-estimation problem rather than as a conventional, randomly partitioned tabular regression task. Reanalysis of the original product",
+  "code_links": []
+ },
+ "12-031": {
+  "benchmarks": {
+   "硫回收装置数据": {
+    "n": 9,
+    "ctx": "and Baluchestan Tail Gas quality Warning System in a Sulfur Recovery unit based on H2S and SO2 Concentration Soft Sensor Utiliz"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-032": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 40,
+    "ctx": "STM), Gated Recurrent Unit (GRU) and Transformer. Using the Benchmark Simulation Model no. 2 (BSM2) as the WWTP , we were able to obtain datasets"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-033": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "漏报率 MDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-034": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ving highly competitive predictive performance on the 80/20 random split of the dataset. Subsequently, two hyperparameter optimizati",
+  "code_links": []
+ },
+ "12-035": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-036": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-037": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-038": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-039": {
+  "benchmarks": {},
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-040": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 1,
+    "ctx": "It is noted that since the processing time varies for each wafer, the resulting data are time series of different lengths, w"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-041": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ilures with artificial neural networks: application to the tennessee eastman process”, Revista Ingenierías Universidad De Medellín, vol"
+   },
+   "脱丁烷塔数据": {
+    "n": 1,
+    "ctx": ". Xibilia, “Soft sensors for product quality monitoring in debutanizer distillation columns,” Control Engineering Practice, vol."
+   }
+  },
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "r- input layer rule [7, 8]. A set of 70% of the samples was randomly selected for training the ANN architectures. The remaining samples",
+  "code_links": []
+ },
+ "12-043": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-044": {
+  "benchmarks": {
+   "高炉": {
+    "n": 42,
+    "ctx": "ynamic feature selection for silicon content prediction in blast furnace using BOSVRRFE Junyi Duan Accurate prediction of silicon co"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-045": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-046": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-047": {
+  "benchmarks": {},
+  "metrics": [
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/VautierNicolas/TAMIS"
+  ]
+ },
+ "12-048": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "tasets with a splitting ratio of 60-20-20 respectively. The random splitting seed generator is set to a constant integer of ‘1’ to",
+  "code_links": []
+ },
+ "12-060": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2025, 51(8): 1739−1759 DOI 10.16383/j.aas.c240660 CSTR 32138.14.j.aas.c240660 Review of Fault Detection and Diag"
+   },
+   "高炉": {
+    "n": 15,
+    "ctx": "c240660 Review of Fault Detection and Diagnosis Research in Blast Furnace Ironmaking Process: Retrospective, Status, and Prospects LO"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-061": {
+  "benchmarks": {
+   "高炉": {
+    "n": 6,
+    "ctx": "桂卫华 1, 2 蒋朝辉 1, 2 陈致蓬 1 方怡静 1 摘 要 智能感知、精准识别高炉(Blast furnace, BF)异常状态对高炉调控优化和稳定运行至关重要, 但高炉内部的黑 箱状态致使传统检测方法难以直接感知并准确识别多种高"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-062": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "报, 2025, 51(2): 343−355 DOI 10.16383/j.aas.c240378 CSTR 32138.14.j.aas.c240378 Online Measurement of Molten Iron"
+   },
+   "高炉": {
+    "n": 15,
+    "ctx": "桂卫华 Online Measurement of Molten Iron Temperature Field at Blast Furnace Taphole Based on Infrared and Visible Vision PAN Dong, XU C"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-063": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-064": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2026, 52(9): 2046−2056 DOI 10.16383/j.aas.c250596 CSTR 32138.14.j.aas.c250596 Prediction of Operating Status for"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "12-050": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-001": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "e effectiveness of CGSTAE in process monitoring through the Tennessee Eastman process and a real-world air separation process. Index Term"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-002": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-003": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "Structural Learning in Chemical Processes: Use Case on the Tennessee Eastman Process Rayane Ammar Khodja1,2, Alexandre V oisin2, Victor"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "fault detection on the TEP benchmark (Downs & V ogel, 1993; Rieth, Amsel, Tran, & Cook, 2017) under fixed operating condition"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "nchmark them against an Orthogonal Autoencoder (OAE) on the Tennessee Eastman Process. Models are trained on normal operating data across"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "research. In this work, we adopt the dataset gen- erated by Rieth et al. [37], which includes a large number of simulation ru"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "as split at the simulation level: full simulation runs were randomly selected for training and validation, with the final simulation slic",
+  "code_links": [
+   "https://github.com/Blealtan/efficient-kan"
+  ]
+ },
+ "03-005": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "d effectiveness of our MOLA framework by applying it to the Tennessee Eastman Process and comparing the performance with various benchmar"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-006": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 15,
+    "ctx": "repancy values. We validate the proposed approach using the Tennessee Eastman Process (TEP) dataset and Avedore wastewater treatment plan"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-007": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "ction in FD. Finally, the proposed model is verified on the Tennessee Eastman (TE) challenge process dataset and three-phase flow facilit"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 5,
+    "ctx": "on the Tennessee Eastman (TE) challenge process dataset and three-phase flow facility (TPFF) dataset, demonstrating its superiority. Our"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-008": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "d cases. We validate the effectiveness of our method on the Tennessee Eastman Process (TEP) and its advanced simulations (TEP Rieth and T"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 15,
+    "ctx": "see Eastman Process (TEP) and its advanced simulations (TEP Rieth and TEP Rieker). SensorDBSCAN demonstrates better performan"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "m number of subsequences sampled from U(1, 17) and randomly shuffling them together. For this pretraining task, we use the NT-",
+  "code_links": [
+   "https://github.com/K0mp0t/sensordbscan"
+  ]
+ },
+ "03-009": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 19,
+    "ctx": "model achieves a state-of-the-art F1-score of 0.986 on the SWaT dataset, and an exceptional precision of 83.88% on the comp"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-010": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "t Detection and Diagnosis: A Comprehensive Benchmark on the Tennessee Eastman Process VITALIY POZDNYAKOV 1,2 , ALEKSANDR KOVALENKO 1,2 ,"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "one. In our study, we used a version of the TEP extended by Reinartz et al. [48] that contained signiﬁcantly more sensor data th"
+   },
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 1,
+    "ctx": "ike TEP and/or similar domain areas such as CARLA, Electra, SWaT, BATADAL, and W ADI. Many at- tack and defense methods in t"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "nded to the set with range from 0.015 to 0.3 (ϵ values were randomly selected from the set for every data sample). The same measurements",
+  "code_links": []
+ },
+ "03-012": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "hile enhancing anomaly discriminability. Experiments on the Tennessee Eastman (TE) process dataset demonstrate that the proposed model si"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-013": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "ated through numerical examples and its application to the Tennessee Eastman process, highlighting its potential for robust fault detect"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-015": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "approach later is evaluated with numerical data as well as Tennessee Eastman process plant dataset. The performance also was compared t"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 8,
+    "ctx": "022; Gajjar and Palazoglu 2016; Kourti and MacGregor 1995; Reinartz, Kulahci, and Ravn 2021): 𝐿 = 𝑝(𝑚+1)("
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-016": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "ch batchx t ⊂X train do 16z t ←f θe(xt) 17x ′ t ←f θd(zt) 18Randomly splitz t in 80%(z t)80 and 20% (zt)20 sets 19Compute the support",
+  "code_links": []
+ },
+ "03-017": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "ble-based techniques such as Isolation Forest (IForest) use random partitioning to isolate anomalous observations efficiently, making th",
+  "code_links": [
+   "https://github.com/martinwg/VSCOUT.git"
+  ]
+ },
+ "03-018": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 32,
+    "ctx": "conditions, pose a major challenge in identifying defective wafers during the manufacturing process. To address this challeng"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "but not concurrently. The step in which the fault occurs is randomly selected for each fault type, ensuring that faults do not occur syst",
+  "code_links": []
+ },
+ "03-019": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "the ongoing basic production process of twisting tubes for randomly selected sessions. The recorded process data from the RLM line marke",
+  "code_links": []
+ },
+ "03-020": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-021": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-022": {
+  "benchmarks": {},
+  "metrics": [
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-023": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "essing time is not the same for each item. For example, the Tennessee-Eastman process has been widely used by the process monitoring comm"
+   },
+   "高炉": {
+    "n": 2,
+    "ctx": "operating data. This method is applied to the monitoring of blast furnace ironmaking. It was shown that promising results can be achi"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-024": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 10,
+    "ctx": "d changing operational dynamics, to name a few. The classic Tennessee Eastman Process (TEP) benchmark was used as a case study. The resul"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/camaramm/tep2py"
+  ]
+ },
+ "03-028": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-029": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ty over-sampling technique. SVM Support vector machine. TEP Tennessee Eastman process. TNR True negative rate. TPR True positive rate. WM"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 42,
+    "ctx": ". AUC Area under curve. BIC Bayesian information criterion. BSM1 Benchmark simulation model No.1. BSM2 Benchmark simulation"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-030": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-031": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "e. This is because beyond a certain standard deviation, the randomly selected next input sample may be too distant from the current one,",
+  "code_links": []
+ },
+ "03-032": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-034": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 4,
+    "ctx": "dge zones. The cut samples were then embedded, polished and etched as follows [41]: 1) Embedding: The samples were placed in"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "del to the particular set of available data, the dataset is randomly split in two parts: one part for the training set (70%, 393 303 i",
+  "code_links": []
+ },
+ "03-035": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "60 pairs are labeled as defective samples. The dataset was randomly split into a training set, a validation set, and a test set at a",
+  "code_links": []
+ },
+ "03-036": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 1,
+    "ctx": "ure the drainage quality and process safety. In this paper, BSM1 proposed by the International Water Association is used to"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "riable change in the [0, 1]. Subse- quently, the dataset is randomly divided into two parts, 80% of which is used for model establishing",
+  "code_links": []
+ },
+ "03-037": {
+  "benchmarks": {},
+  "metrics": [
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-038": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "with 10 random seeds each, plus two real-data validations (Tennessee Eastman chemical process and the 3W offshore oil-well dataset) unde"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 4,
+    "ctx": "check), the Tennessee Eastman chemical-process simulation (Rieth extended), and the 3W offshore oil-well dataset of Vargas e"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ta sharing: each client receives samples from all segments, shuffled across clients. Natural partitioning reflects reality: ea",
+  "code_links": [
+   "https://github.com/alnemari-m/fl-edge-leak-"
+  ]
+ },
+ "03-039": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "gnosis data and corresponding labels are available from the Tennessee Eastman Process repository (https://github.com/camaramm/tennessee-e"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/camaramm/tennessee-eastman-profBraatz"
+  ]
+ },
+ "03-040": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/CavitationDetection/PhyNet"
+  ]
+ },
+ "03-043": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-044": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "in the first step . An experimental analysis based on the Tennessee Eastman process verifies the superiority of the proposed method."
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "ong, IEEE Trans. Instrum. Meas. 2022, 71: 1-15. [37] N. L. Ricker, . Process Control. 1996, 6(4): 205-221. [38] I. Lomov, M"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "d LSTM with a trapezoidal auto -encoder for application to continuous stirred -tank heaters and the Tennessee Eastman Benchmark Process, achie"
+   },
+   "脱丁烷塔数据": {
+    "n": 1,
+    "ctx": "edictive modelling, and was validated on hydrocracking and debutanizer column process[25]. However, its special convolution kernel"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ucting the decision tree. Firstly, a subset of features is randomly selected to construct a single decision tree. Secondly, for continu",
+  "code_links": []
+ },
+ "03-045": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/SFStefenon/NPPmalfunctions"
+  ]
+ },
+ "03-046": {
+  "benchmarks": {
+   "高炉": {
+    "n": 33,
+    "ctx": "Vellore Institute of Technology, Chennai, Tamil Nadu, India Blast furnace (BF) operation involves strongly coupled thermal and chemic"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-047": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "relevance. The model was validated on three datasets: the Tennessee Eastman Process (TEP) simulation, the Vishwakarma Institute of Tec"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-048": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "form the categorical encoding. Later, the dataset was then randomly split as follows: 70% for train- ing which is used to train the d",
+  "code_links": []
+ },
+ "03-049": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-060": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "g and reconstructing process variations. Experiments on the Tennessee-Eastman simu- lation process and a real ammonia synthesis process d"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2026, 52(7): 1426−1437 DOI 10.16383/j.aas.c250617 CSTR 32138.14.j.aas.c250617 Two-stage Multi-teacher Knowledge"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-051": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-052": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": ". In 5-fold cross-validation, 120 independent sequences are randomly divided into 5 groups, ensuring that all time-step data from the sa",
+  "code_links": []
+ },
+ "03-053": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "03-058": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-001": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 13,
+    "ctx": "ior to fault declaration. The framework is evaluated on the Tennessee Eastman Process benchmark using 21 fault scenarios. Using an evalua"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-002": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "lized, DLNs can’t successfully detect faults 3, 9 and 15 in Tennessee Eastman process (TEP). These faults are notoriously difficult to de"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "dows is set to hl, representing that hl basic detectors are randomly selected from ml detection indicators, where 0 < hl ≤ ml. Here ul i,",
+  "code_links": []
+ },
+ "04-003": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 30,
+    "ctx": "ime changes, sensor correlations and drift. Many published Tennessee Eastman Process (TEP) studies report strong receiver operating char"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-004": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-005": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-007": {
+  "benchmarks": {},
+  "metrics": [
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/edgarWolf/"
+  ]
+ },
+ "04-008": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 10,
+    "ctx": "s even under evolving distributions. Our experiments across Wafer Manufacturing benchmark datasets show significant F1-score"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-009": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 15,
+    "ctx": "(a) The process flow diagram of the Secure Water Treatment (SWaT) process and (b) a one-hour-long multivariate time series f"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-010": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "e WT-based optimal STHM in the early fault detection of the Tennessee Eastman (TE) process, with the aim of proving that the fault detect"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-013": {
+  "benchmarks": {
+   "高炉": {
+    "n": 57,
+    "ctx": "Zhu, J.; Tang, B.; Jiang, Z. Automated Anomaly Detection in Blast Furnace Shaft Static Pressure Using Adversarial Autoencoders and Mo"
+   }
+  },
+  "metrics": [
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-014": {
+  "benchmarks": {},
+  "metrics": [
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-015": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-016": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 7,
+    "ctx": "t in losses ranging from $500K to $1M per batch of scrapped wafers [1], and unplanned equipment downtime may cost between $10"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-017": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-018": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 28,
+    "ctx": "ic datasets for multivariate time series anomaly detection: SWaT and W ADI. Both datasets are water treatment physical test-"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-019": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "̅ → \u0000 X → ( t ) ⃒ ⃒ ⃒ (10) where X rand ̅ ̅ → denotes the randomly selected search particle in the population. X ∗ is updated by compar",
+  "code_links": []
+ },
+ "04-020": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-023": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 33,
+    "ctx": "R Methodology for contamination detection and reduction in fermentation processes using machine learning Xuan Dung James Nguyen1 ·"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-024": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-025": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "ability of process simulations, we successfully updated the Tennessee Eastman Process Simulink model to work seamlessly with the alarm sy"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "t diagnosis by Yin et al. [13] and system identification by Bathelt et al. [14]. The model is founded on an authentic process,"
+   }
+  },
+  "metrics": [
+   "漏报率 MDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-026": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-027": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "eory approach. We validate the approach using the Benchmark Tennessee Eastman while doing an ablation study of the model update parameter"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-028": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "tive error ( Q statistic). We simulated this method on the Tennessee Eastman Process (TEP). Some faults were designed with various runs"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 4,
+    "ctx": "e detection, fault diagnosis and decision support systems (Reinartz et al., 2021) . It is very useful for device safety purpos"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-029": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-030": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-031": {
+  "benchmarks": {},
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "each one is isolated. iTrees are built through a three-step random partitioning process. First, a subsample of size n, denoted as X′, is",
+  "code_links": []
+ },
+ "04-033": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-034": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-037": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "score overweights long anomaly intervals, while heuristic “point-adjusted” variants introduce bias by extend- ing single detection",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-038": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "at the start of the stream. These trees detect anomalies by randomly splitting the feature space, using random perturbations of the or",
+  "code_links": [
+   "https://github.com/nirojasva/spectral-benchmark"
+  ]
+ },
+ "04-039": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "etween consecutive run cycles of a fixed product type,ci is randomly selected, with a probability of 21.86% for ci = 1, 53.41% for ci = 2",
+  "code_links": []
+ },
+ "04-040": {
+  "benchmarks": {},
+  "metrics": [
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-041": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/arthurpessa/ordpy",
+   "https://gitlab.com/complexlab/nir-co2oil-knnpe"
+  ]
+ },
+ "04-043": {
+  "benchmarks": {},
+  "metrics": [
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/dnychka/fieldsRPackage"
+  ]
+ },
+ "04-044": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-045": {
+  "benchmarks": {},
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-048": {
+  "benchmarks": {},
+  "metrics": [
+   "检测延迟"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-051": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "each sample serves dual roles as input and reference data; shuffling sample order or randomly splitting training and validat",
+  "code_links": []
+ },
+ "04-053": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-054": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "AUC/ROC"
+  ],
+  "point_adjust": "",
+  "random_split": "creating contextually anoma- lous instances as follows. We randomly selected a smaller percentage of the data and corrupted only their i",
+  "code_links": []
+ },
+ "04-055": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 16,
+    "ctx": "of the application of observers to the process of alcoholic fermentation. Observers Expression Measurable Variables Estimated Variab"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-056": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-058": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-059": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "04-060": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/atrilla/ci4ts"
+  ]
+ },
+ "10-001": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-002": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "mprove fault detection, diag- nosis, and explanation in the Tennessee Eastman Process (TEP). FaultEx- plainer integrates real-time sensor"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "itions and the 15 known faults of the TEP are obtained from Rieth et al. (2017). These data include 41 measured and 12 manipu"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/li-group/FaultExplainer"
+  ]
+ },
+ "10-003": {
+  "benchmarks": {
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "leased with W ang et al. (2020). Process runs come from the Rieth et al. (2017) simulation of the Downs and V ogel (1993)plan"
+   },
+   "半导体刻蚀/晶圆数据": {
+    "n": 6,
+    "ctx": "on; secondary sensi- tivity analyses Lam 9600 Public metal- etch data from a commercial tool 5 classes, 20 cases T ool and t"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-004": {
+  "benchmarks": {
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": "he multiphase flow process. The multiphase flow facility at Cranfield University is designed to provide a controlled and measured"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-005": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/GaochangWu/FMF-Benchmark"
+  ]
+ },
+ "10-006": {
+  "benchmarks": {
+   "高炉": {
+    "n": 2,
+    "ctx": "ough this process serves as the primary burden material for blast furnace ironmaking [1]. The global crude steel output reached 1.882"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-007": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "rial operations. Most demonstrations use public benchmarks (Tennessee Eastman, CSTR simula- tions) that, while valuable, cannot capture t"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "st demonstrations use public benchmarks (Tennessee Eastman, CSTR simula- tions) that, while valuable, cannot capture the het"
+   },
+   "TCLab": {
+    "n": 3,
+    "ctx": "s trigger reprompting. On labo- ratory temperature control (TCLab), performance was comparable to PID control. Guo et al. (20"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-008": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "hin which the model makes its decisions. We evaluate on the Tennessee Eastman process, an open-loop-unstable benchmark derived from an in"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 7,
+    "ctx": "ial chemical process [38], in the revised implementation of Bathelt, Ricker and Jelali [39], and widely used for plant-wide con"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/khalidlabs/safetep-core",
+   "https://github.com/khalidlabs/tep-studio"
+  ]
+ },
+ "10-009": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 9,
+    "ctx": ",evaluation acrossﬁveindustrialscenarios—threederivedfromtheTennesseeEastmanProcess(TEP)benchmark(Downs& Vogel,1993)providingcommunity-s"
+   },
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "escenarios Scenario Process FaultMode RootCause TEP_Reactor CSTR(TEP) CWvalvestuck XMV_10stuckat42% TEP_Separator Flashdrum"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-010": {
+  "benchmarks": {
+   "SKAB": {
+    "n": 16,
+    "ctx": "s manufacturing plant and the Skoltech Anomaly Bench- mark (SKAB). Results show significant improvements over our previous m"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-011": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-012": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-013": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 5,
+    "ctx": "ent established case studies, a modular mixing module and a continuous stirred-tank reactor, extended with configurable faults and defined inte"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/AISL-at-Imperial-College-London/"
+  ]
+ },
+ "10-014": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/langchain-ai/task_mAIstro"
+  ]
+ },
+ "10-015": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 47,
+    "ctx": "neral applicability in industrial process, we selected the penicillin fermentation process ( biocatalytic reactions) and the pol"
+   },
+   "Fed-batch/发酵": {
+    "n": 13,
+    "ctx": "cability in industrial process, we selected the penicillin fermentation process ( biocatalytic reactions) and the polypropylene pr"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "samples. From each context, 20 different test samples were randomly selected, ensuring no overlap through sampling without replacement .",
+  "code_links": []
+ },
+ "10-016": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-017": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-018": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "ion We study the performance of the proposed method on the Tennessee Eastman Process (TEP) dataset developed by the Eastman Chemi"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-019": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 138,
+    "ctx": "Wafer-Level Etch Spatial Profiling for Process Monitoring from Ti"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-020": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-021": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-022": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Pallock-",
+   "https://github.com/crewAIInc/crewAI"
+  ]
+ },
+ "10-024": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Arksine/moonraker",
+   "https://github.com/mainsail-crew/crowsnest",
+   "https://github.com/mainsail-crew/mainsail"
+  ]
+ },
+ "10-026": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-027": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 12,
+    "ctx": "mesFM, to industrial MT- SAD on the Secure Water Treatment (SWaT) benchmark, evaluating two strategies: treating the FM as a"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/google-research/timesfm"
+  ]
+ },
+ "10-028": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "dding space. For each dataset class, 10 normal samples were randomly selected, and five synthetic variants were generated for each sample",
+  "code_links": []
+ },
+ "10-029": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 21,
+    "ctx": "ecovery tasks. •Effectiveness is demonstrated on mixing and CSTR case studies. arXiv:2606.28011v1 [eess.SY] 26 Jun 2026 Fr"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "e- quences, including discrete commands and continuous set- point adjustments, that enable the next transition(s) on the chosen path",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/AISL-a",
+   "https://github.com/hsu-aut"
+  ]
+ },
+ "10-030": {
+  "benchmarks": {},
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/AISL-at-Imperial-College-London/"
+  ]
+ },
+ "10-032": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/hsu-aut/Contextualizing-Timed-Automata-for-",
+   "https://github.com/hsu-aut/IndustrialStandard-ODP-TimedAutomata"
+  ]
+ },
+ "10-033": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/mituan-ai/MCC"
+  ]
+ },
+ "10-034": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "ings thickening dewatering, fed-batch fermentation, and the Tennessee Eastman chemical process. They cover future temperature forecasting"
+   },
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 38,
+    "ctx": "I gives two validation examples for raw abbreviated tags in IndPenSim. The semantic cards are then converted into variable- seman"
+   },
+   "Fed-batch/发酵": {
+    "n": 5,
+    "ctx": "sets from steel metallurgy, tailings thickening dewatering, fed-batch fermentation, and the Tennessee Eastman chemical process. T"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": ".028 to 2.206 under controlled conflicts and to 2.370 after shuffling variable correspondence. This result also supports valid",
+  "code_links": [
+   "https://github.com/mituan-ai/TSF"
+  ]
+ },
+ "10-035": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/Nixtla/statsforecast",
+   "https://github.com/google-research/timesfm"
+  ]
+ },
+ "10-036": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-037": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 124,
+    "ctx": "ybrid Sensor–Vision Machine Learning for Predicting Mahewu Fermentation Dynamics Ismail Adeleke1 Oluwafemi Ayodeji Adebo2 Nnamdi N"
+   }
+  },
+  "metrics": [
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "rticularly important in small lab- oratory datasets, where random splitting of temporally related observations can overestimate pr",
+  "code_links": []
+ },
+ "10-038": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-039": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 11,
+    "ctx": "dients, doping profiles, and substrate condi- tions; plasma etch steps and metal-organic chemical vapor deposition (MOCVD) p"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ndependent runs, each with a random initialization and data shuffle. i. Detection Accuracy and F1-score: CLARiC achieves the h",
+  "code_links": []
+ },
+ "10-040": {
+  "benchmarks": {
+   "SKAB": {
+    "n": 8,
+    "ctx": "e with selected benchmarks. The Skoltech Anomaly Benchmark (SKAB) is a dataset designed for evaluating the performance of an"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-041": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/krNesland/nesland2026-text-informed-filtering"
+  ]
+ },
+ "10-042": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-043": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 6,
+    "ctx": "ble State Proportion 100 80 60 40 50 40 30 20 10 0 MSL SMAP SWaT Genesis NYC (b) Distribution of state variables State Propo"
+   }
+  },
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-044": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/ibm-granite/granite-tsfm/tree/main/notebooks/"
+  ]
+ },
+ "10-045": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 3,
+    "ctx": ". 2.2. Plant model We model the barn as a single well-mixed continuous-stirred-tank reactor (CSTR) with two states(𝐶,𝑇), two manipulated variab"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "ancy𝑛 cows(𝑡),anunmeasuredCO 2 source𝑞extra CO2 (𝑡) (beddingfermentation,manure-pitgas),andanunmeasuredenvelope-leakcoefficient𝑈𝐴 ex"
+   }
+  },
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-046": {
+  "benchmarks": {
+   "TCLab": {
+    "n": 6,
+    "ctx": "same framework modulates dual-heater inputs on a laboratory TCLabplatform(anditsdigitaltwin)tomaintainatargetaveragetemperatu"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "didate control moves—discrete transitions or continuous set-point adjustments—intended to steer the system toward the goal while res",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/AISL-"
+  ]
+ },
+ "10-047": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/ChathurangiShyalika/NSF-MAP",
+   "https://github.com/ChathurangiShyalika/SmartPilot",
+   "https://github.com/revathyramanan/Dynamic-Process-"
+  ]
+ },
+ "10-048": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "GPU with a fixed random seed. 21 The R-GCN was trained on a randomly selected subset of the positive has_Causetriples, with a disjoint su",
+  "code_links": [
+   "https://github.com/syoka4156/ogpal.git"
+  ]
+ },
+ "10-049": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 11,
+    "ctx": "nical polishing (CMP) which re- quires planarization of the wafer thickness with precision in nanometers scale. However, the"
+   }
+  },
+  "metrics": [
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-050": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 21,
+    "ctx": "e heterogeneous and high-dimensional data streams including wafer inspection images, defect maps, equipment vibration signals"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-051": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/neo4j/neo4j",
+   "https://github.com/s-marandi/LLM-Based-Complex-System-Diagnostics"
+  ]
+ },
+ "10-052": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "10-053": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/asztyber/LLM_diagnostic_concepts",
+   "https://github.com/asztyber/LLM_diagnostic_concepts/",
+   "https://github.com/asztyber/LLM_diagnostic_concepts/blob/main/prompts/broad/",
+   "https://github.com/asztyber/LLM_diagnostic_concepts/blob/main/prompts/dedicated/",
+   "https://github.com/jadlownik/"
+  ]
+ },
+ "05-001": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ather than using simulation models such as the model of the Tennessee Eastman process and the neural mass model of brain networks, we use"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-002": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "e. The method is benchmarked on a nonlinear simulation, the Tennessee Eastman plant, a three-phase separator test rig, and a full-scale b"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 7,
+    "ctx": "l simulations, the Tennessee Eastman Process (TEP), and the Three-Phase Flow (TPF) process. Additionally, LSTE is used to conduct an in-"
+   },
+   "高炉": {
+    "n": 9,
+    "ctx": "n plant, a three-phase separator test rig, and a full-scale blast furnace line. Across all cases, LSTE locates the disturbance origin"
+   }
+  },
+  "metrics": [
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/ShiningLLH/"
+  ]
+ },
+ "05-003": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "racy and interpretability. Different types of faults in the Tennessee Eastman process and Ammonia synthesis process are applied to verify"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 12,
+    "ctx": "ausal graph. Experiments on multiple fault scenarios of the Tennessee Eastman Process demonstrate the effectiveness of IF-MMHC in identif"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "rimarily consists of several operational units, including a continuous stirred-tank reactor, a condenser, a gas–liquid separator, and a reboile"
+   }
+  },
+  "metrics": [
+   "F1",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-005": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "sed method is validated using two industrial process cases, Tennessee Eastman Pro- cess (TEP) and Multiphase Flow Facility (MFF). Compare"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": "4.2. Multiphase Flow Facility (MFF) MFF [32] is designed by Cranfield University and offers control and measure- ment of water, o"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-006": {
+  "benchmarks": {
+   "高炉": {
+    "n": 1,
+    "ctx": "ssion reduction compared to traditional steel production in blast furnaces (De Ras et al., 2019). Furthermore, EAFs have been studied"
+   }
+  },
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-008": {
+  "benchmarks": {},
+  "metrics": [
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/jakobrunge/tigramite/"
+  ]
+ },
+ "05-009": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ree public datasets: a continuous stirred-tank reactor, the Tennessee Eastman process, and a real-world continuous catalytic reforming pr"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "cesses. Validation is conducted on three public datasets: a continuous stirred-tank reactor, the Tennessee Eastman process, and a real-world co"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-011": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 9,
+    "ctx": "riable pairs, and trace the root cause of the fault. On the Tennessee Eastman simulation platform, root cause analysis was performed on a"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "water pressure Random variation 1 Unknown: uncovered by A. Bathelt in revised MATLAB version model. Table 3. Generate relevant"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-012": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "on two systems: a Simulink multi-loop control model and the Tennessee Eastman Process (TEP)—an industrial bench mark. The proposed method"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-013": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 12,
+    "ctx": "techniques. This study tackles such difficulties using the Tennessee Eastman Process, a well-established benchmark known for its intrica"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-014": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "tect faults in a benchmark non-linear chemical process, the Tennessee Eastman Process (TEP). It is highlighted how XAI methods can help i"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "(1993), while an updated version was introduced recently by Bathelt et al. (2015). Figure 1 depicts the Piping and Instru- ment"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-015": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 10,
+    "ctx": "g mutual reinforcement between the tasks. Validated on the Tennessee Eastman Process benchmark, the proposed framework outper- forms bas"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "fault label for classification. The sequences are randomly shuffled and split into 80% training/validation and 20% test data",
+  "code_links": []
+ },
+ "05-017": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "The effectiveness of this fuzzy system is verified by the Tennessee Eastman(TE) process dataset. Keywords Fault diagnosis, Interpretabi"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-018": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 19,
+    "ctx": "hances interpretability. Validation was conducted using the Tennessee Eastman process (TEP) dataset, during which four key hyperparameter"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "framework to other industrial benchmark processes, such as continuous stirred tank reactors, crude Figure 17. Comparison of model performance"
+   },
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "Omega 2026, 11, 41772−41793 41789 distillation columns, and fed-batch fermentation systems, to further evaluate its generalizabil"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-019": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "channels, applying it to the batch fermentation process of penicillin and the Tennessee− Eastman (TE) chemical process. The resul"
+   },
+   "脱丁烷塔数据": {
+    "n": 1,
+    "ctx": "hod demonstrated its effectiveness in the hydrocracking and debutanizer column processes by leveraging time delay techniques and co"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "transform with multiple channels, applying it to the batch fermentation process of penicillin and the Tennessee− Eastman (TE) chemi"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-020": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "ntributing to system faults. Experimental validation on the Tennessee Eastman process demonstrates the effectiveness of the proposed mode"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-021": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "efore the final prediction. Experimental evaluations on the Tennessee Eastman process (TEP) demonstrate that the proposed model achieves"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-022": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "Our models demonstrated state-of-the-art performance on the Tennessee Eastman Process dataset, showcasing their potential for fault diagn"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "e model parameters 2 randomly 2: for epoch e = 1 to E do 3: Shuffle the training dataset D 4: for each batch B ∈ D of size b d",
+  "code_links": [
+   "https://github.com/AIRI-"
+  ]
+ },
+ "05-023": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 11,
+    "ctx": "e performance in fault diagnosis. We selected the benchmark Tennessee Eastman Process data set as our case study and investigated modific"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-025": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 19,
+    "ctx": "cause analysis. The application of this methodology to the IndPenSim dataset demonstrated its effectiveness by signiﬁcantly redu"
+   },
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "atch-driven root cause analysis for anomalies in bioreactor fermentation process Dennis Luo*, Meiling He, Justice Darko, Fatime Ly S"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-026": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "d that using structural rules and transfer learning on the Tennessee Eastman dataset led to better results. Cai et al. 31 created a fra"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 6,
+    "ctx": "KG-EIGNN outperforms baseline models when working with the Three-Phase Flow (TFF) and Nuclear Power System (NPS) datasets. KG-EIGNN re"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-027": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-028": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ve constant is omitted. For each incident sample size, five shuffled outer folds use 80% of the rows to fitB(1) ℓ and the held",
+  "code_links": []
+ },
+ "05-029": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "matic evaluation of the FARM monitoring framework using the Tennessee Eastman Process (TEP) dataset. Results show that FARM performs comp"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "nning«15 hours) TEP datasets (e.g., Downs and Vogel (1993); Bathelt et al. (2015); Andersen et al. (2022)) for training and tes"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "AUC/ROC",
+   "准确率",
+   "ARL（平均运行长度）"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-030": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/julambl75/ethylene-oxidation-ilp"
+  ]
+ },
+ "05-031": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-032": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-033": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "tudy, we investigate the effectiveness of AcME-AD using the Tennessee Eastman Process (TEP) dataset [22], a well-established industrial b"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/dandolodavid/ACME",
+   "https://zenodo.org/records/7071747"
+  ]
+ },
+ "05-034": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "ts from measurement-integrity anomalies. Evaluations on the Tennessee Eastman Process and a wind-farm simulator yielded cause-attribution"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "漏报率 MDR",
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "icy. Plant-specific recalibration is therefore an operating-point adjustment, not a robustness guarantee. It is appropriate only whe",
+  "random_split": "ss-weighted XGBoost model uses the raw run statistics. Five shuffled group folds generate one out-of-fold probability vector p",
+  "code_links": [
+   "https://zenodo.org/records/",
+   "https://zenodo.org/records/12773981",
+   "https://zenodo.org/records/15371179"
+  ]
+ },
+ "05-035": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 8,
+    "ctx": "twork approach for fault detection and identiﬁcation on the Tennessee Eastman process. Experimental results show that the combined approa"
+   }
+  },
+  "metrics": [
+   "检测延迟",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-036": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-037": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-038": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 47,
+    "ctx": "Tokyo, Japan. ABSTRACT Cross-process root-cause analysis of wafer defects is among the most critical yet challenging tasks in"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-039": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 49,
+    "ctx": "Sequence-Aware Inline Measurement Attribution for Good-Bad Wafer Diagnosis DM: Big Data Management and Machine Learning Kohe"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "mong variables. Regarding the third point, since wafers are randomly selected for mea- surement at each tool, the resulting measurement t",
+  "code_links": []
+ },
+ "05-040": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-041": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-042": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 8,
+    "ctx": "to detect, identify, and reconcile faulty sensor data from BSM1 and real influent WWTP data; [23] uses deep variational aut"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/wwtmodels/Benchmark-Simulation-Models"
+  ]
+ },
+ "05-043": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 16,
+    "ctx": "gy for fault detection and cause identification within the Tennessee Eastman Process (TEP) by integrating a Bidirectional Long Short -Te"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "403.10842 , 2024, doi: 10.48550/arXiv.2403.10842. [42] A. Bathelt, N. L. Ricker, and M. Jelali, “Revision of the Tennessee Ea"
+   },
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "arator, a stripper, and a recycle stream. The reactor is a continuous stirred -tank reactor (CSTR) where the reactants are mixed and reacted t"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-044": {
+  "benchmarks": {},
+  "metrics": [
+   "F1"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/majianthu/copent"
+  ]
+ },
+ "05-046": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-062": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "换为基于结构关系的图匹配问题, 利用该结构化信息优化过程特征, 提升模型故障诊断性能. 最后, 通过田纳 西−伊斯曼 (Tennessee-Eastman, TE)过程和某海底盾构掘进施工过程进行仿真验证, 实验结果证明了所提方法的有效性. 关键词 故障诊断, 图神经网"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "报, 2025, 51(1): 161−173 DOI 10.16383/j.aas.c240151 CSTR 32138.14.j.aas.c240151 Fault Propagation Path-aware Netwo"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-063": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2025, 51(9): 2058−2071 DOI 10.16383/j.aas.c250108 CSTR 32138.14.j.aas.c250108 Industrial Process Safety Control"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-047": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "posed method outperforms state-of-the-art algorithms on the Tennessee Eastman (TE) dataset and demonstrates excellent performance when fu"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "maintain the integrity of the temporal characteristics, we randomly selected runs for splitting the dataset into training, validation, a",
+  "code_links": []
+ },
+ "05-048": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-049": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "the proposed method. The experiments on both the benchmark Tennessee- Eastman process and a real hot-steel milling process show that the"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-001": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-002": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 6,
+    "ctx": "enchmarking Domain Adaptation for Chemical Processes on the Tennessee Eastman Process Eduardo Fernandes Montesuma1, Michela Mulas2, Fred"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/eddardd/"
+  ]
+ },
+ "06-004": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "ature extractor and the dis- criminator. Experiments on the Tennessee Eastman process and continuous stirred-tank reactor demonstrate tha"
+   },
+   "CSTR 仿真": {
+    "n": 22,
+    "ctx": "riminator. Experiments on the Tennessee Eastman process and continuous stirred-tank reactor demonstrate that DACN achieves high classification"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "ing set and test set 1. The training set and test set 1 are randomly divided, with proportions of 80% and 20%, respectively. The trainin",
+  "code_links": [
+   "https://github.com/GuangqiangLi/DACN"
+  ]
+ },
+ "06-005": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "curacy of fault diagnosis. The proposed model is applied to Tennessee Eastman pro- cess dataset and three-phase flow facility dataset. Th"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "ome a benchmark for industrial system fault diagnosis [44]. Bathelt et al. [45] introduced additional process 15 Table 4 Model"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 5,
+    "ctx": "model is applied to Tennessee Eastman pro- cess dataset and three-phase flow facility dataset. The experiments demon- strate that the pr"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/GuangqiangLi/AMTFNet"
+  ]
+ },
+ "06-006": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "evaluate our proposed method: the widely adopted benchmark Tennessee Eastman Process (TEP) dataset [41], and a real-world industrial fau"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": "set : The MFF dataset is collected from a gas- liquid-solid three-phase flow separation test platform at Cran- field University. It is a"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "stage, we randomly select a segment of the input sequence, shuffle it, and then 8 TABLE I: TEP dataset and MFF dataset settin",
+  "code_links": [
+   "https://github.com/MentaY/DGGN"
+  ]
+ },
+ "06-007": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ar interpolation, pooling, or anti-aliasing convolution) is randomly selected to generate additional scale variants. Furthermore, feature",
+  "code_links": []
+ },
+ "06-008": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "l strategy in online MSDA. Experiments on the chal- lenging Tennessee Eastman Process benchmark demonstrate that our approach is able to"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 2,
+    "ctx": "l Processing , vol. 178, pp. 109353, 2022. [11] Christopher Reinartz, Murat Kulahci, and Ole Ravn, “An extended tennessee eastma"
+   },
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "ss-domain fault diagnosis through optimal trans- port for a cstr process,” IFAC-PapersOnLine, vol. 55, no. 7, pp. 946–951, 2"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-010": {
+  "benchmarks": {},
+  "metrics": [
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "0.758 to 0.517. The decision tree, the weakest model under random splitting, degrades less and becomes the strongest under chronol",
+  "code_links": []
+ },
+ "06-011": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "e Western Reserve University (CWRU) bearing dataset and the Tennessee Eastman Process (TEP) dataset demonstrate that DMGAT performs excep"
+   }
+  },
+  "metrics": [
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-012": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 7,
+    "ctx": "posed method is verified by a real hydraulic system and the Tennessee-Eastman benchmark process. Note to Practitioners—This paper address"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-013": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": "t class in the streaming data. Extensive experiments on the Tennessee Eastman Process (TEP) and Case Western Reserve University (CWRU) be"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-014": {
+  "benchmarks": {
+   "半导体刻蚀/晶圆数据": {
+    "n": 2,
+    "ctx": "the semiconductor manufacturing process, where thousands of wafers are processed, and key metrics such as temperature, pressu"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-015": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/zavalab/ML/tree/master/TDA_Process_Monitoring"
+  ]
+ },
+ "06-016": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 10,
+    "ctx": "CDSS model and the TC-GCN model is also verified through a penicillin fermentation process. Experimental results indicate that th"
+   },
+   "Fed-batch/发酵": {
+    "n": 11,
+    "ctx": "and the TC-GCN model is also verified through a penicillin fermentation process. Experimental results indicate that the breakpoints"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-017": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "tage batches of a proprietary microbial (Escherichia coli) fed-batch fer- mentation for protein production (Table 1). The source"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "a PLS model was trained on the source domain (5-fold CV; random splits). The found number of LVs was used for the PLS model afte",
+  "code_links": []
+ },
+ "06-018": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-019": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-020": {
+  "benchmarks": {},
+  "metrics": [
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-021": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "ness of the proposed fault diagnosis method using simulated Tennessee Eastman Process (TEP) and practical Multiphase Flow Facility (MFF)"
+   },
+   "三相流装置（Cranfield）": {
+    "n": 2,
+    "ctx": "the provided link. The MFF [42] dataset originates from the Three-phase Flow Facility system at Cranfield University and consists of 24"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "in SCL, we randomly select a segment of the input sequence, shuffle this segment’s order, and integrate it back into the origi",
+  "code_links": [
+   "https://github.com/Zhang-Henry/SCLIFD"
+  ]
+ },
+ "06-022": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 2,
+    "ctx": "ess (Hot Roll of Steel, HRS ) and two simulation processes (Tennessee Eastman Process, TEP, and CAR Learning to Act, CARLA). The HRS data"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "data. For class-incremental sc enarios, normal samples are randomly divided equally into each task, and each fault sample appears in ea",
+  "code_links": []
+ },
+ "06-023": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "= a0exp(−0.0005t) F9 b = b0exp(−0.001t) 4.2. TE process The Tennessee Eastman (TE) process [24] is also widely employed in the evaluation"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "nostic model performance. Its structure is shown in Fig. 6. Bathelt et al. [25] implemented the TE process using SIMULINK, whil"
+   },
+   "CSTR 仿真": {
+    "n": 12,
+    "ctx": "oss using the Adam optimizer. 11 4. Experimental study 4.1. CSTR The closed-loop CSTR [23] is a benchmark platform widely us"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/GuangqiangLi/TSA-SAN"
+  ]
+ },
+ "06-025": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-026": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "AUC/ROC",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/tmdt-buw/ood-detection-welding"
+  ]
+ },
+ "06-027": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/FabianHinder/DRAGON"
+  ]
+ },
+ "06-028": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "by the proposed model under operating modes 1 and 4 of the Tennessee Eastman (TE) process dataset. The hollow circles and hollow triangl"
+   },
+   "CSTR 仿真": {
+    "n": 9,
+    "ctx": "faults and reducing the risk of incorrect deci- sions. 4.4. CSTR Continuous stirred tank reactor (CSTR) process [44] is also"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-029": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/ly1815/enkf-knowledge-"
+  ]
+ },
+ "06-032": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "f ωGRU . To improve the performance of the models, data are shuffled after being segmented with moving window approach. In add",
+  "code_links": []
+ },
+ "06-033": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 8,
+    "ctx": "ating classification models in imbalanced scenarios. 23 The Tennessee Eastman Process (TEP) is a widely used benchmark that allows resear"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "F1",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-034": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 2,
+    "ctx": "relevance vector machine to the soft sen - sor modeling of penicillin fermentation process and achieved good results. Hua et al"
+   },
+   "Fed-batch/发酵": {
+    "n": 60,
+    "ctx": "technology Soft sensor modeling method for Pichia pastoris fermentation process based on substructure domain transfer learning Bo"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-035": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 58,
+    "ctx": "s and batch-to-batch data distribution heterogeneity in the fermentation process of Pichia pastoris, this study proposed a novel sof"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "where δ ∼ U(0, 1) is the perturbation factor, and p, q are randomly selected firefly indices (distance from i). (2) DE-Based Crossover.",
+  "code_links": []
+ },
+ "06-036": {
+  "benchmarks": {
+   "硫回收装置数据": {
+    "n": 3,
+    "ctx": "ons, a widely recognized industrial time-series dataset—the Sulfur Recovery Unit (SRU) dataset from Chiyoda Chemical [40]—is utilized f"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-037": {
+  "benchmarks": {},
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-038": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-039": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-053": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-043": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 8,
+    "ctx": "examples and experimental studies on a multiphase fed-batch penicillin fermentation process. Monitoring industrial processes is"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 13,
+    "ctx": "and Discussion In this section, the data sets generated by benchmark simulation model No.1 (BSM1) [103] are used to evaluate the proposed TS-MAA"
+   },
+   "Fed-batch/发酵": {
+    "n": 6,
+    "ctx": "numerical examples and experimental studies on a multiphase fed-batch penicillin fermentation process. Monitoring industrial pr"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ﬁt to the observed values compared to other models on the randomly selected test samples. Additionally, Fig. 22.24 displays the error",
+  "code_links": []
+ },
+ "06-044": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 8,
+    "ctx": "sparse offline measurements for more robust training. On 38 fed-batch 5L bioreactor runs spanning 14 conditions, MP-JIT-FT with R"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/rtqichen/torchdiffeq"
+  ]
+ },
+ "06-048": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-049": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/KieranOwens/fsfa_paper",
+   "https://github.com/wiskott-lab/sklearn-sfa"
+  ]
+ },
+ "06-050": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "cribed in a few publications, for example, to determine the penicillin concentration in a simulated bioprocess [19]. The broader a"
+   },
+   "Fed-batch/发酵": {
+    "n": 13,
+    "ctx": ". subtilisprocesses in two different media during batch and fed-batch phases (relative errors in optimized high-performance mediu"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-051": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 6,
+    "ctx": "s of each set are washed out. T102 Fig. 2. Flowchart of the debutanizer column process. Fig. 3 shows the the distribution changes o"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "06-052": {
+  "benchmarks": {
+   "三相流装置（Cranfield）": {
+    "n": 1,
+    "ctx": ". This simplification avoids the complexity associated with three-phase flow modelling, as the primary focus of this work is on grade in"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "nto the reservoir. The reservoir dynamics are governed by a randomly selectedN r ×N r recurrent weight matrixW, which updates the interna",
+  "code_links": [
+   "https://github.com/reservoirpy/reservoirpy"
+  ]
+ },
+ "09-001": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 2,
+    "ctx": "n with an attention layer on top to detect anomalies in the SWaT and WADI datasets. We have yet to see the adoption of state"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-003": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 3,
+    "ctx": "s in improving model predictive control (MPC) frameworks in continuous stirred tank reactors (CSTRs). These studies address the challenges of p"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 2,
+    "ctx": "al networks and applied it on synthetic data generated from benchmark simulation models (BSM1). Theﬁrst approach consisted of augmenting the loss"
+   },
+   "Fed-batch/发酵": {
+    "n": 18,
+    "ctx": "ical industries. Some examples are: Saccharomyces cerevisiaefermentation process (Sonnleitner and Käppeli, 1986), lactic acid bacter"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-004": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-005": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-007": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 11,
+    "ctx": "d physics-informed Koopman modeling and self-tuning MHE. 18 CSTR 1 CSTR 2 Separator Figure 3: A schematic of the reactor-sep"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-008": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 17,
+    "ctx": "production, lignocellulose degradation, sugar release, and fermentation occur simultaneously under sparse measurement, feedstock va"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-009": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "e dataset was split into train, validation, and test sets. Random splitting was used to ensure the same distribution of data across",
+  "code_links": []
+ },
+ "09-010": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 6,
+    "ctx": "ve Chemical Reactor Case Study This case study focuses on a continuous stirred tank reactor (CSTR). A complete mechanistic model of this system"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/cog-imperial/OMLT"
+  ]
+ },
+ "09-011": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "learning framework to simulate the operations of var- ious continuous stirred-tank reactors (CSTRs). In chemical process scale-up, although ap"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ilot-scale data using interpolation. The generated data was randomly divided into training and validation sets with an 8:2 ratio. After",
+  "code_links": [
+   "https://github.com/chenzhengyuAI/complex-reaction-"
+  ]
+ },
+ "09-012": {
+  "benchmarks": {
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 1,
+    "ctx": ". 5. APPLICATIONS TO MEMBRANE BIOREACTOR In this section, a benchmark simulation model for mem- brane bioreactors (BSM-MBR) (Maere et al. (2011))"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-013": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 8,
+    "ctx": "ulated application to a chemical process consisting of four continuous stirred tank reactors. Process description This process involves four co"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-014": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 40,
+    "ctx": "bserver Switching Strategy for Enhanced State Estimation in CSTR Networks Lisbel Bárzaga-Martella,∗, Francisco Ibáñezb, Ange"
+   },
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "us industrial applica- tions, including chemical synthesis, fermentation, polymeriza- tion, and wastewater treatment. Nonlinear mass"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-016": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 9,
+    "ctx": "d on Bayesian-estimated metabolic rates. Applied to 23 CHO fed-batch cultures, viable cell density, product titer, and key metab"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "g batches (i.e., 21 batches across all feed- ing conditions randomly selected out of the 23 available batches). This baseline represents",
+  "code_links": []
+ },
+ "09-017": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "dity chemicals (e.g., citric acid), pharmaceuticals (e.g., penicillin), or biological solutions such as enzymes (e.g., amylases)"
+   },
+   "Fed-batch/发酵": {
+    "n": 159,
+    "ctx": "tps://doi.org/10.1093/jimb/kuag014 Published: 2 June 2026 Fermentation, Cell Culture and Bioengineering – Original Paper Hybrid m"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-018": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "sefree reference at different noise levels. An example of a randomly selected testing concentration trajectory and the results predicted",
+  "code_links": []
+ },
+ "09-019": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "http://github.com/google-deepmind"
+  ]
+ },
+ "09-020": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 10,
+    "ctx": "re modeled using the Eley–Rideal reaction mech- anism and a continuous stirred-tank reactor (CSTR) model. Critical parameters, e.g., heat trans"
+   }
+  },
+  "metrics": [
+   "F1",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "ists of 100 time steps. The initial reactor conditions were randomly selected within the ranges listed in Table 5 to produce diverse trai",
+  "code_links": []
+ },
+ "09-021": {
+  "benchmarks": {
+   "SWaT/WADI（网络安全测试台）": {
+    "n": 2,
+    "ctx": "nding twin discriminates single- and multi-stage attacks on SWaT and WADI [3, 4, 5]. Our ‘twin-aware’ stress test follows th"
+   }
+  },
+  "metrics": [
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-023": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/TUHH-IES/SymbolicRegression4HA"
+  ]
+ },
+ "09-024": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-025": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR",
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-026": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-027": {
+  "benchmarks": {
+   "青霉素发酵仿真（PenSim/IndPenSim）": {
+    "n": 1,
+    "ctx": "ter data. In exploratory tests on episodic batch processes (IndPenSim fed-batch, batch distillation), the structured fast expert’"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 29,
+    "ctx": "he Agtrup/BlueKolding full- scale plant in Denmark, and the Benchmark Simulation Model No. 2 (BSM2) international benchmark, under a matched ten-s"
+   },
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "In exploratory tests on episodic batch processes (IndPenSim fed-batch, batch distillation), the structured fast expert’s Picard r"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-029": {
+  "benchmarks": {
+   "脱丁烷塔数据": {
+    "n": 1,
+    "ctx": "patio-temporal features in processes like hydrocracking and debutanizer columns [17]. Similarly, spatio-temporal attention combined"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-030": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 8,
+    "ctx": "algorithm. Then, we introduce a chemical process with four continuous stirred tank reactors to verify the efficacy of the proposed DEKF approa"
+   },
+   "污水处理基准（BSM1/BSM2）": {
+    "n": 4,
+    "ctx": "imation of a wastewater treatment plant (WWTP) based on the Benchmark Simulation Model No.1 (BSM1)41. A schematic diagram of which is presented in"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-031": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 122,
+    "ctx": "opment of a hybrid bioprocess model for industrial fungal fermentations Marc Lemperle 1 * , Julian Kager 1 , Benny Cassells 2 , S"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "death models selected for this study that are iteratively shuffled to calculate the growth rate μ and death rate θ in Equat",
+  "code_links": []
+ },
+ "09-032": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 30,
+    "ctx": "J, Cho H, Mok JH, Seo H, Kwon JS-I (2026) From observable fermentation data to hidden cell states: A modeling study of a mixotro"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-033": {
+  "benchmarks": {},
+  "metrics": [
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-034": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-040": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-041": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-042": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 3,
+    "ctx": "logy is demonstrated using a simulated column process and a Tennessee Eastman benchmark problem. 1. INTRODUCTION Monitoring control perfo"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": "asured variables. Figure 2 presents a schematic of the TEP. Ricker created a decentralized control system for the TEP, dividin"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-043": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/kw48792/Multi-Scale-"
+  ]
+ },
+ "09-044": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/zavalab/ML/tree/master/"
+  ]
+ },
+ "09-045": {
+  "benchmarks": {},
+  "metrics": [
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-046": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "mal continuous chemical reactor Consider a non -isothermal Continuous Stirred Tank Reactor (CSTR) where an irreversible exothermic chemical"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-047": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "ERTIES The model of a continuously stirred-tank bioreactor (CSTR) for microbial growth in constant volume without accounting"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-048": {
+  "benchmarks": {},
+  "metrics": [
+   "误报率 FAR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-066": {
+  "benchmarks": {},
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-050": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "ency. The randomization was implemented using a cycle-based shuffling procedure, where complete cycles were permuted prior to",
+  "code_links": []
+ },
+ "09-051": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-052": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-054": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 38,
+    "ctx": "ering a Digital Twin for the Monitoring and Control of Beer Fermentation Sampling Pierre-Emmanuel Goffi Dept. of Computer and Softwa"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-055": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 3,
+    "ctx": "r a reactor-separator chemical process that consists of two continuous stirred tank reactors (CSTRs) and one flash tank separator. Based on the"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-056": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 29,
+    "ctx": "PAPER Advancing hybrid modeling of Saccharomyces cerevisiae fermentation with mixed carbon sources and urea in a mini‑stirred tank"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-057": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "may fail to capture non-linear patterns in the data. 2.3.1. Fermentation experiments Dynamic experiments in liquid media for modelin"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "e permutation importance. The latter assesses the impact of shuffling each protein’s data in the test subset on the model accu",
+  "code_links": []
+ },
+ "09-058": {
+  "benchmarks": {},
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-059": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 1,
+    "ctx": "ady-state approximations are often inadequate for batch and fed-batch operations. We therefore embed the calibrated SDE digital t"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-060": {
+  "benchmarks": {},
+  "metrics": [
+   "F1",
+   "准确率",
+   "RMSE",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": [
+   "https://github.com/SOULS-TAMU/kkt-hardnet"
+  ]
+ },
+ "09-061": {
+  "benchmarks": {
+   "Fed-batch/发酵": {
+    "n": 2,
+    "ctx": "aluated utilizing an initial condition extrapolation for a fed-batch bioprocess. Note how in the training data the spike inputs"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "R²"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "09-063": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 2,
+    "ctx": "v:2512.19147v1 [cs.LG] 22 Dec 2025 framework to model the Continuous Stirred Tank Reactor (CSTR) [11]. Similarly, Li et al. used a surrogate"
+   }
+  },
+  "metrics": [
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "mer, it is necessary to compare it with the Transformer. We randomly selected a seed to initialize the model parameters and con- ducted e",
+  "code_links": []
+ },
+ "05-050": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 5,
+    "ctx": "to enhance the precision of aggregation. Evaluations on the Tennessee Eastman (TE) process demonstrate that our method achieves superior"
+   }
+  },
+  "metrics": [
+   "F1",
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-051": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 12,
+    "ctx": "ramework on a large-scale industrial process benchmark, the Tennessee Eastman Process (TEP) [31,32], to highlight its relevance for indus"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR",
+   "检测延迟",
+   "F1",
+   "AUC/ROC",
+   "准确率",
+   "RMSE"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-052": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 1,
+    "ctx": "raint activation and control in residential energy systems. Tennessee Eastman Process (TEP)(real operational use case, May 2012): Safety-"
+   },
+   "TE 修订版/扩展数据（Bathelt/Ricker/Reinartz/Rieth 等）": {
+    "n": 1,
+    "ctx": ",500 timesteps, 64 variables, and 11 manipulated variables (Rieth et al., 2017). The presence of complex multi-step causal ch"
+   }
+  },
+  "metrics": [
+   "准确率"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "05-053": {
+  "benchmarks": {
+   "Tennessee Eastman": {
+    "n": 4,
+    "ctx": ". To illustrate its validity, a diesel hydrofining unit and Tennessee Eastman Process (TEP) are selected as test cases. Results show that"
+   }
+  },
+  "metrics": [],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-039": {
+  "benchmarks": {},
+  "metrics": [
+   "漏报率 MDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ },
+ "02-040": {
+  "benchmarks": {
+   "CSTR 仿真": {
+    "n": 1,
+    "ctx": "2025, 51(11): 2520−2533 DOI 10.16383/j.aas.c250134 CSTR 32138.14.j.aas.c250134 Independent-Slow Feature Analysis"
+   }
+  },
+  "metrics": [
+   "误报率 FAR",
+   "检测率 FDR"
+  ],
+  "point_adjust": "",
+  "random_split": "",
+  "code_links": []
+ }
+}

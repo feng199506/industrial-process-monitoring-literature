@@ -184,7 +184,8 @@ def window_status(date):
         return "待核实"
     lo = (date + "-01-01")[:10]
     hi = (date + "-12-31")[:10] if len(date) == 4 else (date + "-31")[:10]
-    if lo >= WINDOW_START and hi <= WINDOW_END:
+    # an item found on the search date was public by then, so the upper bound is the search date
+    if lo >= WINDOW_START and min(hi, WINDOW_END) <= WINDOW_END:
         return "近三年"
     if hi < WINDOW_START:
         return "三年前"

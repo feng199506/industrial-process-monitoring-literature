@@ -1,0 +1,21 @@
+# 论文、书籍与课程讲义全文只放 Release 附件，不进普通 Git
+*.pdf
+*.PDF
+*.zip
+*.tar
+*.tar.*
+*.tgz
+*.7z
+*.gz
+/papers/
+/books/
+/university_materials/
+# 缓存、锁、日志、临时下载
+__pycache__/
+*.pyc
+*.lock
+*.log
+*.part
+*.tmp
+*.crdownload
+*.partial

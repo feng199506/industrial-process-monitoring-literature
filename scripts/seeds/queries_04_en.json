@@ -1,12 +1,104 @@
 [
- {"qid":"04x1","src":"arxiv","q":"(abs:\"incipient fault\" OR abs:\"incipient faults\" OR abs:\"early fault detection\" OR abs:\"weak fault\" OR abs:\"small fault\" OR abs:\"slowly developing\") AND (abs:process OR abs:industrial OR abs:plant OR abs:\"Tennessee Eastman\")","max":150},
- {"qid":"04x2","src":"arxiv","q":"(abs:\"control limit\" OR abs:\"detection threshold\" OR abs:\"false alarm\" OR abs:\"missed detection\" OR abs:\"detection delay\") AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\") AND (abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:plant)","max":150},
- {"qid":"04x3","src":"arxiv","q":"abs:\"anomaly detection\" AND (abs:\"chemical plant\" OR abs:\"process plant\" OR abs:\"industrial process\" OR abs:\"process data\" OR abs:distillation OR abs:refinery OR abs:\"wastewater treatment\" OR abs:\"steel\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\")","max":200},
- {"qid":"04x4","src":"doaj","q":"bibjson.title:(incipient OR \"early warning\" OR \"anomaly detection\" OR \"fault detection\" OR \"abnormal\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"continuous stirred\" OR \"blast furnace\" OR \"wastewater treatment\" OR \"process industry\")","max":250},
- {"qid":"04x5","src":"hal","q":"abstract_t:(\"incipient fault\" OR \"early detection\" OR \"anomaly detection\" OR \"fault detection\" OR \"abnormal situation\") AND abstract_t:(\"chemical process\" OR \"industrial process\" OR \"Tennessee Eastman\" OR \"process plant\" OR reactor OR distillation)","max":150},
- {"qid":"04x6","src":"epmc","q":"ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"process industry\") AND ABSTRACT:(\"incipient\" OR \"early detection\" OR \"anomaly detection\" OR \"false alarm\" OR \"detection delay\" OR \"early warning\")","max":200},
- {"qid":"04x7","src":"arxiv","q":"(abs:\"one-class\" OR abs:\"normal operating\" OR abs:\"normal operation\" OR abs:\"novelty detection\" OR abs:\"drift\") AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"process plant\" OR abs:\"Tennessee Eastman\" OR abs:manufacturing)","max":150},
- {"qid":"04x8","src":"arxiv","q":"(abs:\"early warning\" OR abs:\"abnormal situation\" OR abs:\"abnormal event\" OR abs:\"process safety\") AND (abs:\"chemical\" OR abs:\"industrial process\" OR abs:plant) AND (abs:detection OR abs:monitoring)","max":120},
- {"qid":"04c1","src":"cite","q":"fwd:10.1016/j.automatica.2017.02.028","max":40},
- {"qid":"04c2","src":"cite","q":"bwd:10.1109/access.2026.3742659","max":80}
+ {
+  "qid": "04x1",
+  "src": "arxiv",
+  "q": "(abs:\"incipient fault\" OR abs:\"incipient faults\" OR abs:\"early fault detection\" OR abs:\"weak fault\" OR abs:\"small fault\" OR abs:\"slowly developing\") AND (abs:process OR abs:industrial OR abs:plant OR abs:\"Tennessee Eastman\")",
+  "max": 150
+ },
+ {
+  "qid": "04x2",
+  "src": "arxiv",
+  "q": "(abs:\"control limit\" OR abs:\"detection threshold\" OR abs:\"false alarm\" OR abs:\"missed detection\" OR abs:\"detection delay\") AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\") AND (abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:plant)",
+  "max": 150
+ },
+ {
+  "qid": "04x3",
+  "src": "arxiv",
+  "q": "abs:\"anomaly detection\" AND (abs:\"chemical plant\" OR abs:\"process plant\" OR abs:\"industrial process\" OR abs:\"process data\" OR abs:distillation OR abs:refinery OR abs:\"wastewater treatment\" OR abs:\"steel\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\")",
+  "max": 200
+ },
+ {
+  "qid": "04x4",
+  "src": "doaj",
+  "q": "bibjson.title:(incipient OR \"early warning\" OR \"anomaly detection\" OR \"fault detection\" OR \"abnormal\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"continuous stirred\" OR \"blast furnace\" OR \"wastewater treatment\" OR \"process industry\")",
+  "max": 250
+ },
+ {
+  "qid": "04x5",
+  "src": "hal",
+  "q": "abstract_t:(\"incipient fault\" OR \"early detection\" OR \"anomaly detection\" OR \"fault detection\" OR \"abnormal situation\") AND abstract_t:(\"chemical process\" OR \"industrial process\" OR \"Tennessee Eastman\" OR \"process plant\" OR reactor OR distillation)",
+  "max": 150
+ },
+ {
+  "qid": "04x6",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"process industry\") AND ABSTRACT:(\"incipient\" OR \"early detection\" OR \"anomaly detection\" OR \"false alarm\" OR \"detection delay\" OR \"early warning\")",
+  "max": 200
+ },
+ {
+  "qid": "04x7",
+  "src": "arxiv",
+  "q": "(abs:\"one-class\" OR abs:\"normal operating\" OR abs:\"normal operation\" OR abs:\"novelty detection\" OR abs:\"drift\") AND (abs:\"fault detection\" OR abs:\"anomaly detection\" OR abs:\"process monitoring\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"process plant\" OR abs:\"Tennessee Eastman\" OR abs:manufacturing)",
+  "max": 150
+ },
+ {
+  "qid": "04x8",
+  "src": "arxiv",
+  "q": "(abs:\"early warning\" OR abs:\"abnormal situation\" OR abs:\"abnormal event\" OR abs:\"process safety\") AND (abs:\"chemical\" OR abs:\"industrial process\" OR abs:plant) AND (abs:detection OR abs:monitoring)",
+  "max": 120
+ },
+ {
+  "qid": "04c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.automatica.2017.02.028",
+  "max": 40
+ },
+ {
+  "qid": "04c2",
+  "src": "cite",
+  "q": "bwd:10.1109/access.2026.3742659",
+  "max": 80
+ },
+ {
+  "qid": "04x9",
+  "src": "doaj",
+  "q": "bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLoS ONE\" OR \"PLOS ONE\" OR \"IEEE Open Journal of the Industrial Electronics Society\" OR \"Frontiers in Chemical Engineering\" OR \"Machine Learning: Science and Technology\" OR \"Frontiers in Energy Research\" OR \"Discover Applied Sciences\" OR \"Journal of Big Data\" OR \"IET Control Theory & Applications\") AND bibjson.abstract:(\"incipient\" OR \"early fault\" OR \"early warning\" OR \"anomaly detection\" OR \"false alarm\" OR \"control limit\" OR \"detection delay\" OR \"abnormal\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"industrial processes\" OR \"process industry\" OR \"power plant\" OR \"blast furnace\" OR \"wastewater\")",
+  "max": 300
+ },
+ {
+  "qid": "04xa",
+  "src": "arxiv",
+  "q": "(abs:\"fault detection\" OR abs:\"anomaly detection\") AND (abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:\"power plant\" OR abs:refinery OR abs:\"wastewater treatment\" OR abs:\"blast furnace\")",
+  "max": 250
+ },
+ {
+  "qid": "04xb",
+  "src": "arxiv",
+  "q": "(abs:\"alarm flood\" OR abs:\"nuisance alarm\" OR abs:\"alarm management\" OR abs:\"chattering alarm\" OR abs:\"alarm threshold\" OR abs:\"alarm system\") AND (abs:process OR abs:plant OR abs:industrial)",
+  "max": 100
+ },
+ {
+  "qid": "04xc",
+  "src": "hal",
+  "q": "abstract_t:(\"false alarm\" OR threshold OR incipient OR \"early detection\" OR \"anomaly detection\" OR alarm) AND abstract_t:(process OR plant OR industrial) AND abstract_t:(\"fault detection\" OR monitoring)",
+  "max": 150
+ },
+ {
+  "qid": "04xd",
+  "src": "doaj",
+  "q": "bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLoS ONE\" OR \"PLOS ONE\" OR \"Frontiers in Chemical Engineering\" OR \"Frontiers in Energy Research\" OR \"Process Safety Progress\" OR \"Journal of Loss Prevention\" OR \"ACS Omega\" OR \"Sensors\") AND bibjson.title:(alarm OR \"early warning\" OR incipient OR \"anomaly detection\" OR \"fault detection\" OR abnormal) AND bibjson.abstract:(plant OR refinery OR chemical OR \"process industry\" OR \"power plant\" OR steel OR cement OR reactor OR distillation)",
+  "max": 200
+ },
+ {
+  "qid": "04xe",
+  "src": "arxiv",
+  "q": "(abs:\"change point\" OR abs:changepoint OR abs:\"concept drift\" OR abs:\"sensor drift\") AND (abs:\"industrial process\" OR abs:\"process monitoring\" OR abs:\"manufacturing process\" OR abs:\"process plant\" OR abs:\"chemical process\")",
+  "max": 100
+ },
+ {
+  "qid": "04xf",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"early warning\" OR \"anomaly detection\" OR \"incipient fault\" OR \"fault detection\") AND ABSTRACT:(\"chemical plant\" OR refinery OR \"power plant\" OR \"blast furnace\" OR \"wastewater treatment plant\" OR fermentation OR bioreactor OR \"process plant\")",
+  "max": 200
+ }
 ]

@@ -72,15 +72,39 @@
   "max": 200
  },
  {
-  "qid": "07r1",
-  "src": "crossref",
-  "q": "soft sensor industrial process IEEE Access",
-  "max": 200
+  "qid": "07x11",
+  "src": "arxiv",
+  "q": "(abs:\"quality variable\" OR abs:\"quality variables\" OR abs:\"quality indicator\" OR abs:\"product quality\" OR abs:\"key performance indicators\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"soft sensor\" OR abs:\"quality prediction\") AND (abs:industrial OR abs:process)",
+  "max": 150
  },
  {
-  "qid": "07r2",
-  "src": "crossref",
-  "q": "quality-related fault detection process monitoring IEEE Access",
-  "max": 150
+  "qid": "07x12",
+  "src": "epmc",
+  "q": "TITLE:(\"soft sensor\" OR \"soft sensing\" OR \"soft-sensor\" OR \"soft measurement\" OR \"quality-related\" OR \"quality relevant\" OR \"virtual metrology\" OR \"inferential\") AND ABSTRACT:(industrial OR process OR plant)",
+  "max": 250
+ },
+ {
+  "qid": "07x13",
+  "src": "doaj",
+  "q": "bibjson.title:(\"soft sensor\" OR \"soft sensors\" OR \"soft sensing\" OR \"soft measurement\" OR \"quality-related\" OR \"quality relevant\" OR \"virtual metrology\") AND bibjson.abstract:(industrial OR process OR plant) AND bibjson.year:[2025 TO 2026]",
+  "max": 300
+ },
+ {
+  "qid": "07x14",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"soft sensor\" OR \"soft sensing\" OR \"soft-sensor\" OR \"quality-related\") AND ABSTRACT:(industrial OR plant OR \"process industry\") AND ABSTRACT:(prediction OR estimation OR monitoring)",
+  "max": 250
+ },
+ {
+  "qid": "07x15",
+  "src": "doaj",
+  "q": "bibjson.title:(\"soft sensor\" OR \"soft sensors\" OR \"soft sensing\" OR \"soft measurement\" OR \"quality prediction\" OR \"virtual sensor\") AND bibjson.abstract:(industrial OR process OR plant) AND bibjson.year:[2023 TO 2024]",
+  "max": 300
+ },
+ {
+  "qid": "07x16",
+  "src": "hal",
+  "q": "title_t:(\"capteur logiciel\" OR \"capteurs logiciels\" OR \"soft sensor\" OR \"software sensor\" OR \"observateur\" OR \"virtual sensing\") AND abstract_t:(process OR procédé OR industrial OR industriel)",
+  "max": 100
  }
 ]

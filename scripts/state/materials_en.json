@@ -1,0 +1,1392 @@
+{
+ "14-001": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Process Improvement using Data",
+  "files": [
+   {
+    "path": "books/Dunn_ProcessImprovementUsingData_2023ed_en.pdf",
+    "url": "https://zenodo.org/api/records/8021769/files/PID.pdf/content",
+    "pages": 421,
+    "sha256": "d1cb465d340b2a6011ef33e7ed8ed4df0acbce225c94dbcbbd991bd2d03f3dd4",
+    "bytes": 20928600
+   }
+  ],
+  "note": "PDF 421 页；书名短语已见"
+ },
+ "14-002": {
+  "status": "failed",
+  "cat": "14",
+  "note": "HTTP 404",
+  "title": "Diagnosis of Technical Processes (course compendium)"
+ },
+ "14-003": {
+  "status": "failed",
+  "cat": "14",
+  "note": "HTTP 403",
+  "title": "Detection of Abrupt Changes: Theory and Application"
+ },
+ "14-004": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Feedback Systems: An Introduction for Scientists and Engineers (2nd ed.)",
+  "files": [
+   {
+    "path": "books/Astrom_FeedbackSystems_2ndEd_v3.1.5_en.pdf",
+    "url": "http://www.cds.caltech.edu/~murray/books/AM08/pdf/fbs-public_24Jul2020.pdf",
+    "pages": 573,
+    "sha256": "e2fa6992fe5a4773e0e8857b90a4d7d1aa10af0a48fb3b8d45e6f7c1d8bad7ec",
+    "bytes": 34553732
+   }
+  ],
+  "note": "PDF 573 页；书名短语已见"
+ },
+ "14-005": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Model Predictive Control: Theory, Computation, and Design (2nd ed.)",
+  "files": [
+   {
+    "path": "books/Rawlings_ModelPredictiveControl_2ndEd_en.pdf",
+    "url": "https://sites.engineering.ucsb.edu/~jbraw/mpc/MPC-book-2nd-edition-5th-printing.pdf",
+    "pages": 821,
+    "sha256": "34f26377117a6aedfc4c48767034c1ba4ed6a758dc68d142fcd5eeef2b37a061",
+    "bytes": 3837012
+   }
+  ],
+  "note": "PDF 821 页；书名短语已见"
+ },
+ "14-006": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Bayesian Filtering and Smoothing (2nd ed.)",
+  "files": [
+   {
+    "path": "books/Sarkka_BayesianFilteringSmoothing_2ndEd_en.pdf",
+    "url": "https://users.aalto.fi/~ssarkka/pub/bfs_book_2023_online.pdf",
+    "pages": 436,
+    "sha256": "6b57f19aedb36a539a0a882b3c0c7ef49155ac25d82ee6950fc808b0a60f9c55",
+    "bytes": 11364145
+   }
+  ],
+  "note": "PDF 436 页；书名短语已见"
+ },
+ "14-007": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control",
+  "files": [
+   {
+    "path": "books/Brunton_DataDrivenScienceEngineering_en.pdf",
+    "url": "http://databookuw.com/databook.pdf",
+    "pages": 572,
+    "sha256": "8412eadd431264f4b3c25649d60d3fda50cdf24c4c873eb73725ba9241d7b5ee",
+    "bytes": 72136223
+   }
+  ],
+  "note": "PDF 572 页；书名短语已见"
+ },
+ "14-008": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Machine Learning: A First Course for Engineers and Scientists",
+  "files": [
+   {
+    "path": "books/Lindholm_MachineLearningFirstCourse_2022_en.pdf",
+    "url": "https://smlbook.org/book/sml-book-draft-latest.pdf",
+    "pages": 348,
+    "sha256": "f185bd18c1a4daf46260db72d2a71cf1d03f4dd5c8bd394bfa9ad75ac5c5216b",
+    "bytes": 10446720
+   }
+  ],
+  "note": "PDF 348 页；书名短语已见"
+ },
+ "14-009": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Feedback Control Theory",
+  "files": [
+   {
+    "path": "books/Doyle_FeedbackControlTheory_1990_en.pdf",
+    "url": "https://www.control.utoronto.ca/people/profs/francis/dft.pdf",
+    "pages": 219,
+    "sha256": "78ce9401e16b8579779bd731f65b94fb161e6ef082326358fc940ab9615aee39",
+    "bytes": 1273333
+   }
+  ],
+  "note": "PDF 219 页；书名短语已见"
+ },
+ "14-010": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Advanced Data Analysis from an Elementary Point of View",
+  "files": [
+   {
+    "path": "books/Shalizi_AdvancedDataAnalysis_draft_en.pdf",
+    "url": "https://www.stat.cmu.edu/~cshalizi/ADAfaEPoV/ADAfaEPoV.pdf",
+    "pages": 905,
+    "sha256": "3c2de4acd57cd058bcf44b8d9e4475a507284137ec063e20199d89cbd629c77f",
+    "bytes": 17750177
+   }
+  ],
+  "note": "PDF 905 页；书名短语已见"
+ },
+ "14-011": {
+  "status": "verified",
+  "cat": "14",
+  "title": "The Elements of Statistical Learning (2nd ed.)",
+  "files": [
+   {
+    "path": "books/Hastie_ElementsOfStatisticalLearning_2ndEd_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Hastie_ElementsOfStatisticalLearning_2ndEd_en.pdf",
+    "pages": 764,
+    "sha256": "8d098d65cf53925ba0fc13a52a2790d48a32433223cbd876d0a527cd1afe2e0f",
+    "bytes": 13399454
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Hastie_ElementsOfStatisticalLearning_2ndEd_en.pdf（该库已核验），本库重新核验：PDF 764 页、书名短语已见"
+ },
+ "14-012": {
+  "status": "verified",
+  "cat": "14",
+  "title": "An Introduction to Statistical Learning with Applications in Python",
+  "files": [
+   {
+    "path": "books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf",
+    "pages": 613,
+    "sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+    "bytes": 20053984
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/James_IntroductionStatisticalLearningPython_1stEd_en.pdf（该库已核验），本库重新核验：PDF 613 页、书名短语已见"
+ },
+ "14-013": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Pattern Recognition and Machine Learning",
+  "files": [
+   {
+    "path": "books/Bishop_PatternRecognitionMachineLearning_1stEd_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Bishop_PatternRecognitionMachineLearning_1stEd_en.pdf",
+    "pages": 758,
+    "sha256": "4ee767e0a6b04fa05ba7e599e9dbb4637a94a4407ccedf0b4d316b1fd7c8ec64",
+    "bytes": 18090775
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Bishop_PatternRecognitionMachineLearning_1stEd_en.pdf（该库已核验），本库重新核验：PDF 758 页、书名短语已见"
+ },
+ "14-014": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Gaussian Processes for Machine Learning",
+  "files": [
+   {
+    "path": "books/Rasmussen_GaussianProcessesForMachineLearning_2006_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Rasmussen_GaussianProcessesForMachineLearning_2006_en.pdf",
+    "pages": 266,
+    "sha256": "20355ed64b3df27c4477850dd5fcff8bfc25f56dcde043dbd08d1e5d5582db25",
+    "bytes": 4052292
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Rasmussen_GaussianProcessesForMachineLearning_2006_en.pdf（该库已核验），本库重新核验：PDF 266 页、书名短语已见"
+ },
+ "14-015": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Probabilistic Machine Learning: An Introduction",
+  "files": [
+   {
+    "path": "books/Murphy_ProbabilisticMachineLearningIntroduction_2022_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Murphy_ProbabilisticMachineLearningIntroduction_2022_en.pdf",
+    "pages": 860,
+    "sha256": "89749245bc8065d7575f990815c621a091de3facca1585168fc0369542742dcf",
+    "bytes": 92323940
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Murphy_ProbabilisticMachineLearningIntroduction_2022_en.pdf（该库已核验），本库重新核验：PDF 860 页、书名短语已见"
+ },
+ "14-016": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Probabilistic Machine Learning: Advanced Topics",
+  "files": [
+   {
+    "path": "books/Murphy_ProbabilisticMachineLearningAdvanced_2023_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Murphy_ProbabilisticMachineLearningAdvanced_2023_en.pdf",
+    "pages": 1370,
+    "sha256": "54d6bfa8cc4a367bb553bea1c5127ca63696a9655b2ca1f6137a8584dccfdbaf",
+    "bytes": 151421194
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Murphy_ProbabilisticMachineLearningAdvanced_2023_en.pdf（该库已核验），本库重新核验：PDF 1370 页、书名短语已见"
+ },
+ "14-017": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Mathematics for Machine Learning",
+  "files": [
+   {
+    "path": "books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf",
+    "pages": 417,
+    "sha256": "3f87b70c64a35d30ec4e565b4d5cfd18fe913002d3b3bed44691c7d0838911bc",
+    "bytes": 17565898
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Deisenroth_MathematicsForMachineLearning_2020_en.pdf（该库已核验），本库重新核验：PDF 417 页、书名短语已见"
+ },
+ "14-018": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Causal Inference: What If",
+  "files": [
+   {
+    "path": "books/Hernan_CausalInferenceWhatIf_2026_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Hernan_CausalInferenceWhatIf_2026_en.pdf",
+    "pages": 365,
+    "sha256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+    "bytes": 11315465
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Hernan_CausalInferenceWhatIf_2026_en.pdf（该库已核验），本库重新核验：PDF 365 页、书名短语已见"
+ },
+ "14-019": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Physics-based Deep Learning",
+  "files": [
+   {
+    "path": "books/Thuerey_PhysicsBasedDeepLearning_arXiv_en.pdf",
+    "url": "",
+    "copied_from": "/root/machine_learning_deep_learning_literature/books/Thuerey_PhysicsBasedDeepLearning_arXiv_en.pdf",
+    "pages": 461,
+    "sha256": "6903217531a09ebc23f03605459ed25bd060632339aa5bafd05ac4f368f031de",
+    "bytes": 21212362
+   }
+  ],
+  "reuse": "已有复用（跨库重复）",
+  "note": "复制自本机已有文献库 /root/machine_learning_deep_learning_literature/books/Thuerey_PhysicsBasedDeepLearning_arXiv_en.pdf（该库已核验），本库重新核验：PDF 461 页、书名短语已见"
+ },
+ "14-020": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Data-Driven Fault Detection and Reasoning for Industrial Monitoring",
+  "files": [
+   {
+    "path": "books/Wang_DataDrivenFaultDetectionReasoning_2022_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-16-8044-1.pdf?error=cookies_not_supported&code=6a61d4dd-fa03-465a-9e29-f6b1c192d9e3",
+    "pages": 277,
+    "sha256": "18e315d3d5619cb7b1cd5c0a21b937e03265d40ef5fb8152b7895ca174f5e57f",
+    "bytes": 8673597
+   }
+  ],
+  "note": "PDF 277 页；书名短语已见"
+ },
+ "14-021": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Regularized System Identification: Learning Dynamic Models from Data",
+  "files": [
+   {
+    "path": "books/Pillonetto_RegularizedSystemIdentification_2022_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-95860-2.pdf?error=cookies_not_supported&code=b6bd6380-7a66-4004-9cca-4f4458d90746",
+    "pages": 394,
+    "sha256": "cce38abce6b744f043d5bdddf3c478babee2b059322586e2faaed86ac6bc6d0d",
+    "bytes": 6680109
+   }
+  ],
+  "note": "PDF 394 页；书名短语已见"
+ },
+ "13-001": {
+  "status": "verified",
+  "cat": "13",
+  "title": "2.830J/6.780J/ESD.63J Control of Manufacturing Processes (SMA 6303)",
+  "files": [
+   {
+    "path": "university_materials/MIT_2830J_2008Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/2-830j-control-of-manufacturing-processes-sma-6303-spring-2008/2.830j-spring-2008.zip",
+    "pdfs": 84,
+    "pdf_pages": 1816,
+    "sha256": "da6a56a93b549c14175d4d669c5f5da524c6adb37af558a5376b2d5469227405",
+    "bytes": 35980146
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 1030 个文件、84 个 PDF（合计 1816 页）全部可解析"
+ },
+ "13-002": {
+  "status": "verified",
+  "cat": "13",
+  "title": "2.008 Design and Manufacturing II",
+  "files": [
+   {
+    "path": "university_materials/MIT_2008_2025Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/2-008-design-and-manufacturing-ii-spring-2025/2.008-spring-2025.zip",
+    "pdfs": 63,
+    "pdf_pages": 1533,
+    "sha256": "85805491f27db838e8e9fae6f01c9846c91379a8f4034c5a736821dc1e74b652",
+    "bytes": 195992993
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 510 个文件、63 个 PDF（合计 1533 页）全部可解析"
+ },
+ "13-003": {
+  "status": "verified",
+  "cat": "13",
+  "title": "10.450 Process Dynamics, Operations, and Control",
+  "files": [
+   {
+    "path": "university_materials/MIT_10450_2006Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/10-450-process-dynamics-operations-and-control-spring-2006/10.450-spring-2006.zip",
+    "pdfs": 20,
+    "pdf_pages": 191,
+    "sha256": "5271a6e435ea8af08df26de9727824fa8cc695d447382367ebfcb463b73725c0",
+    "bytes": 13464746
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 328 个文件、20 个 PDF（合计 191 页）全部可解析"
+ },
+ "13-004": {
+  "status": "verified",
+  "cat": "13",
+  "title": "10.492-1 Integrated Chemical Engineering Topics I: Process Control by Design",
+  "files": [
+   {
+    "path": "university_materials/MIT_10492_2004Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/10-492-1-integrated-chemical-engineering-topics-i-process-control-by-design-fall-2004/10.492-1-fall-2004.zip",
+    "pdfs": 13,
+    "pdf_pages": 55,
+    "sha256": "145bea0523cb41acea0faece6ce4651bf7a8186fa674b3ad0f3ddfc1fa90a75c",
+    "bytes": 11222770
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 326 个文件、13 个 PDF（合计 55 页）全部可解析"
+ },
+ "13-005": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.435 System Identification",
+  "files": [
+   {
+    "path": "university_materials/MIT_6435_2005Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-435-system-identification-spring-2005/6.435-spring-2005.zip",
+    "pdfs": 19,
+    "pdf_pages": 402,
+    "sha256": "632a6764efbb6423fbb20b1631769a69584b03ba8f82a838d73352c031696d1f",
+    "bytes": 20975971
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 320 个文件、19 个 PDF（合计 402 页）全部可解析"
+ },
+ "13-006": {
+  "status": "verified",
+  "cat": "13",
+  "title": "2.160 Identification, Estimation, and Learning",
+  "files": [
+   {
+    "path": "university_materials/MIT_2160_2006Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/2-160-identification-estimation-and-learning-spring-2006/2.160-spring-2006.zip",
+    "pdfs": 36,
+    "pdf_pages": 245,
+    "sha256": "8440cf6edc4a29e589610f401bee14f3b036804128cc7fbded092d7765157bb3",
+    "bytes": 17208822
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 415 个文件、36 个 PDF（合计 245 页）全部可解析"
+ },
+ "13-007": {
+  "status": "verified",
+  "cat": "13",
+  "title": "16.322 Stochastic Estimation and Control",
+  "files": [
+   {
+    "path": "university_materials/MIT_16322_2004Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/16-322-stochastic-estimation-and-control-fall-2004/16.322-fall-2004.zip",
+    "pdfs": 25,
+    "pdf_pages": 175,
+    "sha256": "b8944b05c6fa00f9c364b97c138da3e284c9871741fb1ced975097eed6125268",
+    "bytes": 15807399
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 350 个文件、25 个 PDF（合计 175 页）全部可解析"
+ },
+ "13-008": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.241J Dynamic Systems and Control",
+  "files": [
+   {
+    "path": "university_materials/MIT_6241J_2011Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-241j-dynamic-systems-and-control-spring-2011/6.241j-spring-2011.zip",
+    "pdfs": 62,
+    "pdf_pages": 1210,
+    "sha256": "12760723830ccfff0c19cf606ef88f843db8cd9d19b20e9dcae3da79cd440c7a",
+    "bytes": 48720451
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 509 个文件、62 个 PDF（合计 1210 页）全部可解析"
+ },
+ "13-009": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.245 Multivariable Control Systems",
+  "files": [
+   {
+    "path": "university_materials/MIT_6245_2004Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-245-multivariable-control-systems-spring-2004/6.245-spring-2004.zip",
+    "pdfs": 31,
+    "pdf_pages": 209,
+    "sha256": "4ca2727c08e1fb31e9ff549aff478baf4171a1155cd84480b30926e29b534baf",
+    "bytes": 13316840
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 486 个文件、31 个 PDF（合计 209 页）全部可解析"
+ },
+ "13-010": {
+  "status": "verified",
+  "cat": "13",
+  "title": "18.650 Statistics for Applications",
+  "files": [
+   {
+    "path": "university_materials/MIT_18650_2016Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/18-650-statistics-for-applications-fall-2016/18.650-fall-2016.zip",
+    "pdfs": 67,
+    "pdf_pages": 1320,
+    "sha256": "12ed9a1255cb25416eb202fc72aca96a84252c803632399b7fdaaa693ac823dd",
+    "bytes": 23341503
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 759 个文件、67 个 PDF（合计 1320 页）全部可解析"
+ },
+ "13-011": {
+  "status": "verified",
+  "cat": "13",
+  "title": "15.075J Statistical Thinking and Data Analysis",
+  "files": [
+   {
+    "path": "university_materials/MIT_15075J_2011Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/15-075j-statistical-thinking-and-data-analysis-fall-2011/15.075j-fall-2011.zip",
+    "pdfs": 29,
+    "pdf_pages": 172,
+    "sha256": "78345737d73dae043ca3ece2460e886c9b7fbea58b8aefa441072635d864a63b",
+    "bytes": 16412443
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 374 个文件、29 个 PDF（合计 172 页）全部可解析"
+ },
+ "13-012": {
+  "status": "verified",
+  "cat": "13",
+  "title": "18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning",
+  "files": [
+   {
+    "path": "university_materials/MIT_18065_2018Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/18.065-spring-2018.zip",
+    "pdfs": 40,
+    "pdf_pages": 570,
+    "sha256": "bdb7aa4c0c1feffe4fca196193779d7af5f63ab4a6b0f37a7d716c6b2347d99b",
+    "bytes": 18270872
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 913 个文件、40 个 PDF（合计 570 页）全部可解析"
+ },
+ "13-013": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.011 Signals, Systems and Inference",
+  "files": [
+   {
+    "path": "university_materials/MIT_6011_2018Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-011-signals-systems-and-inference-spring-2018/6.011-spring-2018.zip",
+    "pdfs": 40,
+    "pdf_pages": 320,
+    "sha256": "c197adb6d60c8887f74105bacefe83534a5d385c122152c351073e143ac1c9fc",
+    "bytes": 23541462
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 465 个文件、40 个 PDF（合计 320 页）全部可解析"
+ },
+ "13-014": {
+  "status": "verified",
+  "cat": "13",
+  "title": "16.30 Feedback Control Systems",
+  "files": [
+   {
+    "path": "university_materials/MIT_1630_2010Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/16-30-feedback-control-systems-fall-2010/16.30-fall-2010.zip",
+    "pdfs": 46,
+    "pdf_pages": 530,
+    "sha256": "c2e09b14ad09fe1d566cca288b35d85a19534e0efeccd0e190d75fffc0f0fc19",
+    "bytes": 22598149
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 442 个文件、46 个 PDF（合计 530 页）全部可解析"
+ },
+ "13-015": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.302 Feedback Systems",
+  "files": [
+   {
+    "path": "university_materials/MIT_6302_2007Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-302-feedback-systems-spring-2007/6.302-spring-2007.zip",
+    "pdfs": 56,
+    "pdf_pages": 304,
+    "sha256": "70fe4bb6a5e548769c580d7f4ad5c64d315a6079ac26776f6ed4b4978a70aa66",
+    "bytes": 16566510
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 502 个文件、56 个 PDF（合计 304 页）全部可解析"
+ },
+ "13-016": {
+  "status": "verified",
+  "cat": "13",
+  "title": "10.34 Numerical Methods Applied to Chemical Engineering",
+  "files": [
+   {
+    "path": "university_materials/MIT_1034_2015Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/10-34-numerical-methods-applied-to-chemical-engineering-fall-2015/10.34-fall-2015.zip",
+    "pdfs": 74,
+    "pdf_pages": 1126,
+    "sha256": "130d36f50f1a4d19b945947cad000c91f658ef447b7e2df23e691ca2b74c9974",
+    "bytes": 53491146
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 938 个文件、74 个 PDF（合计 1126 页）全部可解析"
+ },
+ "13-017": {
+  "status": "verified",
+  "cat": "13",
+  "title": "EE263 Introduction to Linear Dynamical Systems",
+  "files": [
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/01_01_overview_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/01_overview.pdf",
+    "pages": 16,
+    "sha256": "564505d3e77352eeed3d581c162e10b8b63453070860588b824c496847e1a25f",
+    "bytes": 365979
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/02_02_lin-fcts_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/02_lin-fcts.pdf",
+    "pages": 9,
+    "sha256": "a6834b92c11af189436b828a554975565ee934c8bf6fa95ca6fe673fb468440f",
+    "bytes": 160922
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/03_03_engineering_examples_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/03_engineering_examples.pdf",
+    "pages": 8,
+    "sha256": "75ebcf847b6949d337974a7a53372b6ec4aeab3279a86423247d89fee8f620cf",
+    "bytes": 143117
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/04_04_interpretations_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/04_interpretations.pdf",
+    "pages": 12,
+    "sha256": "bb3db8666c382a2e7ae87b181cf6ec1b4abed32b93020951c57245ea44b2060f",
+    "bytes": 165210
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/05_05_linalg_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/05_linalg.pdf",
+    "pages": 23,
+    "sha256": "f5462433e05814c8e426c2bb89fc0085a947452ba809d5115a98e7d8900e921e",
+    "bytes": 304466
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/06_06_rangenull_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/06_rangenull.pdf",
+    "pages": 12,
+    "sha256": "7f61310f263d609702ad2e4cf769f142957a51da2290f78b363c50aa01984944",
+    "bytes": 167337
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/07_07_rank_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/07_rank.pdf",
+    "pages": 11,
+    "sha256": "a6175964c1bc3d0b34c69bf371c636ad67dbf0b78b659a3c4788dc7570587738",
+    "bytes": 356367
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/08_08_orthogonality_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/08_orthogonality.pdf",
+    "pages": 11,
+    "sha256": "25f7655741c7a1b13ee7bdd5836f9e1282a057470318f1864a9b0d9b2550c62c",
+    "bytes": 215471
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/09_09_qr_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/09_qr.pdf",
+    "pages": 17,
+    "sha256": "43ce62478ae695437f57600eb1a7500e633a252d3fef5afb05a5d6a65575e817",
+    "bytes": 275268
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/10_10_ls_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/10_ls.pdf",
+    "pages": 13,
+    "sha256": "9bb3eb1a57d8a4d524d4bb742ef7e2a77e49c4971cfd50845bf46de14e882fe4",
+    "bytes": 182094
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/11_11_multiobjective_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/11_multiobjective.pdf",
+    "pages": 9,
+    "sha256": "8a1e748d27dc4e777cc0567df9aa3e777f5fc108cf4bae7baf0ae490ec6b95a2",
+    "bytes": 155248
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/12_12_min-norm_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/12_min-norm.pdf",
+    "pages": 14,
+    "sha256": "494b2efc52d82e01d7abb95577281fdbcbd2992edc29ce6c2206d1d7e08d48d3",
+    "bytes": 179000
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/13_13_eig_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/13_eig.pdf",
+    "pages": 11,
+    "sha256": "8f315664006f140e8d0b201513efd9dfbe59d62bc0b6d2fff1f25e89d8f34d8f",
+    "bytes": 163891
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/14_complex-numbers_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/notes/complex-numbers.pdf",
+    "pages": 5,
+    "sha256": "eafe6f6d5ad45b2dd44d63e8857ba623d6b8326ddea95fe33b632a591ac8f934",
+    "bytes": 197392
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/15_14_sym_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/14_sym.pdf",
+    "pages": 14,
+    "sha256": "8e5bde141faf4eb817a241ea579da72bce7a5597bf7975027adc25f3b6947984",
+    "bytes": 180377
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/16_15_ellipsoids_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/15_ellipsoids.pdf",
+    "pages": 3,
+    "sha256": "ed1c19a021a1f0b0836872fa2001dfff3ee97842914ab2f178a003eda60fd499",
+    "bytes": 106164
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/17_16_norm_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/16_norm.pdf",
+    "pages": 9,
+    "sha256": "30b11704edcca0c85978cf3cb349643c28a30b607d865949e2ea7b05b38af6cc",
+    "bytes": 142864
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/18_17_svd_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/17_svd.pdf",
+    "pages": 30,
+    "sha256": "c0d1f6d16a7fc23dfb66015e2492b119056b85cdca334f2099ebce8b77edc3a8",
+    "bytes": 266149
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/19_18_pca_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/18_pca.pdf",
+    "pages": 19,
+    "sha256": "a511bd24df9f8f05320d238aaf4b28f7a9aae1cf473e470a37aaacb3f2f7e5e6",
+    "bytes": 723476
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/20_19_probability_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/19_probability.pdf",
+    "pages": 23,
+    "sha256": "c3c61192b61421431be184b53c34dd5d5d71cd168f10e923dd64de309404de3d",
+    "bytes": 469071
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/21_20_gaussians_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/20_gaussians.pdf",
+    "pages": 39,
+    "sha256": "fef17854d0ec5efc05dbd2319dec7648fb89f9d6f4d618f33585d2ab6ebbfa79",
+    "bytes": 430953
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/22_21_conditional_gaussians_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/21_conditional_gaussians.pdf",
+    "pages": 8,
+    "sha256": "4b3063a7f512cb17a38e44ac76d211a1a90db771bce118a41075e5f5f8d2cf04",
+    "bytes": 142365
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/23_22_mmse_estimation_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/22_mmse_estimation.pdf",
+    "pages": 13,
+    "sha256": "e061764403a7aa5d440d381cf8cd39556dbd36bec10c7130a8bd3bbc96e73f63",
+    "bytes": 190544
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/24_23_linear_model_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/23_linear_model.pdf",
+    "pages": 22,
+    "sha256": "d6cfd2914d57f8c233422e1e46ecf713ee7f20377314f36c10f2c0f59067aa32",
+    "bytes": 268059
+   },
+   {
+    "path": "university_materials/Stanford_EE263_2026Summer_LectureSlides_en/25_24_laplacian_en.pdf",
+    "url": "https://ee263.stanford.edu/lectures/26q3/original/24_laplacian.pdf",
+    "pages": 28,
+    "sha256": "e03601f76207a003c9877ffc5310fe14b1feaff5e4a9d70aa6caa9ba72fed351",
+    "bytes": 1068574
+   }
+  ],
+  "note": "25 个 PDF 全部下载并可解析，合计 379 页；文件链接取自官方索引页 https://ee263.stanford.edu/lectures.html"
+ },
+ "13-018": {
+  "status": "verified",
+  "cat": "13",
+  "title": "EE363 Linear Dynamical Systems (Kalman filter, estimation)",
+  "files": [
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/01_000_overview_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/000_overview.pdf",
+    "pages": 11,
+    "sha256": "1fba7d91f2add3ab1385f0ebd2c9bc815cf13c364169bfc610853344b70531b6",
+    "bytes": 168760
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/02_001_input_design_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/001_input_design.pdf",
+    "pages": 9,
+    "sha256": "9bd720da6ee6abd76d03652f9004bc7543cc6c84e0ced2ac3d2b918f4b1e6f32",
+    "bytes": 257654
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/03_002_prediction_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/002_prediction.pdf",
+    "pages": 5,
+    "sha256": "33098dc532c20be23c642e8fd0da06d79b5febb74e2eb67f04a460cc08490cef",
+    "bytes": 171276
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/04_003_lds_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/003_lds.pdf",
+    "pages": 20,
+    "sha256": "d5b8dc69d0f2b16e4a7705d4600545ab5be591516a113c49df4ab30769104e59",
+    "bytes": 247219
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/05_004_expm_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/004_expm.pdf",
+    "pages": 22,
+    "sha256": "ae2412a2418c93d6e4aff9783ebed844ceb064700ac8b69bd10d50c1a7655e7b",
+    "bytes": 214194
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/06_005_dyn_eig_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/005_dyn_eig.pdf",
+    "pages": 23,
+    "sha256": "d308d0e9b62fa5908cbf730f4932dcaba3fc674ad84176546d990c0d2b0badaf",
+    "bytes": 246157
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/07_006_jcf_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/006_jcf.pdf",
+    "pages": 18,
+    "sha256": "237d9b7bb75ca998c419b839eceea33a66084d6a3e22be811a19875ec1680453",
+    "bytes": 230181
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/08_007_linsys_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/007_linsys.pdf",
+    "pages": 27,
+    "sha256": "9bbc13736ee06a77c557499550759f086d5a86127c8ba4b9461b29ea03a2bf84",
+    "bytes": 288891
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/09_008_dtsys_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/008_dtsys.pdf",
+    "pages": 24,
+    "sha256": "d7aaca4902ec143a6a4e6a1a2bfd41652512d79be44d4421b888c32def30d019",
+    "bytes": 278509
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/10_009_realization_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/009_realization.pdf",
+    "pages": 21,
+    "sha256": "32dc14db9c3bea6e6ba06f636e3fc7ea66a7c1d5ce9cbd62815d1430eabe6c67",
+    "bytes": 184139
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/11_010_contr_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/010_contr.pdf",
+    "pages": 35,
+    "sha256": "2b9f146a8be8011c74d9592ec9e9e05eec90f99e5e1b2ff31705dbc9f4315721",
+    "bytes": 317423
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/12_011_observ_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/011_observ.pdf",
+    "pages": 43,
+    "sha256": "efdefb4a8f74abadabde5d1492a8e1472c7d58a43e8682aea0d310285091d8f5",
+    "bytes": 281480
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/13_012_invsub_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/012_invsub.pdf",
+    "pages": 20,
+    "sha256": "882551abbff523c316e6aabef7f6d1399803fc7f23ea2a523e296164a1c5e0cd",
+    "bytes": 206446
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/14_013_kalman_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/013_kalman.pdf",
+    "pages": 21,
+    "sha256": "5fa8b2a0a7e64b9c53d7ca224cdfa99f933812ebaeb24932961c2eb586ea8258",
+    "bytes": 182179
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/15_014_pole_placement_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/014_pole_placement.pdf",
+    "pages": 18,
+    "sha256": "5d76979355719cd17efdd17a46aa38c6510d594e161111b8e363bbf88deb8f4e",
+    "bytes": 184183
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/16_015_dlqr_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/015_dlqr.pdf",
+    "pages": 30,
+    "sha256": "57072fe57e55f0fcc4a57756e55346022bac9f54aa72b4ba2fd7e44cdc880135",
+    "bytes": 369526
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/17_016_lqrlagrange_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/016_lqrlagrange.pdf",
+    "pages": 18,
+    "sha256": "6e79f95b13b52829f74c688c2104819c751e10539b211a9bf4ff5a0091dff292",
+    "bytes": 210458
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/18_017_dlqrss_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/017_dlqrss.pdf",
+    "pages": 11,
+    "sha256": "5754b2a1d0d3c56bfc663568e5b962e063e7424774030503043cc92c4e072d6e",
+    "bytes": 161054
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/19_018_clqr_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/018_clqr.pdf",
+    "pages": 27,
+    "sha256": "a3cf6ad48951b50ad12d100a3f1cfcd2f86fc7bf411b7998543c87d06a7ddae3",
+    "bytes": 195853
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/20_019_stoch_lqr_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/019_stoch_lqr.pdf",
+    "pages": 14,
+    "sha256": "d83d2009be3034ea95d9d2dab2a37aa6cc74905955bea8899c073afb21f581b6",
+    "bytes": 221673
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/21_020_estim_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/020_estim.pdf",
+    "pages": 34,
+    "sha256": "4f74483885274210042948ef5ea65270162bdbea627a78cf9af5b62c2fe563e7",
+    "bytes": 385442
+   },
+   {
+    "path": "university_materials/Stanford_EE363_2026Spring_LectureSlides_en/22_021_kf_en.pdf",
+    "url": "https://ee363.stanford.edu/lectures/021_kf.pdf",
+    "pages": 28,
+    "sha256": "20574bacb3e78430df934a5f60bf899af83f2a35a9fad6ac0d8cdda05450d4d3",
+    "bytes": 339062
+   }
+  ],
+  "note": "22 个 PDF 全部下载并可解析，合计 479 页；文件链接取自官方索引页 https://ee363.stanford.edu/lectures.html"
+ },
+ "13-019": {
+  "status": "verified",
+  "cat": "13",
+  "title": "TSFS06 Diagnosis and Supervision",
+  "files": [
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/01_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_01.pdf/raw?ref=master",
+    "pages": 88,
+    "sha256": "1a3741f2f5596fd93c51d19e0ff495d2006eaab1e4670b5ed4f725ff5d43f3ce",
+    "bytes": 7743365
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/02_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_02.pdf/raw?ref=master",
+    "pages": 64,
+    "sha256": "8aabe550600b4b58e2053b1ac611ffbd88811d23a4c006be2ff61191b0c5b3fb",
+    "bytes": 7170275
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/03_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_03.pdf/raw?ref=master",
+    "pages": 56,
+    "sha256": "902a5cf7b1c9439cb894c8f829828c5f6923f79587023f60981b6715cce9e4e2",
+    "bytes": 1897475
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/04_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_04.pdf/raw?ref=master",
+    "pages": 48,
+    "sha256": "2292ec3a90f750b80fac3320a51a3609de4ef544c1000ef39753045262103c59",
+    "bytes": 364630
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/05_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_05.pdf/raw?ref=master",
+    "pages": 54,
+    "sha256": "b2e4e0c8be535f38bfbeb3cd80e9f3ec207ba3d90586ab209f4bb4af88285b1c",
+    "bytes": 367842
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/06_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_06.pdf/raw?ref=master",
+    "pages": 57,
+    "sha256": "869df2e500ba7d823bdb345806f0662ac4e12c5ad2bf09ab2005a998d30a7cc4",
+    "bytes": 816161
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/07_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_07.pdf/raw?ref=master",
+    "pages": 59,
+    "sha256": "0ffcb76e667d65f9d2ddc8d5af07f94b9ea5c707dd6e6914438099d4a3371eca",
+    "bytes": 347519
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/08_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_08.pdf/raw?ref=master",
+    "pages": 48,
+    "sha256": "e13be21351f7198ee63a0d7755e5adc6573bb812a9f9a3cdcbb528714fb6eeef",
+    "bytes": 2042006
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/09_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_09.pdf/raw?ref=master",
+    "pages": 48,
+    "sha256": "cea058c5cf3a874f38aa74409ea538f3824bee6009c66222589a00dc000d8431",
+    "bytes": 281764
+   },
+   {
+    "path": "university_materials/Linkoping_TSFS06_2024VT_LectureSlides_en/10_raw_en.pdf",
+    "url": "https://gitlab.liu.se/api/v4/projects/vehsys%2Ftsfs06/repository/files/Lectures%2Flecture_10.pdf/raw?ref=master",
+    "pages": 47,
+    "sha256": "3eb2373d9e0b4e225e0b6c9cef842834648749fa3ee7b250167d005630c9c326",
+    "bytes": 246565
+   }
+  ],
+  "note": "10 个 PDF 全部下载并可解析，合计 569 页"
+ },
+ "13-020": {
+  "status": "verified",
+  "cat": "13",
+  "title": "ECE5550 Applied Kalman Filtering",
+  "files": [
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/01_ECE5550-Notes00_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes00.pdf",
+    "pages": 6,
+    "sha256": "ec4f1f1bb775f95aad3cb9a21f00d7dc79ea956fe202cd504d1bad303dcceeac",
+    "bytes": 243525
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/02_ECE5550-Notes01_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes01.pdf",
+    "pages": 9,
+    "sha256": "79f097372d397bbf471df750f0d11fdec4fd6ae3e64c05b5d7440e8f397ba9da",
+    "bytes": 2333016
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/03_ECE5550-Notes02_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes02.pdf",
+    "pages": 29,
+    "sha256": "c1772fe82bb5696429db543a78fc35e591c7ad9bdcd401f41a9b19a0b4f69a98",
+    "bytes": 334929
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/04_ECE5550-Notes03_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes03.pdf",
+    "pages": 35,
+    "sha256": "a1695529eb48f9d38387a9fc1dc92f761c9d142cfd3e77341d2d033bd67bcfa7",
+    "bytes": 3634358
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/05_ECE5550-Notes04_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes04.pdf",
+    "pages": 50,
+    "sha256": "5f4f0f5168feaa14c8ee143e518ff220c8d78b2a6f035c8778631ac50460ccaa",
+    "bytes": 368249
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/06_ECE5550-Notes05_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes05.pdf",
+    "pages": 33,
+    "sha256": "74b7b4a48e5d6fa62af1f0143f76e51fde78b8433d3aa3a18b5785124cca6a86",
+    "bytes": 569022
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/07_ECE5550-Notes06_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes06.pdf",
+    "pages": 29,
+    "sha256": "8dcea347aa920efe2edcf61d1f6c7156eda8748a64a6c49d8bf4ec8870b4d473",
+    "bytes": 1742986
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/08_ECE5550-Notes07_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes07.pdf",
+    "pages": 31,
+    "sha256": "c8287b4bedaca36ad648dc02ce37c69058e234fd692eccdf67232ad9b5879322",
+    "bytes": 1605863
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/09_ECE5550-Notes08_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes08.pdf",
+    "pages": 24,
+    "sha256": "8993844cfc42dab986624334a45fed2bd597d8598413312e3e9db004f29ced5e",
+    "bytes": 176215
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/10_ECE5550-Notes09_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes09.pdf",
+    "pages": 24,
+    "sha256": "7377bb6af443c275eb7e946991f1de8d39155b6f5646c87f142913d53183c111",
+    "bytes": 385694
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/11_ECE5550-Notes10_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes10.pdf",
+    "pages": 11,
+    "sha256": "4cabbd927278492f6aefb0b94709152a69274affa4bf9950008bb70e46d20248",
+    "bytes": 608470
+   },
+   {
+    "path": "university_materials/UCCS_ECE5550_AppliedKalmanFiltering_LectureNotes_en/12_ECE5550-Notes0A_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5550/ECE5550-Notes0A.pdf",
+    "pages": 22,
+    "sha256": "98cecbcc1061b206e0d252e04aff6f67c4df1a6d2850595139cc244ecf1eb10a",
+    "bytes": 151127
+   }
+  ],
+  "note": "12 个 PDF 全部下载并可解析，合计 303 页；文件链接取自官方索引页 http://mocha-java.uccs.edu/ECE5550/"
+ },
+ "13-021": {
+  "status": "verified",
+  "cat": "13",
+  "title": "ECE5560 System Identification",
+  "files": [
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/01_ECE5560-Notes00_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes00.pdf",
+    "pages": 3,
+    "sha256": "d68e62ec72e1dfbaa1c2a243edd6323c16e178fca754b9d3e32eefcee9acc16e",
+    "bytes": 152021
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/02_ECE5560-Notes01_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes01.pdf",
+    "pages": 11,
+    "sha256": "d6d9101223f0bc6afc24edc81a2d301edc731bbb33e5e39288b6e50013497e84",
+    "bytes": 194801
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/03_ECE5560-Notes02_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes02.pdf",
+    "pages": 34,
+    "sha256": "5e3e365c9413607acacf5b81feb0ec317a5da3f8db82daa328c04ea7f11f663c",
+    "bytes": 668967
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/04_ECE5560-Notes03_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes03.pdf",
+    "pages": 37,
+    "sha256": "5bd5adae118f040fe38c6d1e5cf73d37d6e6eeb68c3a475c6b76ebfab52134ce",
+    "bytes": 1724533
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/05_ECE5560-Notes04_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes04.pdf",
+    "pages": 67,
+    "sha256": "36b535ca0f5b11810af7fc1cbe0bf99fafc19e754f3c81526190fe34296c2f92",
+    "bytes": 1247738
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/06_ECE5560-Notes05_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes05.pdf",
+    "pages": 76,
+    "sha256": "668872d33f28dda0e21e07978b54b65c55cdbeebd66aa43eee0c57961d7cbc6e",
+    "bytes": 458532
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/07_ECE5560-Notes06_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes06.pdf",
+    "pages": 56,
+    "sha256": "b52421c43ccae1075496bfd86ab66075127c1c95498cb069813dea03d43e0faa",
+    "bytes": 330246
+   },
+   {
+    "path": "university_materials/UCCS_ECE5560_SystemIdentification_LectureNotes_en/08_ECE5560-Notes07_en.pdf",
+    "url": "http://mocha-java.uccs.edu/ECE5560/ECE5560-Notes07.pdf",
+    "pages": 17,
+    "sha256": "283c0e14a60aa385a36921f72ca87a08ff11c27069db44a112fcee9addc5677a",
+    "bytes": 368553
+   }
+  ],
+  "note": "8 个 PDF 全部下载并可解析，合计 301 页；文件链接取自官方索引页 http://mocha-java.uccs.edu/ECE5560/"
+ },
+ "13-022": {
+  "status": "failed",
+  "cat": "13",
+  "note": "第 6 个文件 HTTP 404: https://stanfordasl.github.io/aa203/sp2425/pdfs/lecture/ConvexOptimization.pdf",
+  "title": "AA203 Optimal and Learning-Based Control"
+ },
+ "13-023": {
+  "status": "verified",
+  "cat": "13",
+  "title": "Process Dynamics and Control (BYU ChE course site)",
+  "files": [
+   {
+    "path": "university_materials/BYU_ProcessDynamicsControl_Online_HTML_en.zip",
+    "url": "https://apmonitor.com/pdc/index.php",
+    "html_pages": 45,
+    "sha256": "8740893b55e7be4ab58e47187fb421330320d34573f1754ad89f37f6a5443c7b",
+    "bytes": 31281915
+   }
+  ],
+  "note": "官方 HTML，目录页列出的 45 个页面全部 HTTP 200 且正文≥1000 字符，wget 保存页面资源并打包（含页面清单 PAGES_en.txt）"
+ },
+ "13-024": {
+  "status": "verified",
+  "cat": "13",
+  "title": "CBE 30338 Chemical Process Control (Jupyter book)",
+  "files": [
+   {
+    "path": "university_materials/NotreDame_CBE30338_ChemicalProcessControl_HTML_en.zip",
+    "url": "https://jckantor.github.io/CBE30338/",
+    "html_pages": 66,
+    "sha256": "e36bf00d2897bdac3e6a18c2d22bc58e9bf0315900059ceb7ae0c4d2eeb50a45",
+    "bytes": 11180329
+   }
+  ],
+  "note": "官方 HTML，目录页列出的 66 个页面全部 HTTP 200 且正文≥150 字符，wget 保存页面资源并打包（含页面清单 PAGES_en.txt）"
+ },
+ "14-022": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Process Monitoring, Fault Diagnosis, and Tolerant Control for Complex Industrial Systems",
+  "files": [
+   {
+    "path": "books/Luo_ProcessMonitoringFaultDiagnosisTolerantControl_2025_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-981-96-9033-6.pdf?error=cookies_not_supported&code=7f00ad01-c12e-4845-bc9b-a70d3d776ae9",
+    "pages": 757,
+    "sha256": "c1cf4f363bf6f7c30d3a000c71de32749c59b3cfb56316b8006f31400101f8b6",
+    "bytes": 45630859
+   }
+  ],
+  "note": "PDF 757 页；书名短语已见"
+ },
+ "14-023": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Artificial Intelligence in Manufacturing: Enabling Intelligent, Flexible and Cost-Effective Production Through AI",
+  "files": [
+   {
+    "path": "books/Soldatos_ArtificialIntelligenceInManufacturing_2024_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-46452-2.pdf?error=cookies_not_supported&code=8d5272b2-15c7-4073-8911-2ce7ce53f7cc",
+    "pages": 516,
+    "sha256": "87cc651dbf7888b34015f8940c203291cc092526fcdb421ecaa333299a606034",
+    "bytes": 15328319
+   }
+  ],
+  "note": "PDF 516 页；书名短语已见"
+ },
+ "14-024": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Advances in Artificial Intelligence in Manufacturing II",
+  "files": [
+   {
+    "path": "books/Alexopoulos_AdvancesAIManufacturingII_2025_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-86489-6.pdf?error=cookies_not_supported&code=65afba39-c408-4a36-8677-c7c3950433a9",
+    "pages": 296,
+    "sha256": "9e051a1dd0b1df7cb0ea59b2f7a2068ab90d61379bbe71ee79cd32d1774084d6",
+    "bytes": 39190427
+   }
+  ],
+  "note": "PDF 296 页；书名短语已见"
+ },
+ "14-025": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Informed Machine Learning",
+  "files": [
+   {
+    "path": "books/Schulz_InformedMachineLearning_2025_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-83097-6.pdf?error=cookies_not_supported&code=961d60bf-0c61-432c-b061-e3d280a1476d",
+    "pages": 344,
+    "sha256": "1387b455d130ce70e516a839998165924245c7ca4891eae1eff77c205d6d8ac5",
+    "bytes": 18219891
+   }
+  ],
+  "note": "PDF 344 页；书名短语已见"
+ },
+ "14-026": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Digital Twin (Springer 2024, open access)",
+  "files": [
+   {
+    "path": "books/Zhang_DigitalTwinArchitecturesNetworksApplications_2024_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-031-51819-5.pdf?error=cookies_not_supported&code=e2a7f72c-a44c-43ff-bb2e-61d1ebf624b7",
+    "pages": 136,
+    "sha256": "d1cf88755eef41333325fcd3aeafacda8ee917a1314e68c34ce108049d6d1075",
+    "bytes": 5904449
+   }
+  ],
+  "note": "PDF 136 页；书名短语已见"
+ },
+ "14-027": {
+  "status": "verified",
+  "cat": "14",
+  "title": "Data Assimilation Fundamentals: A Unified Formulation of the State and Parameter Estimation Problem",
+  "files": [
+   {
+    "path": "books/Evensen_DataAssimilationFundamentals_2022_en.pdf",
+    "url": "https://link.springer.com/content/pdf/10.1007/978-3-030-96709-3.pdf?error=cookies_not_supported&code=8ad0bd0b-a9b2-4fa3-a9cd-54af41356745",
+    "pages": 251,
+    "sha256": "99e22cff40350d5c42187ff859837b716cae49a4e696fff251b57b87e5573d61",
+    "bytes": 11754123
+   }
+  ],
+  "note": "PDF 251 页；书名短语已见"
+ },
+ "14-028": {
+  "status": "failed",
+  "cat": "14",
+  "note": "落地页未给出 citation_pdf_url（landing HTTP 202）",
+  "title": "Integrated Chemical Processes in Liquid Multiphase Systems: From Chemical Reaction to Process Design and Operation"
+ },
+ "14-029": {
+  "status": "failed",
+  "cat": "14",
+  "note": "落地页未给出 citation_pdf_url（landing HTTP 403）",
+  "title": "Causal Analysis: Impact Evaluation and Causal Machine Learning with Applications in R"
+ },
+ "14-030": {
+  "status": "failed",
+  "cat": "14",
+  "note": "落地页未给出 citation_pdf_url（no citation_pdf_url）",
+  "title": "Robust stability and performance of nonlinear moving horizon estimation"
+ },
+ "14-031": {
+  "status": "verified",
+  "cat": "14",
+  "title": "NIST/SEMATECH e-Handbook of Statistical Methods",
+  "files": [
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/01_eda_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/eda.pdf",
+    "pages": 636,
+    "sha256": "99d345ce0a2b0bb1dc533f0cb874e5bcf037f71165c1421db46f2758642ef0cc",
+    "bytes": 3647217
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/02_mpc_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/mpc.pdf",
+    "pages": 426,
+    "sha256": "dc63cf78216deaa88c868d599a6f07e672974a1ce673923e8f4e41cd116c8d57",
+    "bytes": 2128787
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/03_ppc_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/ppc.pdf",
+    "pages": 137,
+    "sha256": "77227bdd8de1c8f08354f5e158d9215d343037563adc587a81aedaa4923f0545",
+    "bytes": 875523
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/04_pmd_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/pmd.pdf",
+    "pages": 60,
+    "sha256": "67a320545b107f9f85d7728c41163c1f978390603132e76e810c9dc94306388a",
+    "bytes": 390004
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/05_pri_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/pri.pdf",
+    "pages": 447,
+    "sha256": "05115ac84c0f5cfa1c7a5c686db46cb64d0f3b9ecc8a92c025cf336ad46fc30d",
+    "bytes": 2823032
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/06_pmc_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/pmc.pdf",
+    "pages": 281,
+    "sha256": "4f2e7629cc2e7abd58cc064eef65d6176f07d13e7cb7102d5e25e7c940ab1258",
+    "bytes": 1746685
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/07_prc_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/prc.pdf",
+    "pages": 144,
+    "sha256": "c67be122d1a6a78c60c115d33c8b0f67197c46fedbcfd3915a79e68bdf81722e",
+    "bytes": 890135
+   },
+   {
+    "path": "books/NIST_SEMATECH_eHandbookStatisticalMethods_en/08_apr_en.pdf",
+    "url": "https://www.itl.nist.gov/div898/handbook/toolaids/pff/apr.pdf",
+    "pages": 202,
+    "sha256": "41b3279c4ece7e49dac49d433a592aa0706e0aa9b0ed07506fd7bb194d0f1001",
+    "bytes": 1323017
+   }
+  ],
+  "note": "8 个 PDF 全部下载并可解析，合计 2333 页"
+ },
+ "13-025": {
+  "status": "verified",
+  "cat": "13",
+  "title": "6.432 Stochastic Processes, Detection, and Estimation",
+  "files": [
+   {
+    "path": "university_materials/MIT_6432_2004Spring_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/6-432-stochastic-processes-detection-and-estimation-spring-2004/6.432-spring-2004.zip",
+    "pdfs": 25,
+    "pdf_pages": 77,
+    "sha256": "35613143ebc67d23cbaa8cf66a4f7991bfe07a3dd0b1437c82057d90309a044d",
+    "bytes": 11462609
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 346 个文件、25 个 PDF（合计 77 页）全部可解析"
+ },
+ "13-026": {
+  "status": "verified",
+  "cat": "13",
+  "title": "2.854 Introduction to Manufacturing Systems",
+  "files": [
+   {
+    "path": "university_materials/MIT_2854_2016Fall_OCWCoursePackage_en.zip",
+    "url": "https://ocw.mit.edu/courses/2-854-introduction-to-manufacturing-systems-fall-2016/2.854-fall-2016.zip",
+    "pdfs": 22,
+    "pdf_pages": 920,
+    "sha256": "f750099a4cc91512cb694e56ddc691cc063f58f7b6b923f50694ad8c3a9af3d5",
+    "bytes": 20172804
+   }
+  ],
+  "note": "官方课程压缩包，zip 完整性通过，含 368 个文件、22 个 PDF（合计 920 页）全部可解析"
+ }
+}

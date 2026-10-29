@@ -90,12 +90,6 @@
   "max": 100
  },
  {
-  "qid": "11x11",
-  "src": "crossref",
-  "q": "Tennessee Eastman process benchmark dataset revisited simulation fault detection",
-  "max": 100
- },
- {
   "qid": "11x12",
   "src": "hal",
   "q": "title_t:(benchmark OR dataset OR \"data set\" OR evaluation OR metric OR metrics) AND abstract_t:(\"anomaly detection\" OR \"fault detection\" OR \"fault diagnosis\") AND abstract_t:(industrial OR process OR plant OR manufacturing)",
@@ -112,5 +106,43 @@
   "src": "arxiv",
   "q": "(abs:\"public dataset\" OR abs:\"open dataset\" OR abs:\"publicly available dataset\" OR abs:\"real industrial data\" OR abs:\"open-source simulator\" OR abs:\"simulation benchmark\") AND (abs:\"fault detection\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"soft sensor\") AND (abs:process OR abs:plant OR abs:reactor OR abs:refinery)",
   "max": 150
+ },
+ {
+  "qid": "11o1",
+  "src": "arxiv",
+  "q": "ti:\"Towards a Rigorous Evaluation of Time-series Anomaly Detection\" OR ti:\"Current Time Series Anomaly Detection Benchmarks are Flawed\" OR ti:\"TSB-UAD\" OR ti:\"Volume Under the Surface\"",
+  "max": 20,
+  "start": "2019-01-01"
+ },
+ {
+  "qid": "11o2",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" AND (ti:dataset OR ti:revisit OR ti:revisiting OR ti:simulator OR ti:benchmark OR ti:simulation)",
+  "max": 40,
+  "start": "2015-01-01"
+ },
+ {
+  "qid": "11x15",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"Benchmark Simulation Model\" OR BSM1 OR BSM2 OR IndPenSim OR \"three-phase flow\" OR \"Tennessee Eastman\") AND bibjson.abstract:(fault OR anomaly OR monitoring) AND bibjson.abstract:(benchmark OR dataset OR simulation OR comparison OR evaluation)",
+  "max": 200
+ },
+ {
+  "qid": "11x16",
+  "src": "hal",
+  "q": "abstract_t:(\"Tennessee Eastman\" OR \"benchmark simulation model\" OR penicillin OR \"three-phase flow\" OR \"pilot plant\")",
+  "max": 150
+ },
+ {
+  "qid": "11x17",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"Benchmark Simulation Model\" OR BSM1 OR BSM2 OR IndPenSim OR \"three-phase flow facility\" OR \"Tennessee Eastman\") AND ABSTRACT:(benchmark OR dataset OR comparison OR evaluation OR reproducib*)",
+  "max": 150
+ },
+ {
+  "qid": "11x18",
+  "src": "arxiv",
+  "q": "(ti:dataset OR ti:benchmark) AND (abs:\"oil well\" OR abs:refinery OR abs:\"chemical plant\" OR abs:\"wastewater treatment\" OR abs:\"steel\" OR abs:\"power plant\" OR abs:\"semiconductor manufacturing\" OR abs:\"batch process\" OR abs:distillation)",
+  "max": 100
  }
 ]

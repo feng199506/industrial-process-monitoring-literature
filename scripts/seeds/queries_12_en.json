@@ -78,9 +78,63 @@
   "max": 250
  },
  {
-  "qid": "12r1",
-  "src": "crossref",
-  "q": "industrial process fault detection real plant data IEEE Access",
+  "qid": "12x12",
+  "src": "doaj",
+  "q": "bibjson.title:(flotation OR froth OR grinding OR mineral OR concentrator OR leaching OR zinc OR alumina OR copper OR \"rotary kiln\" OR cement OR clinker OR papermaking OR \"paper machine\") AND bibjson.abstract:(\"soft sensor\" OR fault OR monitoring OR \"working condition\" OR anomaly) AND bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLOS ONE\" OR \"Frontiers in Chemistry\" OR \"Frontiers in Energy Research\")",
+  "max": 200
+ },
+ {
+  "qid": "12x13",
+  "src": "epmc",
+  "q": "TITLE:(flotation OR froth OR \"grinding\" OR cement OR clinker OR kiln OR \"paper machine\" OR papermaking OR pulp OR kraft OR \"blast furnace\" OR sintering OR \"hot rolling\" OR electrolysis OR smelting OR leaching) AND ABSTRACT:(\"soft sensor\" OR \"fault detection\" OR \"fault diagnosis\" OR \"process monitoring\" OR \"anomaly detection\" OR \"working condition\")",
+  "max": 200
+ },
+ {
+  "qid": "12x14",
+  "src": "epmc",
+  "q": "TITLE:(\"continuous manufacturing\" OR tablet OR granulation OR pharmaceutical OR dairy OR brewing OR \"food processing\" OR \"food production\" OR sugar OR milk OR \"spray drying\" OR extrusion) AND ABSTRACT:(\"fault detection\" OR \"process monitoring\" OR \"soft sensor\" OR \"anomaly detection\" OR \"multivariate statistical process\" OR \"statistical process control\")",
+  "max": 200
+ },
+ {
+  "qid": "12x15",
+  "src": "epmc",
+  "q": "TITLE:(\"wastewater treatment\" OR WWTP OR \"activated sludge\" OR \"water treatment plant\" OR \"wastewater\") AND ABSTRACT:(\"soft sensor\" OR \"fault detection\" OR \"anomaly detection\" OR \"process monitoring\" OR \"fault diagnosis\") AND ABSTRACT:(\"machine learning\" OR \"neural network\" OR \"principal component\" OR \"data-driven\")",
+  "max": 150
+ },
+ {
+  "qid": "12x16",
+  "src": "epmc",
+  "q": "TITLE:(\"power plant\" OR boiler OR \"coal-fired\" OR \"thermal power\" OR \"nuclear power\" OR \"gas turbine\" OR \"steam turbine\" OR desulfurization OR denitration OR \"power station\") AND ABSTRACT:(\"soft sensor\" OR \"fault detection\" OR \"anomaly detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"condition monitoring\")",
+  "max": 150
+ },
+ {
+  "qid": "12x17",
+  "src": "epmc",
+  "q": "TITLE:(steel OR \"blast furnace\" OR converter OR \"continuous casting\" OR rolling OR sintering OR \"electric arc furnace\" OR ironmaking OR steelmaking) AND ABSTRACT:(\"soft sensor\" OR \"fault\" OR \"anomaly detection\" OR \"process monitoring\" OR \"quality prediction\") AND ABSTRACT:(\"machine learning\" OR \"neural network\" OR \"data-driven\" OR \"deep learning\")",
+  "max": 150
+ },
+ {
+  "qid": "12x18",
+  "src": "doaj",
+  "q": "bibjson.title:(semiconductor OR wafer OR etch OR etching OR \"chemical mechanical\" OR lithography OR \"thin film deposition\") AND bibjson.abstract:(\"fault detection\" OR \"anomaly detection\" OR \"virtual metrology\" OR \"process monitoring\" OR \"fault classification\")",
+  "max": 150
+ },
+ {
+  "qid": "12x19",
+  "src": "epmc",
+  "q": "TITLE:(refinery OR crude OR distillation OR \"catalytic cracking\" OR polymerization OR polyethylene OR polypropylene OR ammonia OR \"chemical plant\" OR \"chemical process\" OR \"chemical processes\" OR reactor) AND ABSTRACT:(\"soft sensor\" OR \"fault detection\" OR \"anomaly detection\" OR \"process monitoring\" OR \"fault diagnosis\") AND ABSTRACT:(industrial OR plant)",
+  "max": 150
+ },
+ {
+  "qid": "12x20",
+  "src": "epmc",
+  "q": "TITLE:(paper OR pulp OR papermaking OR cement OR clinker OR kiln OR glass OR ceramic OR lime OR tissue) AND ABSTRACT:(\"soft sensor\" OR \"fault detection\" OR \"anomaly detection\" OR \"process monitoring\" OR \"quality prediction\" OR \"web break\")",
+  "max": 150
+ },
+ {
+  "qid": "12x21",
+  "src": "arxiv",
+  "q": "(abs:\"real-world industrial\" OR abs:\"industrial case study\" OR abs:\"real plant\" OR abs:\"plant data\" OR abs:\"real industrial data\") AND (abs:\"fault detection\" OR abs:\"process monitoring\" OR abs:\"soft sensor\" OR abs:\"anomaly detection\" OR abs:\"fault diagnosis\")",
   "max": 150
  }
 ]

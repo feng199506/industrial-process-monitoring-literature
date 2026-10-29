@@ -92,7 +92,13 @@ def safe(s):
 
 
 def do_pdf(it, dest_dir, stage):
-    st, body, final, ct = get(it["url"])
+    url = it.get("url")
+    if not url and it.get("landing"):
+        from papers_en import landing_pdf
+        url, why, _ = landing_pdf(it["landing"])
+        if not url:
+            return None, f"落地页未给出 citation_pdf_url（{why}）"
+    st, body, final, ct = get(url)
     if st != 200:
         return None, f"HTTP {st}"
     info, why = pdf_info(body, it.get("title_phrase"))

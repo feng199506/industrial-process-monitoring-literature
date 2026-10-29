@@ -1,12 +1,98 @@
 [
- {"qid":"03x1","src":"arxiv","q":"abs:\"Tennessee Eastman\" AND (abs:autoencoder OR abs:transformer OR abs:LSTM OR abs:\"graph neural\" OR abs:\"deep learning\" OR abs:contrastive OR abs:diffusion OR abs:adversarial OR abs:attention)","max":150},
- {"qid":"03x2","src":"arxiv","q":"(abs:\"fault detection\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\") AND (abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:\"process industry\") AND (abs:\"graph neural network\" OR abs:\"graph convolutional\" OR abs:\"graph attention\" OR abs:\"graph learning\")","max":120},
- {"qid":"03x3","src":"arxiv","q":"(abs:\"self-supervised\" OR abs:contrastive OR abs:\"representation learning\" OR abs:\"masked\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"fault diagnosis\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\")","max":100},
- {"qid":"03x4","src":"arxiv","q":"(abs:\"variational autoencoder\" OR abs:\"diffusion model\" OR abs:\"generative adversarial\" OR abs:\"normalizing flow\" OR abs:\"Kolmogorov-Arnold\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"fault diagnosis\") AND (abs:industrial OR abs:\"chemical process\" OR abs:plant OR abs:\"Tennessee Eastman\")","max":120},
- {"qid":"03x5","src":"doaj","q":"bibjson.title:(autoencoder OR LSTM OR transformer OR graph OR deep OR neural OR attention OR contrastive OR \"self-supervised\" OR \"support vector\") AND bibjson.abstract:(\"three-phase flow\" OR penicillin OR \"continuous stirred\" OR CSTR OR \"blast furnace\" OR \"wastewater treatment\" OR \"hot strip\" OR debutanizer OR \"sulfur recovery\" OR \"Tennessee Eastman\") AND bibjson.abstract:(fault OR monitoring OR anomaly)","max":200},
- {"qid":"03x6","src":"hal","q":"abstract_t:(autoencoder OR \"deep learning\" OR \"neural network\" OR LSTM OR transformer OR \"graph neural\" OR \"machine learning\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"anomaly detection\") AND abstract_t:(\"chemical process\" OR \"industrial process\" OR \"Tennessee Eastman\" OR plant OR reactor)","max":150},
- {"qid":"03x7","src":"epmc","q":"ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\") AND ABSTRACT:(transformer OR \"graph neural\" OR autoencoder OR contrastive OR LSTM OR \"self-supervised\" OR \"deep learning\") AND ABSTRACT:(fault OR monitoring)","max":200},
- {"qid":"03x8","src":"arxiv","q":"(abs:\"process monitoring\" OR abs:\"fault detection\") AND (abs:\"real industrial\" OR abs:\"industrial plant\" OR abs:\"real plant\" OR abs:refinery OR abs:\"steel\" OR abs:\"wastewater\" OR abs:\"cement\" OR abs:\"polymerization\") AND (abs:\"deep learning\" OR abs:\"neural network\" OR abs:autoencoder OR abs:LSTM OR abs:transformer)","max":120},
- {"qid":"03c1","src":"cite","q":"fwd:10.1016/j.compchemeng.2019.04.003","max":110},
- {"qid":"03c2","src":"cite","q":"bwd:10.1021/acs.jcim.4c02060","max":80}
+ {
+  "qid": "03x1",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" AND (abs:autoencoder OR abs:transformer OR abs:LSTM OR abs:\"graph neural\" OR abs:\"deep learning\" OR abs:contrastive OR abs:diffusion OR abs:adversarial OR abs:attention)",
+  "max": 150
+ },
+ {
+  "qid": "03x2",
+  "src": "arxiv",
+  "q": "(abs:\"fault detection\" OR abs:\"process monitoring\" OR abs:\"fault diagnosis\") AND (abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:\"process industry\") AND (abs:\"graph neural network\" OR abs:\"graph convolutional\" OR abs:\"graph attention\" OR abs:\"graph learning\")",
+  "max": 120
+ },
+ {
+  "qid": "03x3",
+  "src": "arxiv",
+  "q": "(abs:\"self-supervised\" OR abs:contrastive OR abs:\"representation learning\" OR abs:\"masked\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"fault diagnosis\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\")",
+  "max": 100
+ },
+ {
+  "qid": "03x4",
+  "src": "arxiv",
+  "q": "(abs:\"variational autoencoder\" OR abs:\"diffusion model\" OR abs:\"generative adversarial\" OR abs:\"normalizing flow\" OR abs:\"Kolmogorov-Arnold\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"fault diagnosis\") AND (abs:industrial OR abs:\"chemical process\" OR abs:plant OR abs:\"Tennessee Eastman\")",
+  "max": 120
+ },
+ {
+  "qid": "03x5",
+  "src": "doaj",
+  "q": "bibjson.title:(autoencoder OR LSTM OR transformer OR graph OR deep OR neural OR attention OR contrastive OR \"self-supervised\" OR \"support vector\") AND bibjson.abstract:(\"three-phase flow\" OR penicillin OR \"continuous stirred\" OR CSTR OR \"blast furnace\" OR \"wastewater treatment\" OR \"hot strip\" OR debutanizer OR \"sulfur recovery\" OR \"Tennessee Eastman\") AND bibjson.abstract:(fault OR monitoring OR anomaly)",
+  "max": 200
+ },
+ {
+  "qid": "03x6",
+  "src": "hal",
+  "q": "abstract_t:(autoencoder OR \"deep learning\" OR \"neural network\" OR LSTM OR transformer OR \"graph neural\" OR \"machine learning\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"anomaly detection\") AND abstract_t:(\"chemical process\" OR \"industrial process\" OR \"Tennessee Eastman\" OR plant OR reactor)",
+  "max": 150
+ },
+ {
+  "qid": "03x7",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\") AND ABSTRACT:(transformer OR \"graph neural\" OR autoencoder OR contrastive OR LSTM OR \"self-supervised\" OR \"deep learning\") AND ABSTRACT:(fault OR monitoring)",
+  "max": 200
+ },
+ {
+  "qid": "03x8",
+  "src": "arxiv",
+  "q": "(abs:\"process monitoring\" OR abs:\"fault detection\") AND (abs:\"real industrial\" OR abs:\"industrial plant\" OR abs:\"real plant\" OR abs:refinery OR abs:\"steel\" OR abs:\"wastewater\" OR abs:\"cement\" OR abs:\"polymerization\") AND (abs:\"deep learning\" OR abs:\"neural network\" OR abs:autoencoder OR abs:LSTM OR abs:transformer)",
+  "max": 120
+ },
+ {
+  "qid": "03c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.compchemeng.2019.04.003",
+  "max": 110
+ },
+ {
+  "qid": "03c2",
+  "src": "cite",
+  "q": "bwd:10.1021/acs.jcim.4c02060",
+  "max": 80
+ },
+ {
+  "qid": "03x9",
+  "src": "doaj",
+  "q": "bibjson.journal.title:(\"IEEE Access\" OR \"Scientific Reports\" OR \"PLoS ONE\" OR \"PLOS ONE\" OR \"IEEE Open Journal of the Industrial Electronics Society\" OR \"Frontiers in Chemical Engineering\" OR \"Machine Learning: Science and Technology\" OR \"Frontiers in Energy Research\" OR \"Discover Applied Sciences\" OR \"Journal of Big Data\" OR \"IET Control Theory & Applications\") AND bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"fault diagnosis\" OR \"anomaly detection\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"industrial processes\" OR \"process industry\" OR \"production process\") AND bibjson.abstract:(deep OR neural OR autoencoder OR LSTM OR transformer OR graph OR learning)",
+  "max": 300
+ },
+ {
+  "qid": "03xa",
+  "src": "arxiv",
+  "q": "abs:\"process monitoring\" AND (abs:neural OR abs:deep OR abs:autoencoder OR abs:transformer OR abs:graph)",
+  "max": 200
+ },
+ {
+  "qid": "03xb",
+  "src": "arxiv",
+  "q": "(abs:\"fault detection\" OR abs:\"fault diagnosis\" OR abs:\"anomaly detection\") AND (abs:\"industrial process\" OR abs:\"industrial processes\" OR abs:\"chemical process\" OR abs:\"chemical processes\" OR abs:\"process plant\") AND (abs:transformer OR abs:attention OR abs:mamba OR abs:\"state space\" OR abs:autoencoder OR abs:LSTM OR abs:recurrent OR abs:diffusion OR abs:\"neural network\")",
+  "max": 200
+ },
+ {
+  "qid": "03xc",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"anomaly detection\") AND ABSTRACT:(\"deep learning\" OR autoencoder OR LSTM OR transformer OR \"graph neural\" OR \"neural network\") AND ABSTRACT:(\"industrial process\" OR \"chemical process\" OR \"process industry\" OR plant OR reactor OR \"production process\")",
+  "max": 200
+ },
+ {
+  "qid": "03xd",
+  "src": "hal",
+  "q": "abstract_t:(autoencoder OR LSTM OR transformer OR \"graph neural\" OR \"deep learning\" OR \"neural network\") AND abstract_t:(monitoring OR \"fault detection\" OR \"anomaly detection\") AND abstract_t:(process OR plant OR industrial OR manufacturing)",
+  "max": 200
+ },
+ {
+  "qid": "03xe",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\"",
+  "max": 150
+ }
 ]

@@ -1,0 +1,55 @@
+# 02 统计与潜变量方法
+
+本页由 `scripts/build_catalog_en.py` 生成。文件只在 papers/、books/、university_materials/ 各存一份，这里按编号引用。
+
+| 编号 | 首次公开 | 子方向 | 标题 | 本地文件 | 优先级 |
+|---|---|---|---|---|---|
+| 02-001 | 2026-03-19 | 概率与贝叶斯潜变量 | Probabilistic Multivariate Statistical Process Control via Kernel Parameter Uncertainty Propagation | [2026_Duma_ProbabilisticMultivariateStatisticalProc_en.pdf](../../papers/2026_Duma_ProbabilisticMultivariateStatisticalProc_en.pdf) | 高（前10 #1） |
+| 02-002 | 2026-01 | 动态潜变量 | Principal Predictor Analysis With Application to Dynamic Process Monitoring | [2026_Chen_PrincipalPredictorAnalysisApplication_en.pdf](../../papers/2026_Chen_PrincipalPredictorAnalysisApplication_en.pdf) | 高（前10 #2） |
+| 02-003 | 2026-04-19 | CCA/CVA | System representations in subspaces of finite-sample signals and their application to data-driven fault detection | [2026_Li_SystemRepresentationsSubspacesFinite_en.pdf](../../papers/2026_Li_SystemRepresentationsSubspacesFinite_en.pdf) | 高（前10 #3） |
+| 02-004 | 2024-09-17 | 多块/分布式建模 | Fault detection and identification using a novel process decomposition algorithm for distributed process monitoring | [2024_Villagomez_FaultDetectionIdentificationNovel_en.pdf](../../papers/2024_Villagomez_FaultDetectionIdentificationNovel_en.pdf) | 高（前10 #4） |
+| 02-005 | 2024-03 | 概率与贝叶斯潜变量 | Dynamic fault detection and diagnosis for alkaline water electrolyzer with variational Bayesian Sparse principal component analysis | [2024_Zhang_DynamicFaultDetectionDiagnosis_en.pdf](../../papers/2024_Zhang_DynamicFaultDetectionDiagnosis_en.pdf) | 高（前10 #5） |
+| 02-006 | 2025-09-24 | 监控统计量与控制限 | High-Dimensional Statistical Process Control via Manifold Fitting and Learning | [2025_Tas_HighDimensionalStatisticalProcess_en.pdf](../../papers/2025_Tas_HighDimensionalStatisticalProcess_en.pdf) | 高（前10 #6） |
+| 02-007 | 2025-01-20 | 监控统计量与控制限 | Investigating the performance of the Phase II Hotelling T2 chart when monitoring multivariate time series observations | [2025_Nadi_InvestigatingPerformancePhaseII_en.pdf](../../papers/2025_Nadi_InvestigatingPerformancePhaseII_en.pdf) | 高（前10 #7） |
+| 02-008 | 2026-06-23 | 动态潜变量 | A Novel Dynamic Principal Component Analysis Based on Block Dynamic Mode Decomposition for Chemical Process Fault Detection | [2026_Yang_NovelDynamicPrincipalComponent_en.pdf](../../papers/2026_Yang_NovelDynamicPrincipalComponent_en.pdf) | 中（前10 #8） |
+| 02-009 | 2024-09-25 | 多块/分布式建模 | Double-Layer Distributed and Integrated Fault Detection Strategy for Non-Gaussian Dynamic Industrial Systems | [2024_Dong_DoubleLayerDistributedIntegrated_en.pdf](../../papers/2024_Dong_DoubleLayerDistributedIntegrated_en.pdf) | 中（前10 #9） |
+| 02-010 | 2025-09-24 | CCA/CVA | Quality-Ensured In-Situ Process Monitoring with Deep Canonical Correlation Analysis | [2025_Song_QualityEnsuredSituProcess_en.pdf](../../papers/2025_Song_QualityEnsuredSituProcess_en.pdf) | 中（前10 #10） |
+| 02-011 | 2025-05-02 | PCA/核 PCA | Optimising Kernel-based Multivariate Statistical Process Control | [2025_Duma_OptimisingKernelMultivariateStatistical_en.pdf](../../papers/2025_Duma_OptimisingKernelMultivariateStatistical_en.pdf) | 中 |
+| 02-012 | 2025-03-16 | PCA/核 PCA | Nonlinear Principal Component Analysis with Random Bernoulli Features for Process Monitoring | [2025_Chen_NonlinearPrincipalComponentAnalysis_en.pdf](../../papers/2025_Chen_NonlinearPrincipalComponentAnalysis_en.pdf) | 中 |
+| 02-013 | 2025-06-06 | 慢特征分析 | A Novel Adaptive SFA-LII Based Fault Detection Method for Nonstationary Processes | [2025_Zhang_NovelAdaptiveSFALII_en.pdf](../../papers/2025_Zhang_NovelAdaptiveSFALII_en.pdf) | 中 |
+| 02-014 | 2025-02-27 | ICA | A Hybrid Fault Detection Method of Independent Component Analysis and Auto-Associative Kernel Regression for Process Monitoring in Power Plant | [2025_Jung_HybridFaultDetectionMethod_en.pdf](../../papers/2025_Jung_HybridFaultDetectionMethod_en.pdf) | 中 |
+| 02-015 | 2026-05-06 | ICA | Label-free anomaly detection in wastewater treatment plants via enhanced independent component analysis | [2026_Kini_LabelFreeAnomalyDetection_en.pdf](../../papers/2026_Kini_LabelFreeAnomalyDetection_en.pdf) | 中 |
+| 02-016 | 2024-01-16 | PCA/核 PCA | Improvement of Kernel Principal Component Analysis-Based Approach for Nonlinear Process Monitoring by Data Set Size Reduction Using Class Interval | [2024_Kaib_ImprovementKernelPrincipalComponent_en.pdf](../../papers/2024_Kaib_ImprovementKernelPrincipalComponent_en.pdf) | 中 |
+| 02-017 | 2025-01-02 | PCA/核 PCA | Fault detection and diagnosis of the wastewater nitrate and nitrite sensors using PCA and FDA combined with assessment of the economic and environmental impact of the faults | [2025_Luca_FaultDetectionDiagnosisWastewater_en.pdf](../../papers/2025_Luca_FaultDetectionDiagnosisWastewater_en.pdf) | 中 |
+| 02-018 | 2025-11-28 | CCA/CVA | Canonical Correlation Analysis-Based Fault Detection Methods | [2025_Chen_CanonicalCorrelationAnalysisFault_en.pdf](../../papers/2025_Chen_CanonicalCorrelationAnalysisFault_en.pdf) | 中 |
+| 02-019 | 2025-11-28 | PLS/核 PLS | Data-Based Quality-Related Fault Diagnosis Scheme for Fault Detection and Root Cause Diagnosis | [2025_Peng_DataQualityRelatedFault_en.pdf](../../papers/2025_Peng_DataQualityRelatedFault_en.pdf) | 中 |
+| 02-020 | 2025-06-11 | PCA/核 PCA | Enhancing Fault Detection in Stochastic Environments Using Interval-Valued KPCA: A Cement Rotary Kiln Case Study | [2025_Louifi_EnhancingFaultDetectionStochastic_en.pdf](../../papers/2025_Louifi_EnhancingFaultDetectionStochastic_en.pdf) | 中 |
+| 02-021 | 2024-02-01 | 动态潜变量 | Fault Diagnosis of Wastewater Treatment Processes Based on CPSO-DKPCA | [2024_Xu_FaultDiagnosisWastewaterTreatment_en.pdf](../../papers/2024_Xu_FaultDiagnosisWastewaterTreatment_en.pdf) | 中 |
+| 02-022 | 2024-03-28 | 监控统计量与控制限 | Performance of T2-based PCA mix control chart with KDE control limit for monitoring variable and attribute characteristics | [2024_Ahsan_PerformanceT2PCAMix_en.pdf](../../papers/2024_Ahsan_PerformanceT2PCAMix_en.pdf) | 中 |
+| 02-023 | 2023-10-30 | 稀疏/鲁棒/张量方法 | $e^{\text{RPCA}}$: Robust Principal Component Analysis for Exponential Family Distributions | [2023_Zheng_ETextRPCA_en.pdf](../../papers/2023_Zheng_ETextRPCA_en.pdf) | 中 |
+| 02-024 | 2023-03-13 | 多块/分布式建模 | Dynamic Decentralized Monitoring for Large-Scale Industrial Processes Using Multiblock Canonical Variate Analysis Based Regression | [2023_Fuente_DynamicDecentralizedMonitoringLarge_en.pdf](../../papers/2023_Fuente_DynamicDecentralizedMonitoringLarge_en.pdf) | 中 |
+| 02-025 | 2024-08-01 | 稀疏/鲁棒/张量方法 | F-Norm-Based Soft LDA Algorithm for Fault Detection in Chemical Production Processes | [2024_Chen_FNormSoftLDA_en.pdf](../../papers/2024_Chen_FNormSoftLDA_en.pdf) | 中 |
+| 02-026 | 2025-08-01 | 稀疏/鲁棒/张量方法 | Acoustic virtual sensors for industrial process monitoring using non-negative matrix factorization | [2025_LuzonAlvarez_AcousticVirtualSensorsIndustrial_en.pdf](../../papers/2025_LuzonAlvarez_AcousticVirtualSensorsIndustrial_en.pdf) | 中 |
+| 02-027 | 2025-12-17 | 监控统计量与控制限 | A Multivariate Statistical Framework for Detection, Classification and Pre-localization of Anomalies in Water Distribution Networks | [2025_Melnikov_MultivariateStatisticalFrameworkDetectio_en.pdf](../../papers/2025_Melnikov_MultivariateStatisticalFrameworkDetectio_en.pdf) | 中 |
+| 02-028 | 2020-12-17 | 动态潜变量 | An improved approach for fault detection by simultaneous overcoming of high-dimensionality, autocorrelation, and time-variability | [2020_Hajarian_ImprovedApproachFaultDetection_en.pdf](../../papers/2020_Hajarian_ImprovedApproachFaultDetection_en.pdf) | 中 |
+| 02-029 | 2023-06-25 | CCA/CVA | A Novel Data-Driven Fault Detection Method Based on Stable Kernel Representation for Dynamic Systems | [2023_Wang_NovelDataDrivenFault_en.pdf](../../papers/2023_Wang_NovelDataDrivenFault_en.pdf) | 中 |
+| 02-030 | 2025-11-28 | PLS/核 PLS | Nonlinear Quality-Related Fault Diagnosis | [2025_Yin_NonlinearQualityRelatedFault_en.pdf](../../papers/2025_Yin_NonlinearQualityRelatedFault_en.pdf) | 低 |
+| 02-032 | 2024-10-21 | 动态潜变量 | State monitoring and fault prediction of centrifugal compressors based on long short–term memory and principal component analysis (LSTM-PCA) | [2024_Wang_StateMonitoringFaultPrediction_en.pdf](../../papers/2024_Wang_StateMonitoringFaultPrediction_en.pdf) | 低 |
+| 02-033 | 2026-05-18 | 动态潜变量 | Early fault detection in gearboxes via dynamic principal component analysis–driven multivariate statistical process control | [2026_PerezTorres_EarlyFaultDetectionGearboxes_en.pdf](../../papers/2026_PerezTorres_EarlyFaultDetectionGearboxes_en.pdf) | 低 |
+| 02-034 | 2026-05-21 | 动态潜变量 | Kernel dynamic orthonormal subspace analysis for monitoring hybrid electric vehicle powertrain faults | [2026_Wang_KernelDynamicOrthonormalSubspace_en.pdf](../../papers/2026_Wang_KernelDynamicOrthonormalSubspace_en.pdf) | 低 |
+| 02-035 | 2024-07-17 | 监控统计量与控制限 | Time-varying Multivariate Statistical Process Control for Solar Photovoltaic Monitoring and Fault Detecting & Diagnosing Systems | [2024_Boonkhao_TimeVaryingMultivariateStatistical_en.pdf](../../papers/2024_Boonkhao_TimeVaryingMultivariateStatistical_en.pdf) | 低 |
+| 02-036 | 2026-04-10 | PCA/核 PCA | Fault Detection Approach of Cyclotron Ion Sources Based on KPCA-ISSA-SVM | [2026_Li_FaultDetectionApproachCyclotron_en.pdf](../../papers/2026_Li_FaultDetectionApproachCyclotron_en.pdf) | 低 |
+| 02-037 | 2025-09-07 | 慢特征分析 | Recursive State Inference for Linear PASFA | [2025_Rishi_RecursiveStateInferenceLinear_en.pdf](../../papers/2025_Rishi_RecursiveStateInferenceLinear_en.pdf) | 低 |
+| 02-038 | 2023-08-03 | PCA/核 PCA | Investigating Machine Learning and Control Theory Approaches for Process Fault Detection: A Comparative Study of KPCA and the Observer-Based Method | [2023_Lajmi_InvestigatingMachineLearningControl_en.pdf](../../papers/2023_Lajmi_InvestigatingMachineLearningControl_en.pdf) | 低 |
+| 02-039 | 2024-02-19 | 慢特征分析 | 基于慢特征分析的分布式动态工业过程运行状态评价 | [2024_钟林生_基于慢特征分析的分布式动_cn.pdf](../../papers/2024_钟林生_基于慢特征分析的分布式动_cn.pdf) | 中 |
+| 02-040 | 2025-08-04 | 慢特征分析 | 独立慢特征分析建模方法及其在动态故障检测中的应用 | [2025_张晨_独立慢特征分析建模方法及_cn.pdf](../../papers/2025_张晨_独立慢特征分析建模方法及_cn.pdf) | 中 |
+
+## 交叉引用（主分类在其他类，不重复计数）
+
+- 03-005（主分类 03 机器学习与深度学习监控）：MOLA: Enhancing Industrial Process Monitoring Using a Multi-Block Orthogonal Long Short-Term Memory Autoencoder
+- 03-028（主分类 03 机器学习与深度学习监控）：Unsupervised process monitoring of corrosion based on electrochemical noise and multivariate image analysis
+- 03-036（主分类 03 机器学习与深度学习监控）：Ensemble Monitoring Model Based on Multi-Subspace Partition of Deep Features
+- 04-010（主分类 04 异常检测与早期故障检测）：An Optimal Spatio-Temporal Hybrid Model Based on Wavelet Transform for Early Fault Detection
+- 04-028（主分类 04 异常检测与早期故障检测）：Improved Fault Detection Method based on HSMM
+- 04-034（主分类 04 异常检测与早期故障检测）：Risk-Based Fault Detection Using Bayesian Networks Based on Failure Mode and Effect Analysis
+- 11-015（主分类 11 数据集、基准与评测方法）：Revisiting OmniAnomaly for Anomaly Detection: performance metrics and comparison with PCA-based models

@@ -1,15 +1,170 @@
 [
- {"qid":"05x1","src":"arxiv","q":"(abs:\"root cause\" OR abs:\"causal discovery\" OR abs:\"causal graph\" OR abs:\"transfer entropy\" OR abs:\"Granger causality\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"process plant\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\" OR abs:\"plant-wide\")","max":150},
- {"qid":"05x2","src":"arxiv","q":"(abs:\"alarm flood\" OR abs:\"alarm management\" OR abs:\"alarm root cause\" OR ti:alarm) AND (abs:\"process\" OR abs:\"plant\") AND (abs:\"industrial\" OR abs:\"chemical\")","max":80},
- {"qid":"05x3","src":"arxiv","q":"(ti:\"fault diagnosis\" OR ti:\"fault classification\" OR ti:\"fault identification\") AND (abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"process industry\")","max":150},
- {"qid":"05x4","src":"arxiv","q":"(abs:\"fault isolation\" OR abs:\"contribution plot\" OR abs:\"reconstruction-based contribution\" OR abs:\"variable isolation\" OR abs:\"fault localization\" OR abs:\"faulty variable\") AND (abs:\"process monitoring\" OR abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\")","max":100},
- {"qid":"05x5","src":"arxiv","q":"(abs:\"knowledge graph\" OR abs:\"signed directed graph\" OR abs:\"Bayesian network\" OR abs:ontology OR abs:\"expert knowledge\") AND (abs:\"fault diagnosis\" OR abs:\"root cause\") AND (abs:\"industrial process\" OR abs:\"chemical\" OR abs:\"process plant\" OR abs:\"process industry\")","max":100},
- {"qid":"05x6","src":"doaj","q":"bibjson.title:(\"fault diagnosis\" OR \"fault classification\" OR \"fault identification\" OR \"root cause\" OR \"fault isolation\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"process industry\")","max":300},
- {"qid":"05x7","src":"doaj","q":"bibjson.abstract:(\"alarm flood\" OR \"alarm floods\" OR \"nuisance alarm\" OR \"alarm management\" OR \"alarm root cause\")","max":100},
- {"qid":"05x8","src":"hal","q":"(title_t:(\"root cause\" OR \"fault isolation\" OR causal OR \"fault propagation\" OR diagnosis OR alarm) OR abstract_t:(\"root cause\" OR \"fault propagation\")) AND abstract_t:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"process plant\" OR \"process industry\")","max":150},
- {"qid":"05x9","src":"epmc","q":"ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\") AND TITLE:(\"fault diagnosis\" OR \"fault classification\" OR \"fault identification\" OR \"interpretable\" OR \"explainable\" OR \"root cause\")","max":200},
- {"qid":"05x10","src":"crossref","q":"root cause diagnosis causal analysis fault propagation industrial process","max":150},
- {"qid":"05c1","src":"cite","q":"fwd:10.1109/tcst.2006.883234","max":120},
- {"qid":"05c2","src":"cite","q":"bwd:10.3390/s25133980","max":120},
- {"qid":"05c3","src":"cite","q":"fwd:10.1016/j.automatica.2009.02.027","max":100}
+ {
+  "qid": "05x1",
+  "src": "arxiv",
+  "q": "(abs:\"root cause\" OR abs:\"causal discovery\" OR abs:\"causal graph\" OR abs:\"transfer entropy\" OR abs:\"Granger causality\") AND (abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"process plant\" OR abs:\"Tennessee Eastman\" OR abs:\"process industry\" OR abs:\"plant-wide\")",
+  "max": 150
+ },
+ {
+  "qid": "05x2",
+  "src": "arxiv",
+  "q": "(abs:\"alarm flood\" OR abs:\"alarm management\" OR abs:\"alarm root cause\" OR ti:alarm) AND (abs:\"process\" OR abs:\"plant\") AND (abs:\"industrial\" OR abs:\"chemical\")",
+  "max": 80
+ },
+ {
+  "qid": "05x3",
+  "src": "arxiv",
+  "q": "(ti:\"fault diagnosis\" OR ti:\"fault classification\" OR ti:\"fault identification\") AND (abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"process industry\")",
+  "max": 150
+ },
+ {
+  "qid": "05x4",
+  "src": "arxiv",
+  "q": "(abs:\"fault isolation\" OR abs:\"contribution plot\" OR abs:\"reconstruction-based contribution\" OR abs:\"variable isolation\" OR abs:\"fault localization\" OR abs:\"faulty variable\") AND (abs:\"process monitoring\" OR abs:\"industrial process\" OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\")",
+  "max": 100
+ },
+ {
+  "qid": "05x5",
+  "src": "arxiv",
+  "q": "(abs:\"knowledge graph\" OR abs:\"signed directed graph\" OR abs:\"Bayesian network\" OR abs:ontology OR abs:\"expert knowledge\") AND (abs:\"fault diagnosis\" OR abs:\"root cause\") AND (abs:\"industrial process\" OR abs:\"chemical\" OR abs:\"process plant\" OR abs:\"process industry\")",
+  "max": 100
+ },
+ {
+  "qid": "05x6",
+  "src": "doaj",
+  "q": "bibjson.title:(\"fault diagnosis\" OR \"fault classification\" OR \"fault identification\" OR \"root cause\" OR \"fault isolation\") AND bibjson.abstract:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"process industry\")",
+  "max": 300
+ },
+ {
+  "qid": "05x7",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"alarm flood\" OR \"alarm floods\" OR \"nuisance alarm\" OR \"alarm management\" OR \"alarm root cause\")",
+  "max": 100
+ },
+ {
+  "qid": "05x8",
+  "src": "hal",
+  "q": "(title_t:(\"root cause\" OR \"fault isolation\" OR causal OR \"fault propagation\" OR diagnosis OR alarm) OR abstract_t:(\"root cause\" OR \"fault propagation\")) AND abstract_t:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\" OR \"process plant\" OR \"process industry\")",
+  "max": 150
+ },
+ {
+  "qid": "05x9",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"industrial process\") AND TITLE:(\"fault diagnosis\" OR \"fault classification\" OR \"fault identification\" OR \"interpretable\" OR \"explainable\" OR \"root cause\")",
+  "max": 200
+ },
+ {
+  "qid": "05x10",
+  "src": "crossref",
+  "q": "root cause diagnosis causal analysis fault propagation industrial process",
+  "max": 150
+ },
+ {
+  "qid": "05c1",
+  "src": "cite",
+  "q": "fwd:10.1109/tcst.2006.883234",
+  "max": 120
+ },
+ {
+  "qid": "05c2",
+  "src": "cite",
+  "q": "bwd:10.3390/s25133980",
+  "max": 120
+ },
+ {
+  "qid": "05c3",
+  "src": "cite",
+  "q": "fwd:10.1016/j.automatica.2009.02.027",
+  "max": 100
+ },
+ {
+  "qid": "05x11",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\"",
+  "max": 200
+ },
+ {
+  "qid": "05x12",
+  "src": "arxiv",
+  "q": "abs:\"root cause\" AND abs:industrial",
+  "max": 150
+ },
+ {
+  "qid": "05x13",
+  "src": "arxiv",
+  "q": "abs:\"fault diagnosis\" AND abs:\"chemical process\"",
+  "max": 150
+ },
+ {
+  "qid": "05x14",
+  "src": "arxiv",
+  "q": "abs:\"alarm flood\" OR abs:\"alarm floods\"",
+  "max": 80
+ },
+ {
+  "qid": "05x15",
+  "src": "arxiv",
+  "q": "abs:\"causal discovery\" AND abs:industrial",
+  "max": 120
+ },
+ {
+  "qid": "05x16",
+  "src": "epmc",
+  "q": "TITLE:(\"fault diagnosis\" OR \"fault classification\" OR \"root cause\" OR \"fault identification\" OR \"fault isolation\") AND ABSTRACT:(chemical OR \"industrial process\" OR \"process industry\" OR plant)",
+  "max": 200
+ },
+ {
+  "qid": "05x17",
+  "src": "doaj",
+  "q": "bibjson.title:(\"root cause\" OR \"fault propagation\" OR causal OR causality OR alarm OR \"fault isolation\" OR explainable OR interpretable) AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"process plant\" OR \"process industry\" OR \"Tennessee Eastman\")",
+  "max": 200
+ },
+ {
+  "qid": "05x18",
+  "src": "hal",
+  "q": "title_t:(\"fault diagnosis\" OR \"root cause\" OR \"fault isolation\" OR diagnostic OR \"fault detection and isolation\") AND abstract_t:(process OR plant) AND abstract_t:(chemical OR industrial OR reactor)",
+  "max": 150
+ },
+ {
+  "qid": "05x19",
+  "src": "arxiv",
+  "q": "abs:\"fault diagnosis\" AND abs:\"industrial process\"",
+  "max": 150
+ },
+ {
+  "qid": "05x20",
+  "src": "arxiv",
+  "q": "abs:\"fault classification\" AND abs:industrial AND abs:process",
+  "max": 100
+ },
+ {
+  "qid": "05c4",
+  "src": "cite",
+  "q": "fwd:10.3390/s19214612",
+  "max": 120
+ },
+ {
+  "qid": "05x21",
+  "src": "arxiv",
+  "q": "abs:explainable AND abs:fault AND (abs:plant OR abs:\"industrial process\" OR abs:chemical)",
+  "max": 100
+ },
+ {
+  "qid": "05x22",
+  "src": "arxiv",
+  "q": "abs:\"root cause\" AND (abs:plant OR abs:\"process monitoring\" OR abs:manufacturing)",
+  "max": 120
+ },
+ {
+  "qid": "05x23",
+  "src": "arxiv",
+  "q": "abs:\"fault propagation\" OR abs:\"disturbance propagation\" OR abs:\"plant-wide oscillation\"",
+  "max": 80
+ },
+ {
+  "qid": "05x24",
+  "src": "arxiv",
+  "q": "abs:\"fault isolation\" AND (abs:process OR abs:reactor OR abs:plant)",
+  "max": 100
+ }
 ]

@@ -1,12 +1,164 @@
 [
- {"qid":"06x1","src":"arxiv","q":"(abs:multimode OR abs:\"multi-mode\" OR abs:\"multiple operating modes\" OR abs:\"mode identification\" OR abs:\"mode transition\" OR abs:\"operating mode\") AND (abs:\"process monitoring\" OR abs:\"fault\" OR abs:\"soft sensor\") AND (abs:industrial OR abs:chemical OR abs:plant OR abs:\"Tennessee Eastman\")","max":150},
- {"qid":"06x2","src":"arxiv","q":"(abs:\"domain adaptation\" OR abs:\"transfer learning\" OR abs:\"domain generalization\") AND (abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"soft sensor\" OR abs:\"process monitoring\")","max":150},
- {"qid":"06x3","src":"arxiv","q":"(abs:\"continual learning\" OR abs:\"incremental learning\" OR abs:lifelong OR abs:\"concept drift\" OR abs:\"catastrophic forgetting\") AND (abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"soft sensor\" OR abs:\"industrial process\")","max":150},
- {"qid":"06x4","src":"arxiv","q":"(abs:\"dynamic process\" OR abs:\"time-varying\" OR abs:nonstationary OR abs:\"non-stationary\" OR abs:\"slow feature\" OR abs:\"process dynamics\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"Tennessee Eastman\" OR abs:\"soft sensor\")","max":120},
- {"qid":"06x5","src":"doaj","q":"bibjson.abstract:(\"soft sensor\" OR \"process monitoring\" OR \"fault diagnosis\") AND bibjson.title:(adaptive OR transfer OR domain OR drift OR \"time-varying\" OR multimode OR \"multi-mode\" OR \"just-in-time\" OR \"moving window\" OR recursive OR \"operating conditions\" OR \"working conditions\" OR incremental OR continual) AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\")","max":300},
- {"qid":"06x6","src":"hal","q":"abstract_t:(multimode OR \"multi-mode\" OR \"operating mode\" OR \"operating modes\" OR \"domain adaptation\" OR \"transfer learning\" OR \"time-varying\" OR \"LPV\" OR \"switching\") AND abstract_t:(fault OR monitoring OR diagnosis OR \"soft sensor\") AND abstract_t:(process OR plant OR reactor)","max":150},
- {"qid":"06x7","src":"epmc","q":"ABSTRACT:(\"domain adaptation\" OR \"transfer learning\" OR \"continual learning\" OR \"incremental learning\" OR multimode OR \"multi-mode\") AND ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"soft sensor\" OR \"industrial process\")","max":200},
- {"qid":"06x8","src":"crossref","q":"multimode process monitoring operating mode identification transition","max":150},
- {"qid":"06c1","src":"cite","q":"fwd:10.1016/j.chemolab.2019.03.012","max":120},
- {"qid":"06c2","src":"cite","q":"bwd:10.1109/access.2023.3349132","max":120}
+ {
+  "qid": "06x1",
+  "src": "arxiv",
+  "q": "(abs:multimode OR abs:\"multi-mode\" OR abs:\"multiple operating modes\" OR abs:\"mode identification\" OR abs:\"mode transition\" OR abs:\"operating mode\") AND (abs:\"process monitoring\" OR abs:\"fault\" OR abs:\"soft sensor\") AND (abs:industrial OR abs:chemical OR abs:plant OR abs:\"Tennessee Eastman\")",
+  "max": 150
+ },
+ {
+  "qid": "06x2",
+  "src": "arxiv",
+  "q": "(abs:\"domain adaptation\" OR abs:\"transfer learning\" OR abs:\"domain generalization\") AND (abs:\"Tennessee Eastman\" OR abs:\"chemical process\" OR abs:\"industrial process\" OR abs:\"soft sensor\" OR abs:\"process monitoring\")",
+  "max": 150
+ },
+ {
+  "qid": "06x3",
+  "src": "arxiv",
+  "q": "(abs:\"continual learning\" OR abs:\"incremental learning\" OR abs:lifelong OR abs:\"concept drift\" OR abs:\"catastrophic forgetting\") AND (abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"soft sensor\" OR abs:\"industrial process\")",
+  "max": 150
+ },
+ {
+  "qid": "06x4",
+  "src": "arxiv",
+  "q": "(abs:\"dynamic process\" OR abs:\"time-varying\" OR abs:nonstationary OR abs:\"non-stationary\" OR abs:\"slow feature\" OR abs:\"process dynamics\") AND (abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"Tennessee Eastman\" OR abs:\"soft sensor\")",
+  "max": 120
+ },
+ {
+  "qid": "06x5",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"soft sensor\" OR \"process monitoring\" OR \"fault diagnosis\") AND bibjson.title:(adaptive OR transfer OR domain OR drift OR \"time-varying\" OR multimode OR \"multi-mode\" OR \"just-in-time\" OR \"moving window\" OR recursive OR \"operating conditions\" OR \"working conditions\" OR incremental OR continual) AND bibjson.abstract:(\"industrial process\" OR \"chemical process\" OR \"Tennessee Eastman\" OR \"process industry\")",
+  "max": 300
+ },
+ {
+  "qid": "06x6",
+  "src": "hal",
+  "q": "abstract_t:(multimode OR \"multi-mode\" OR \"operating mode\" OR \"operating modes\" OR \"domain adaptation\" OR \"transfer learning\" OR \"time-varying\" OR \"LPV\" OR \"switching\") AND abstract_t:(fault OR monitoring OR diagnosis OR \"soft sensor\") AND abstract_t:(process OR plant OR reactor)",
+  "max": 150
+ },
+ {
+  "qid": "06x7",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"domain adaptation\" OR \"transfer learning\" OR \"continual learning\" OR \"incremental learning\" OR multimode OR \"multi-mode\") AND ABSTRACT:(\"Tennessee Eastman\" OR \"chemical process\" OR \"soft sensor\" OR \"industrial process\")",
+  "max": 200
+ },
+ {
+  "qid": "06x8",
+  "src": "crossref",
+  "q": "multimode process monitoring operating mode identification transition",
+  "max": 150
+ },
+ {
+  "qid": "06c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.chemolab.2019.03.012",
+  "max": 120
+ },
+ {
+  "qid": "06c2",
+  "src": "cite",
+  "q": "bwd:10.1109/access.2023.3349132",
+  "max": 120
+ },
+ {
+  "qid": "06x9",
+  "src": "arxiv",
+  "q": "abs:\"multimode process\" OR abs:\"multimode processes\" OR abs:\"multi-mode process\" OR abs:\"multi-mode processes\"",
+  "max": 150
+ },
+ {
+  "qid": "06x10",
+  "src": "arxiv",
+  "q": "abs:\"domain adaptation\" AND abs:\"fault diagnosis\" AND abs:process",
+  "max": 150
+ },
+ {
+  "qid": "06x11",
+  "src": "arxiv",
+  "q": "abs:\"soft sensor\" AND (abs:\"transfer learning\" OR abs:\"domain adaptation\" OR abs:drift OR abs:adaptive OR abs:\"operating conditions\")",
+  "max": 150
+ },
+ {
+  "qid": "06x12",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" AND (abs:continual OR abs:incremental OR abs:domain OR abs:\"operating conditions\" OR abs:modes OR abs:nonstationary)",
+  "max": 150
+ },
+ {
+  "qid": "06x13",
+  "src": "epmc",
+  "q": "ABSTRACT:\"Tennessee Eastman\"",
+  "max": 300
+ },
+ {
+  "qid": "06x14",
+  "src": "doaj",
+  "q": "bibjson.abstract:\"Tennessee Eastman\"",
+  "max": 300
+ },
+ {
+  "qid": "06x15",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"soft sensor\" OR \"soft sensing\") AND ABSTRACT:(\"transfer learning\" OR \"domain adaptation\" OR \"just-in-time\" OR adaptive OR multimode OR \"multiple operating\" OR \"time-varying\" OR \"concept drift\")",
+  "max": 200
+ },
+ {
+  "qid": "06x16",
+  "src": "arxiv",
+  "q": "abs:\"operating conditions\" AND abs:\"fault diagnosis\" AND (abs:chemical OR abs:\"industrial process\")",
+  "max": 150
+ },
+ {
+  "qid": "06x17",
+  "src": "hal",
+  "q": "title_t:(multimode OR \"multi-mode\" OR \"domain adaptation\" OR \"transfer learning\" OR \"time-varying\" OR \"operating modes\" OR drift OR adaptive) AND abstract_t:(process OR plant OR industrial) AND abstract_t:(monitoring OR fault OR diagnosis OR \"soft sensor\")",
+  "max": 100
+ },
+ {
+  "qid": "06x18",
+  "src": "arxiv",
+  "q": "abs:\"concept drift\" AND abs:industrial",
+  "max": 120
+ },
+ {
+  "qid": "06x19",
+  "src": "arxiv",
+  "q": "abs:\"continual learning\" AND abs:industrial",
+  "max": 120
+ },
+ {
+  "qid": "06x20",
+  "src": "arxiv",
+  "q": "abs:\"transfer learning\" AND abs:\"chemical process\"",
+  "max": 100
+ },
+ {
+  "qid": "06x21",
+  "src": "arxiv",
+  "q": "abs:\"slow feature analysis\"",
+  "max": 100
+ },
+ {
+  "qid": "06x22",
+  "src": "arxiv",
+  "q": "abs:\"process monitoring\" AND (abs:dynamic OR abs:\"time-varying\" OR abs:nonstationary OR abs:multimode)",
+  "max": 150
+ },
+ {
+  "qid": "06x23",
+  "src": "arxiv",
+  "q": "abs:\"soft sensor\" AND (abs:domain OR abs:transfer OR abs:adaptive OR abs:\"just-in-time\")",
+  "max": 100
+ },
+ {
+  "qid": "06x24",
+  "src": "doaj",
+  "q": "bibjson.title:(\"transfer learning\" OR \"domain adaptation\" OR \"domain generalization\" OR continual OR incremental OR multimode OR \"multi-mode\" OR \"operating conditions\" OR \"working conditions\" OR \"concept drift\") AND bibjson.abstract:(chemical OR \"process industry\" OR \"industrial process\" OR \"Tennessee Eastman\" OR \"soft sensor\" OR fermentation OR wastewater OR steel)",
+  "max": 200
+ },
+ {
+  "qid": "06c3",
+  "src": "cite",
+  "q": "fwd:10.1109/access.2023.3349132",
+  "max": 100
+ }
 ]

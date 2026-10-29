@@ -1,0 +1,69 @@
+# 03 机器学习与深度学习监控
+
+本页由 `scripts/build_catalog_en.py` 生成。文件只在 papers/、books/、university_materials/ 各存一份，这里按编号引用。
+
+| 编号 | 首次公开 | 子方向 | 标题 | 本地文件 | 优先级 |
+|---|---|---|---|---|---|
+| 03-001 | 2026-02-03 | 图神经网络 | Graph Autoencoder for Process Monitoring | [2026_Zhang_GraphAutoencoderProcessMonitoring_en.pdf](../../papers/2026_Zhang_GraphAutoencoderProcessMonitoring_en.pdf) | 高（前10 #1） |
+| 03-002 | 2025-01-02 | Transformer/注意力 | DeepFilter: A Transformer-style Framework for Accurate and Efficient Process Monitoring | [2025_Wang_DeepFilter_en.pdf](../../papers/2025_Wang_DeepFilter_en.pdf) | 高（前10 #2） |
+| 03-003 | 2026-07-03 | 图神经网络 | Spatiotemporal Graph Neural Networks for Fault Detection and Structural Learning in Chemical Processes: Use Case on the Tennessee Eastman Process | [2026_KHODJA_SpatiotemporalGraphNeuralNetworks_en.pdf](../../papers/2026_KHODJA_SpatiotemporalGraphNeuralNetworks_en.pdf) | 高（前10 #3） |
+| 03-004 | 2025-08-04 | 自编码器/VAE | Exploring Kolmogorov–Arnold Networks for Unsupervised Anomaly Detection in Industrial Processes | [2025_LunaVillagomez_ExploringKolmogorovArnoldNetworksUnsuper_en.pdf](../../papers/2025_LunaVillagomez_ExploringKolmogorovArnoldNetworksUnsuper_en.pdf) | 高（前10 #4） |
+| 03-005 | 2024-10-10 | 自编码器/VAE | MOLA: Enhancing Industrial Process Monitoring Using a Multi-Block Orthogonal Long Short-Term Memory Autoencoder | [2024_Ma_MOLA_en.pdf](../../papers/2024_Ma_MOLA_en.pdf) | 高（前10 #5） |
+| 03-006 | 2024-01-08 | 生成模型 | Generative adversarial wavelet neural operator: Application to fault detection and isolation of multivariate time series data | [2024_Rani_GenerativeAdversarialWaveletNeural_en.pdf](../../papers/2024_Rani_GenerativeAdversarialWaveletNeural_en.pdf) | 高（前10 #6） |
+| 03-007 | 2025 | 图神经网络 | Embedding-Enhanced Graph Attention Networks for Imbalanced Industrial Fault Diagnosis | [2025_Zhang_EmbeddingEnhancedGraphAttention_en.pdf](../../papers/2025_Zhang_EmbeddingEnhancedGraphAttention_en.pdf) | 高（前10 #7） |
+| 03-008 | 2025-02-03 | 自监督与对比学习 | SensorDBSCAN: Semi-Supervised Active Learning Powered Method for Anomaly Detection and Diagnosis | [2025_Ivanov_SensorDBSCAN_en.pdf](../../papers/2025_Ivanov_SensorDBSCAN_en.pdf) | 高（前10 #8） |
+| 03-009 | 2026-06-18 | 图神经网络 | A Multiscale Spatial-Temporal Graph Neural Network With Causal-Augmented Constraints for Industrial Fault Detection | [2026_Lyu_MultiscaleSpatialTemporalGraph_en.pdf](../../papers/2026_Lyu_MultiscaleSpatialTemporalGraph_en.pdf) | 高（前10 #9） |
+| 03-010 | 2024-03-20 | 表示学习 | Adversarial Attacks and Defenses in Fault Detection and Diagnosis: A Comprehensive Benchmark on the Tennessee Eastman Process | [2024_Pozdnyakov_AdversarialAttacksDefensesFault_en.pdf](../../papers/2024_Pozdnyakov_AdversarialAttacksDefensesFault_en.pdf) | 高（前10 #10） |
+| 03-012 | 2026-03-04 | 自编码器/VAE | Spatio-Temporal Graph Neural Networks for Anomaly Detection in Complex Industrial Processes | [2026_Zhao_SpatioTemporalGraphNeural_en.pdf](../../papers/2026_Zhao_SpatioTemporalGraphNeural_en.pdf) | 中 |
+| 03-013 | 2024-08-24 | 自编码器/VAE | Learning a Factorized Orthogonal Latent Space using Encoder-only Architecture for Fault Detection; An Alarm management perspective | [2024_Eivaghi_LearningFactorizedOrthogonalLatent_en.pdf](../../papers/2024_Eivaghi_LearningFactorizedOrthogonalLatent_en.pdf) | 中 |
+| 03-015 | 2024-08-19 | 循环网络 | Q residual non-parametric Distribution on Fault Detection Approach Using Unsupervised LSTM-KDE | [2024_Sobran_QResidualNonParametric_en.pdf](../../papers/2024_Sobran_QResidualNonParametric_en.pdf) | 中 |
+| 03-016 | 2026-07-10 | 自编码器/VAE | CLOE: Christoffel Loss Autoencoder for Anomaly Detection | [2026_Billet_CLOE_en.pdf](../../papers/2026_Billet_CLOE_en.pdf) | 中 |
+| 03-017 | 2026-01-28 | 自编码器/VAE | VSCOUT: A Hybrid Variational Autoencoder Approach to Outlier Detection in High-Dimensional Retrospective Monitoring | [2026_Martinez_VSCOUT_en.pdf](../../papers/2026_Martinez_VSCOUT_en.pdf) | 中 |
+| 03-018 | 2023-11-10 | 卷积网络 | Application of 1D ResNet for Multivariate Fault Detection on Semiconductor Manufacturing Equipment | [2023_Tchatchoua_Application1DResNetMultivariate_en.pdf](../../papers/2023_Tchatchoua_Application1DResNetMultivariate_en.pdf) | 中 |
+| 03-019 | 2026-01-30 | 循环网络 | Fractional-order neural network for detecting process deviations in optical fiber cable manufacturing | [2026_Gomolka_FractionalOrderNeuralNetwork_en.pdf](../../papers/2026_Gomolka_FractionalOrderNeuralNetwork_en.pdf) | 中 |
+| 03-020 | 2026-02-12 | 循环网络 | Online Sensor Fault Detection Using Machine Learning Algorithms on a Laboratory-Scale Batch Reactor: LSTM Approach | [2026_Lobo_OnlineSensorFaultDetection_en.pdf](../../papers/2026_Lobo_OnlineSensorFaultDetection_en.pdf) | 中 |
+| 03-021 | 2024-07-09 | 自编码器/VAE | Hybrid Approach Integrating Deep Learning-Autoencoder With Statistical Process Control Chart for Anomaly Detection: Case Study in Injection Molding Process | [2024_Tayalati_HybridApproachIntegratingDeep_en.pdf](../../papers/2024_Tayalati_HybridApproachIntegratingDeep_en.pdf) | 中 |
+| 03-022 | 2024-04-29 | Transformer/注意力 | Anomaly Detection for Asynchronous Multivariate Time Series of Nuclear Power Plants Using a Temporal-Spatial Transformer | [2024_Yi_AnomalyDetectionAsynchronousMultivariate_en.pdf](../../papers/2024_Yi_AnomalyDetectionAsynchronousMultivariate_en.pdf) | 中 |
+| 03-023 | 2025-03-26 | Transformer/注意力 | Multisource Heterogeneous Data Fusion-Based Process Monitoring of the Reheating Furnace in Steel Production | [2025_Ban_MultisourceHeterogeneousDataFusion_en.pdf](../../papers/2025_Ban_MultisourceHeterogeneousDataFusion_en.pdf) | 中 |
+| 03-024 | 2026-03-12 | 强化学习 | A Deep Reinforcement Learning Approach for Fault Detection in Continuous Chemical Processes | [2026_Mantovani_DeepReinforcementLearningApproach_en.pdf](../../papers/2026_Mantovani_DeepReinforcementLearningApproach_en.pdf) | 中 |
+| 03-028 | 2025-05-03 | 表示学习 | Unsupervised process monitoring of corrosion based on electrochemical noise and multivariate image analysis | [2025_Abdulmutaali_UnsupervisedProcessMonitoringCorrosion_en.pdf](../../papers/2025_Abdulmutaali_UnsupervisedProcessMonitoringCorrosion_en.pdf) | 中 |
+| 03-029 | 2024-09-04 | 传统机器学习（SVDD、核方法、集成） | A Process Monitoring Framework for Imbalanced Big Data: A Wastewater Treatment Plant Case Study | [2024_Zadkarami_ProcessMonitoringFrameworkImbalanced_en.pdf](../../papers/2024_Zadkarami_ProcessMonitoringFrameworkImbalanced_en.pdf) | 中 |
+| 03-030 | 2025-06-24 | 表示学习 | Embedding Models for Multivariate Time Series Anomaly Detection in Industry 5.0 | [2025_Colombi_EmbeddingModelsMultivariateTime_en.pdf](../../papers/2025_Colombi_EmbeddingModelsMultivariateTime_en.pdf) | 中 |
+| 03-031 | 2025-12-10 | 图神经网络 | Edge Temporal Digital Twin Network for Sensor-Driven Fault Detection in Nuclear Power Systems | [2025_Liu_EdgeTemporalDigitalTwin_en.pdf](../../papers/2025_Liu_EdgeTemporalDigitalTwin_en.pdf) | 中 |
+| 03-032 | 2025-03-03 | 自监督与对比学习 | Learning Actionable World Models for Industrial Process Control | [2025_Yan_LearningActionableWorldModels_en.pdf](../../papers/2025_Yan_LearningActionableWorldModels_en.pdf) | 中 |
+| 03-034 | 2024-11-27 | 卷积网络 | Hyperspectral In-Situ Monitoring for Deep Learning-Based Anomaly Classification in Metal Additive Manufacturing | [2024_Snyers_HyperspectralSituMonitoringDeep_en.pdf](../../papers/2024_Snyers_HyperspectralSituMonitoringDeep_en.pdf) | 中 |
+| 03-035 | 2025-04-30 | 表示学习 | Redundancy Analysis and Mitigation for Machine Learning-Based Process Monitoring of Additive Manufacturing | [2025_Xie_RedundancyAnalysisMitigationMachine_en.pdf](../../papers/2025_Xie_RedundancyAnalysisMitigationMachine_en.pdf) | 中 |
+| 03-036 | 2023-11-16 | 自编码器/VAE | Ensemble Monitoring Model Based on Multi-Subspace Partition of Deep Features | [2023_Li_EnsembleMonitoringModelMulti_en.pdf](../../papers/2023_Li_EnsembleMonitoringModelMulti_en.pdf) | 中 |
+| 03-037 | 2026-04-03 | 循环网络 | Fault Diagnosis of Multi-Loop Pneumatic Control Valve Systems Based on 1DCNN-BiLSTM Model | [2026_Zhang_FaultDiagnosisMultiLoop_en.pdf](../../papers/2026_Zhang_FaultDiagnosisMultiLoop_en.pdf) | 中 |
+| 03-038 | 2026-09-08 | 表示学习 | When Does Federated Learning Work for SCADA-Based Rare-Event Detection? A Cross-Domain Study With Practical Diagnostics | [2026_Alnemari_WhenDoesFederatedLearning_en.pdf](../../papers/2026_Alnemari_WhenDoesFederatedLearning_en.pdf) | 中 |
+| 03-039 | 2026-08-11 | 生成模型 | Physics-informed Diffusion Generative Model for Time-Series Data Synthesis in Dynamic Systems | [2026_Wang_PhysicsInformedDiffusionGenerative_en.pdf](../../papers/2026_Wang_PhysicsInformedDiffusionGenerative_en.pdf) | 中 |
+| 03-040 | 2026-10-20 | Transformer/注意力 | Physical-Variable-Informed Deep Learning for Robust Diagnosis in Industrial Fluid Transport Systems | [2026_Sha_PhysicalVariableInformedDeep_en.pdf](../../papers/2026_Sha_PhysicalVariableInformedDeep_en.pdf) | 中 |
+| 03-043 | 2025-07-18 | 循环网络 | Fault analysis of chemical equipment based on an improved hybrid model | [2025_Huiyong_FaultAnalysisChemicalEquipment_en.pdf](../../papers/2025_Huiyong_FaultAnalysisChemicalEquipment_en.pdf) | 中 |
+| 03-044 | 2024-05-01 | 传统机器学习（SVDD、核方法、集成） | Three-layer deep learning network random trees for fault detection in chemical production process | [2024_Lu_ThreeLayerDeepLearning_en.pdf](../../papers/2024_Lu_ThreeLayerDeepLearning_en.pdf) | 低 |
+| 03-045 | 2026-07-03 | 图神经网络 | Stacked graph attention network hypertuned by Heteroscedastic and Evolutionary Bayesian Optimization for fault identification on nuclear power plants robust to sensor drift | [2026_Stefenon_StackedGraphAttentionNetwork_en.pdf](../../papers/2026_Stefenon_StackedGraphAttentionNetwork_en.pdf) | 低 |
+| 03-046 | 2026-08-17 | 循环网络 | Hybrid fuzzy clustering and temporal deep learning framework for multi-parameter forecasting in industrial thermal processes | [2026_Vignesh_HybridFuzzyClusteringTemporal_en.pdf](../../papers/2026_Vignesh_HybridFuzzyClusteringTemporal_en.pdf) | 低 |
+| 03-047 | 2026-04-29 | Transformer/注意力 | Attention-enhanced spatiotemporal deep learning for predictive maintenance in oil and gas assets: towards Maintenance 5.0 | [2026_Iyer_AttentionEnhancedSpatiotemporalDeep_en.pdf](../../papers/2026_Iyer_AttentionEnhancedSpatiotemporalDeep_en.pdf) | 低 |
+| 03-048 | 2025-07-12 | 循环网络 | A three stage attention enabled stacked deep CNN-BiLSTM (ASDCBNet) model for end-to-end monitoring of wastewater treatment plant | [2025_Ullas_ThreeStageAttentionEnabled_en.pdf](../../papers/2025_Ullas_ThreeStageAttentionEnabled_en.pdf) | 低 |
+| 03-049 | 2026-08-20 | 传统机器学习（SVDD、核方法、集成） | An intelligent internet of things-based artificial intelligence framework for adaptive mechanical process control and real-time performance optimization | [2026_Sadu_IntelligentInternetThingsArtificial_en.pdf](../../papers/2026_Sadu_IntelligentInternetThingsArtificial_en.pdf) | 低 |
+| 03-051 | 2024-11-12 | 卷积网络 | Research on fault diagnosis of nuclear power first-second circuit based on hierarchical multi-granularity classification network | [2024_Chen_ResearchFaultDiagnosisNuclear_en.pdf](../../papers/2024_Chen_ResearchFaultDiagnosisNuclear_en.pdf) | 低 |
+| 03-052 | 2026-01-19 | 卷积网络 | Fault Diagnosis Method for Nuclear Power Primary Loop Systems Based on Inception-ResNet-GEMA | [2026_Mao_FaultDiagnosisMethodNuclear_en.pdf](../../papers/2026_Mao_FaultDiagnosisMethodNuclear_en.pdf) | 低 |
+| 03-053 | 2024-07-01 | 循环网络 | Fault Diagnosis and Prediction System for Metal Wire Feeding Additive Manufacturing | [2024_Xie_FaultDiagnosisPredictionSystem_en.pdf](../../papers/2024_Xie_FaultDiagnosisPredictionSystem_en.pdf) | 低 |
+| 03-058 | 2024-11-15 | 表示学习 | Investigation and Empirical Analysis of Transfer Learning for Industrial IoT Networks | [2024_Yadav_InvestigationEmpiricalAnalysisTransfer_en.pdf](../../papers/2024_Yadav_InvestigationEmpiricalAnalysisTransfer_en.pdf) | 低 |
+| 03-060 | 2026-05-20 | 知识蒸馏/表示学习 | 基于两阶段多教师知识蒸馏的工业过程故障检测方法 | [2026_陈光捷_基于两阶段多教师知识蒸馏_cn.pdf](../../papers/2026_陈光捷_基于两阶段多教师知识蒸馏_cn.pdf) | 中 |
+
+## 交叉引用（主分类在其他类，不重复计数）
+
+- 04-001（主分类 04 异常检测与早期故障检测）：Fault Progression Index: A State-Space Monitoring Framework for Early Fault Warning in Industrial Processes
+- 04-002（主分类 04 异常检测与早期故障检测）：Autoencoder-assisted Feature Ensemble Net for Incipient Faults
+- 04-003（主分类 04 异常检测与早期故障检测）：Early-warning industrial fault detection based on physics-guided residual learning and calibrated CRNNs
+- 04-009（主分类 04 异常检测与早期故障检测）：Knowledge-Assisted Multi-Graph Dependency Learning for Multivariate Time Series Anomaly Detection in Multi-Stage Industrial Processes
+- 04-013（主分类 04 异常检测与早期故障检测）：Automated Anomaly Detection in Blast Furnace Shaft Static Pressure Using Adversarial Autoencoders and Mode Decomposition
+- 04-016（主分类 04 异常检测与早期故障检测）：Unsupervised Anomaly Prediction with N-BEATS and Graph Neural Network in Multi-variate Semiconductor Process Time Series
+- 04-017（主分类 04 异常检测与早期故障检测）：Anomaly detection and fault diagnosis of main steam temperature of the thermal power unit based on TGAN-SATCN
+- 04-018（主分类 04 异常检测与早期故障检测）：Graph Spatiotemporal Process for Multivariate Time Series Anomaly Detection with Missing Values
+- 04-019（主分类 04 异常检测与早期故障检测）：Ultra-early prediction of the process parameters of coal chemical production
+- 04-024（主分类 04 异常检测与早期故障检测）：A Fast Asymmetric Network Model for Anomaly Monitoring of Industrial Processes
+- 04-026（主分类 04 异常检测与早期故障检测）：Out-of-Distribution Data Generation for Fault Detection and Diagnosis in Industrial Systems
+- 04-033（主分类 04 异常检测与早期故障检测）：Self-Supervised One-Class Prototypical Networks for Nuclear Power Plant Pipe Leak Detection
+- 04-040（主分类 04 异常检测与早期故障检测）：The Usage of Hypothesis Testing in Identifying Anomalies in Time Series Data for Cigarette Cutting Production
+- 04-054（主分类 04 异常检测与早期故障检测）：A Hierarchical Probabilistic Deep Learning Approach for Contextual Anomaly Detection in Mixed-Type Tabular Data

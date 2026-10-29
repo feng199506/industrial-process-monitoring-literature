@@ -1,13 +1,104 @@
 [
- {"qid":"02x1","src":"arxiv","q":"(ti:\"slow feature\" OR ti:\"canonical variate\" OR ti:\"canonical correlation\" OR ti:\"principal component\" OR ti:PCA OR ti:\"partial least squares\" OR ti:PLS OR ti:\"latent variable\" OR ti:subspace OR ti:\"independent component\" OR ti:\"factor analysis\") AND (abs:\"Tennessee Eastman\" OR abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"chemical process\" OR abs:\"industrial process\")","max":150},
- {"qid":"02x2","src":"hal","q":"title_t:(\"principal component\" OR PCA OR \"partial least squares\" OR PLS OR \"latent variable\" OR \"slow feature\" OR canonical OR \"independent component\" OR subspace OR \"factor analysis\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"statistical process\")","max":150},
- {"qid":"02x3","src":"doaj","q":"bibjson.abstract:(\"Tennessee Eastman\" OR \"penicillin\" OR \"industrial process\" OR \"chemical process\") AND bibjson.title:(\"principal component\" OR PCA OR \"partial least squares\" OR PLS OR \"slow feature\" OR \"canonical variate\" OR \"canonical correlation\" OR \"latent\" OR \"independent component\" OR \"subspace\" OR \"kernel\" OR \"multiblock\" OR \"distributed\")","max":300},
- {"qid":"02x4","src":"epmc","q":"ABSTRACT:(\"Tennessee Eastman\" OR \"industrial process\" OR \"chemical process\" OR \"process monitoring\") AND TITLE:(\"principal component\" OR PCA OR \"partial least squares\" OR \"slow feature\" OR \"canonical\" OR \"latent\" OR \"independent component\" OR \"subspace\" OR \"kernel\")","max":200},
- {"qid":"02x5","src":"arxiv","q":"(abs:\"kernel principal\" OR abs:\"dynamic PCA\" OR abs:\"dynamic principal\" OR abs:\"dynamic latent\" OR abs:\"probabilistic PCA\" OR abs:\"probabilistic principal\" OR abs:\"sparse PCA\" OR abs:\"robust PCA\" OR abs:\"slow feature analysis\" OR abs:\"canonical variate analysis\" OR abs:\"tensor\") AND (abs:\"process monitoring\" OR abs:\"fault detection\") AND (abs:process OR abs:plant OR abs:industrial)","max":150},
- {"qid":"02x6","src":"crossref","q":"slow feature analysis process monitoring fault detection","max":100},
- {"qid":"02x7","src":"crossref","q":"canonical variate analysis dynamic latent variable process monitoring","max":100},
- {"qid":"02x8","src":"crossref","q":"kernel principal component analysis partial least squares fault detection industrial process","max":100},
- {"qid":"02x9","src":"arxiv","q":"(abs:\"multiblock\" OR abs:\"multi-block\" OR abs:\"distributed process monitoring\" OR abs:\"plant-wide\" OR abs:\"control limit\" OR abs:\"kernel density estimation\") AND (abs:\"fault detection\" OR abs:\"process monitoring\")","max":100},
- {"qid":"02c1","src":"cite","q":"fwd:10.1016/j.jprocont.2017.05.002","max":120},
- {"qid":"02c2","src":"cite","q":"fwd:10.1002/aic.14888","max":120}
+ {
+  "qid": "02x1",
+  "src": "arxiv",
+  "q": "(ti:\"slow feature\" OR ti:\"canonical variate\" OR ti:\"canonical correlation\" OR ti:\"principal component\" OR ti:PCA OR ti:\"partial least squares\" OR ti:PLS OR ti:\"latent variable\" OR ti:subspace OR ti:\"independent component\" OR ti:\"factor analysis\") AND (abs:\"Tennessee Eastman\" OR abs:\"process monitoring\" OR abs:\"fault detection\" OR abs:\"chemical process\" OR abs:\"industrial process\")",
+  "max": 150
+ },
+ {
+  "qid": "02x2",
+  "src": "hal",
+  "q": "title_t:(\"principal component\" OR PCA OR \"partial least squares\" OR PLS OR \"latent variable\" OR \"slow feature\" OR canonical OR \"independent component\" OR subspace OR \"factor analysis\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"statistical process\")",
+  "max": 150
+ },
+ {
+  "qid": "02x3",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"Tennessee Eastman\" OR \"penicillin\" OR \"industrial process\" OR \"chemical process\") AND bibjson.title:(\"principal component\" OR PCA OR \"partial least squares\" OR PLS OR \"slow feature\" OR \"canonical variate\" OR \"canonical correlation\" OR \"latent\" OR \"independent component\" OR \"subspace\" OR \"kernel\" OR \"multiblock\" OR \"distributed\")",
+  "max": 300
+ },
+ {
+  "qid": "02x4",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"Tennessee Eastman\" OR \"industrial process\" OR \"chemical process\" OR \"process monitoring\") AND TITLE:(\"principal component\" OR PCA OR \"partial least squares\" OR \"slow feature\" OR \"canonical\" OR \"latent\" OR \"independent component\" OR \"subspace\" OR \"kernel\")",
+  "max": 200
+ },
+ {
+  "qid": "02x5",
+  "src": "arxiv",
+  "q": "(abs:\"kernel principal\" OR abs:\"dynamic PCA\" OR abs:\"dynamic principal\" OR abs:\"dynamic latent\" OR abs:\"probabilistic PCA\" OR abs:\"probabilistic principal\" OR abs:\"sparse PCA\" OR abs:\"robust PCA\" OR abs:\"slow feature analysis\" OR abs:\"canonical variate analysis\" OR abs:\"tensor\") AND (abs:\"process monitoring\" OR abs:\"fault detection\") AND (abs:process OR abs:plant OR abs:industrial)",
+  "max": 150
+ },
+ {
+  "qid": "02x9",
+  "src": "arxiv",
+  "q": "(abs:\"multiblock\" OR abs:\"multi-block\" OR abs:\"distributed process monitoring\" OR abs:\"plant-wide\" OR abs:\"control limit\" OR abs:\"kernel density estimation\") AND (abs:\"fault detection\" OR abs:\"process monitoring\")",
+  "max": 100
+ },
+ {
+  "qid": "02c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.jprocont.2017.05.002",
+  "max": 120
+ },
+ {
+  "qid": "02c2",
+  "src": "cite",
+  "q": "fwd:10.1002/aic.14888",
+  "max": 120
+ },
+ {
+  "qid": "02x10",
+  "src": "doaj",
+  "q": "bibjson.abstract:(\"process monitoring\" OR \"fault detection\" OR \"statistical process control\") AND bibjson.abstract:(\"principal component analysis\" OR \"partial least squares\" OR \"slow feature analysis\" OR \"canonical variate analysis\" OR \"independent component analysis\" OR \"kernel PCA\" OR \"latent variable\" OR \"canonical correlation analysis\") AND bibjson.abstract:(industrial OR process OR plant)",
+  "max": 300
+ },
+ {
+  "qid": "02x11",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"principal component analysis\" OR \"partial least squares\" OR \"slow feature\" OR \"canonical variate\" OR \"independent component analysis\" OR \"latent variable\" OR \"kernel PCA\") AND ABSTRACT:(\"fault detection\" OR \"process monitoring\") AND ABSTRACT:(Hotelling OR T2 OR \"squared prediction error\" OR SPE OR \"control limit\" OR \"Q statistic\")",
+  "max": 200
+ },
+ {
+  "qid": "02x12",
+  "src": "hal",
+  "q": "abstract_t:(\"principal component analysis\" OR PCA OR \"partial least squares\" OR \"latent variable\" OR \"slow feature\" OR \"independent component\" OR \"canonical\") AND abstract_t:(\"fault detection\" OR \"process monitoring\" OR \"fault diagnosis\" OR \"anomaly detection\") AND abstract_t:(process OR plant OR industrial OR reactor)",
+  "max": 150
+ },
+ {
+  "qid": "02x13",
+  "src": "arxiv",
+  "q": "abs:\"slow feature analysis\" OR abs:\"canonical variate analysis\" OR (abs:\"principal component analysis\" AND abs:\"fault detection\") OR (abs:\"partial least squares\" AND abs:\"fault\") OR (abs:PCA AND abs:\"process monitoring\")",
+  "max": 150
+ },
+ {
+  "qid": "02x14",
+  "src": "arxiv",
+  "q": "(abs:Hotelling OR abs:\"T2 statistic\" OR abs:\"Q statistic\" OR abs:\"control limit\" OR abs:\"control limits\") AND (abs:industrial OR abs:\"chemical process\" OR abs:\"Tennessee Eastman\" OR abs:manufacturing)",
+  "max": 100
+ },
+ {
+  "qid": "02x15",
+  "src": "arxiv",
+  "q": "abs:\"process monitoring\" OR abs:\"multivariate statistical process control\" OR abs:\"statistical process monitoring\"",
+  "max": 200
+ },
+ {
+  "qid": "02x16",
+  "src": "arxiv",
+  "q": "abs:\"Tennessee Eastman\" AND (abs:PCA OR abs:\"principal component\" OR abs:latent OR abs:subspace OR abs:canonical OR abs:\"slow feature\" OR abs:\"partial least\")",
+  "max": 100
+ },
+ {
+  "qid": "02x17",
+  "src": "hal",
+  "q": "(title_t:(\"composantes principales\" OR ACP OR \"moindres carrés partiels\" OR \"variables latentes\") OR abstract_t:(\"principal component analysis\" OR \"latent variable\")) AND abstract_t:(détection OR diagnostic OR surveillance OR monitoring OR fault)",
+  "max": 150
+ },
+ {
+  "qid": "02x18",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"principal component analysis\" OR \"partial least squares\" OR \"slow feature analysis\" OR \"canonical variate analysis\" OR \"independent component analysis\" OR \"kernel principal\" OR \"latent variable\") AND ABSTRACT:(\"fault detection\" OR \"process monitoring\" OR \"statistical process control\")",
+  "max": 300
+ }
 ]

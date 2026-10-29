@@ -133,7 +133,8 @@ def entry_meta(seed, cands, meta):
     cr = meta.get("doi:" + doi, {}) if doi else {}
     ax = meta.get("arxiv:" + arx, {}) if arx else {}
     m = {"doi": doi, "arxiv": arx, "pmcid": seed.get("pmcid") or c.get("pmcid", ""),
-         "hal_pdf": seed.get("hal_pdf") or c.get("hal_pdf", ""), "hal": c.get("hal", "")}
+         "hal_pdf": seed.get("hal_pdf") or c.get("hal_pdf", ""), "hal": c.get("hal", ""),
+         "pdf_url": seed.get("pdf_url") or c.get("pdf_url", "")}
     m["title"] = seed.get("title") or cr.get("title") or ax.get("title") or c.get("title", "")
     m["authors"] = seed.get("authors") or cr.get("authors") or ax.get("authors") or c.get("authors", [])
     m["venue"] = seed.get("venue") or cr.get("venue") or (ax.get("journal_ref") and "arXiv（作者注 journal_ref）") \
@@ -154,6 +155,9 @@ def entry_meta(seed, cands, meta):
         dates.append((c["hal_submitted"], "HAL 提交日"))
     if seed.get("first_public_date"):
         dates.append((seed["first_public_date"], seed.get("first_public_basis", "人工核对")))
+    if dates and all(len(d[0]) == 4 for d in dates) and len(cr.get("created", "")) == 10 \
+            and cr["created"][:4] == min(d[0] for d in dates):
+        dates.append((cr["created"], "Crossref created（DOI 注册日，作为在线日期近似；出版方只给出年份）"))
     if not dates and c.get("date"):
         dates.append((c["date"], c.get("date_basis", "")))
     if dates:
@@ -171,7 +175,7 @@ def entry_meta(seed, cands, meta):
     m["arxiv_journal_ref"] = ax.get("journal_ref", "")
     m["arxiv_comment"] = ax.get("comment", "")
     m["has_preprint"] = cr.get("has_preprint", [])
-    m["vpi"] = " ".join(x for x in (cr.get("volume") and f"Vol. {cr['volume']}", cr.get("issue") and
+    m["vpi"] = c.get("vpi") or " ".join(x for x in (cr.get("volume") and f"Vol. {cr['volume']}", cr.get("issue") and
                                     f"No. {cr['issue']}", cr.get("page") and f"pp./Art. {cr['page']}") if x)
     m["lang"] = "cn" if has_cjk(m["title"]) else "en"
     return m
@@ -223,8 +227,8 @@ def landing_pdf(url):
 def pdf_candidates(seed, m):
     """Ordered list of (url, version_label, how). Landing pages resolved lazily (url=None, landing)."""
     out = []
-    if seed.get("pdf_url"):
-        out.append((seed["pdf_url"], seed.get("version", "人工指定合法公开全文"), "seed pdf_url"))
+    if m.get("pdf_url"):
+        out.append((m["pdf_url"], seed.get("version", "出版社官网正式版（开放获取）"), "publisher PDF link"))
     doi = m["doi"]
     if doi.startswith("10.1109/"):
         out.append(("IEEE:" + doi, "出版社正式版（开放获取）", "IEEE stampPDF"))
@@ -394,7 +398,7 @@ def fetch_one(url):
     return p, "ok", final
 
 
-def download(cat, target=50, retry_failed=False):
+def download(cat, target=50, retry_failed=False, only=None):
     STAGING.mkdir(parents=True, exist_ok=True)
     PAPERS.mkdir(exist_ok=True)
     cands, meta, reg = load(CAND, {}), load(META, {}), load(REG, {})
@@ -416,6 +420,8 @@ def download(cat, target=50, retry_failed=False):
         if n_ok() >= target:
             break
         sid = s["sid"]
+        if only and sid not in only:
+            continue
         r = reg.get(sid, {})
         if s.get("exclude") or s.get("cross_only") or r.get("status") in ("verified", "pending", "rejected"):
             continue
@@ -486,7 +492,7 @@ def download(cat, target=50, retry_failed=False):
             shutil.move(str(p), dest)
             rec["file"] = f"papers/{name}"
             hashes[sha] = sid
-            with gzip.open(TEXT / f"{sid}.txt.gz", "wt") as f:
+            with gzip.open(TEXT / f"{sid}.txt.gz", "wt", errors="replace") as f:
                 f.write(out[3])
         shutil.rmtree(p.parent, ignore_errors=True)
         reg[sid] = rec
@@ -542,7 +548,8 @@ if __name__ == "__main__":
     if a[0] == "resolve":
         resolve(a[1])
     elif a[0] == "download":
-        download(a[1], int(opt("--target", 50)), "--retry-failed" in a)
+        download(a[1], int(opt("--target", 50)), "--retry-failed" in a,
+                 set(opt("--only").split(",")) if opt("--only") else None)
     elif a[0] == "status":
         for c in ([a[1]] if len(a) > 1 else [c for c in CATS if int(c) <= 12]):
             status_line(c, verbose=len(a) > 1)

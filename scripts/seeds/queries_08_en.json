@@ -72,9 +72,45 @@
   "max": 200
  },
  {
-  "qid": "08r1",
-  "src": "crossref",
-  "q": "batch process monitoring phase IEEE Access",
-  "max": 150
+  "qid": "08x11",
+  "src": "arxiv",
+  "q": "(abs:\"fed-batch\" OR abs:\"batch reactor\" OR abs:\"batch crystallization\" OR abs:\"batch distillation\" OR abs:\"batch-wise\" OR abs:\"batch data\" OR abs:\"batch manufacturing\") AND (abs:monitoring OR abs:\"anomaly detection\" OR abs:\"fault detection\" OR abs:\"soft sensor\" OR abs:\"quality prediction\" OR abs:\"end-point\")",
+  "max": 120
+ },
+ {
+  "qid": "08x12",
+  "src": "doaj",
+  "q": "bibjson.title:(fermentation OR bioprocess OR \"cell culture\" OR bioreactor OR \"fed-batch\" OR biomanufacturing) AND bibjson.title:(\"soft sensor\" OR monitoring OR fault OR anomaly OR prediction OR \"digital twin\") AND bibjson.abstract:(\"machine learning\" OR \"neural network\" OR \"partial least squares\" OR \"principal component\" OR Raman OR \"multivariate\")",
+  "max": 200
+ },
+ {
+  "qid": "08x13",
+  "src": "epmc",
+  "q": "ABSTRACT:\"batch\" AND ABSTRACT:(\"process monitoring\" OR \"fault detection\" OR \"anomaly detection\" OR \"soft sensor\" OR \"batch-to-batch variability\") AND ABSTRACT:(pharmaceutical OR bioprocess OR fermentation OR reactor OR \"cell culture\" OR polymerization) AND ABSTRACT:(\"machine learning\" OR \"multivariate\" OR \"partial least squares\" OR \"principal component\")",
+  "max": 200
+ },
+ {
+  "qid": "08x14",
+  "src": "hal",
+  "q": "abstract_t:(bioprocess OR fermentation OR \"fed-batch\" OR bioreactor OR \"cell culture\" OR \"batch process\") AND abstract_t:(\"soft sensor\" OR \"software sensor\" OR \"state estimation\" OR \"fault detection\" OR \"process monitoring\")",
+  "max": 120
+ },
+ {
+  "qid": "08c3",
+  "src": "cite",
+  "q": "bwd:10.3390/s24072073",
+  "max": 80
+ },
+ {
+  "qid": "08x15",
+  "src": "epmc",
+  "q": "TITLE:(fermentation OR bioreactor OR \"cell culture\" OR bioprocess OR \"fed-batch\" OR CHO OR biomanufacturing) AND ABSTRACT:(\"soft sensor\" OR Raman OR \"process analytical technology\" OR anomaly OR fault OR monitoring) AND ABSTRACT:(\"machine learning\" OR \"partial least squares\" OR \"neural network\" OR chemometric OR \"hybrid model\")",
+  "max": 250
+ },
+ {
+  "qid": "08x16",
+  "src": "arxiv",
+  "q": "(abs:bioprocess OR abs:\"cell culture\" OR abs:fermentation OR abs:biomanufacturing OR abs:bioreactor) AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:\"Gaussian process\" OR abs:\"hybrid model\") AND (abs:monitoring OR abs:prediction OR abs:\"soft sensor\")",
+  "max": 120
  }
 ]

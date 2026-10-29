@@ -1,13 +1,98 @@
 [
- {"qid":"09x1","src":"arxiv","q":"(abs:\"hybrid model\" OR abs:\"hybrid modeling\" OR abs:\"hybrid modelling\" OR abs:\"grey-box\" OR abs:\"gray-box\" OR abs:\"first-principles\" OR abs:\"first principles\") AND (abs:\"chemical process\" OR abs:bioprocess OR abs:reactor OR abs:\"process monitoring\" OR abs:\"soft sensor\" OR abs:\"fault detection\" OR abs:\"process industry\")","max":150},
- {"qid":"09x2","src":"arxiv","q":"abs:\"digital twin\" AND (abs:\"process industry\" OR abs:\"chemical process\" OR abs:\"chemical plant\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:bioprocess OR abs:\"manufacturing process\" OR abs:\"anomaly detection\")","max":150},
- {"qid":"09x3","src":"arxiv","q":"(abs:\"state estimation\" OR abs:\"moving horizon estimation\" OR abs:\"Kalman filter\" OR abs:observer) AND (abs:\"chemical process\" OR abs:\"chemical reactor\" OR abs:bioprocess OR abs:bioreactor OR abs:distillation OR abs:\"process plant\" OR abs:\"wastewater\")","max":150},
- {"qid":"09x4","src":"arxiv","q":"(ti:\"system identification\" OR ti:\"model identification\" OR ti:\"process identification\") AND (abs:\"chemical process\" OR abs:\"process control\" OR abs:reactor OR abs:\"industrial process\" OR abs:\"process systems\")","max":100},
- {"qid":"09x5","src":"arxiv","q":"(abs:\"physics-informed\" OR abs:\"physics-guided\" OR abs:\"physics-constrained\" OR abs:\"mechanism-based\" OR abs:\"knowledge-informed\") AND (abs:\"soft sensor\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"anomaly detection\" OR abs:\"fault detection\") AND (abs:\"industrial process\" OR abs:chemical OR abs:plant OR abs:reactor)","max":150},
- {"qid":"09x6","src":"doaj","q":"bibjson.title:(\"digital twin\" OR \"hybrid model\" OR \"hybrid modeling\" OR \"hybrid modelling\" OR \"physics-informed\" OR \"grey-box\") AND bibjson.abstract:(fault OR monitoring OR diagnosis OR \"soft sensor\" OR \"state estimation\") AND bibjson.abstract:(\"chemical\" OR \"process industry\" OR reactor OR bioprocess OR fermentation OR \"wastewater\" OR \"steel\")","max":300},
- {"qid":"09x7","src":"hal","q":"abstract_t:(\"fault detection and isolation\" OR \"residual generation\" OR \"unknown input observer\" OR \"parity\" OR \"model-based diagnosis\" OR \"interval observer\" OR \"parameter estimation\") AND abstract_t:(process OR reactor OR plant OR bioprocess)","max":150},
- {"qid":"09x8","src":"epmc","q":"ABSTRACT:(\"hybrid model\" OR \"hybrid modeling\" OR \"hybrid modelling\" OR \"physics-informed\" OR \"digital twin\" OR \"mechanistic model\") AND ABSTRACT:(bioprocess OR bioreactor OR fermentation OR \"chemical process\" OR \"process monitoring\" OR \"soft sensor\")","max":200},
- {"qid":"09c1","src":"cite","q":"fwd:10.1016/j.compchemeng.2022.107898","max":120},
- {"qid":"09c2","src":"cite","q":"fwd:10.1016/j.compchemeng.2013.08.008","max":120},
- {"qid":"09c3","src":"cite","q":"bwd:10.3390/fermentation9100922","max":120}
+ {
+  "qid": "09x1",
+  "src": "arxiv",
+  "q": "(abs:\"hybrid model\" OR abs:\"hybrid modeling\" OR abs:\"hybrid modelling\" OR abs:\"grey-box\" OR abs:\"gray-box\" OR abs:\"first-principles\" OR abs:\"first principles\") AND (abs:\"chemical process\" OR abs:bioprocess OR abs:reactor OR abs:\"process monitoring\" OR abs:\"soft sensor\" OR abs:\"fault detection\" OR abs:\"process industry\")",
+  "max": 150
+ },
+ {
+  "qid": "09x2",
+  "src": "arxiv",
+  "q": "abs:\"digital twin\" AND (abs:\"process industry\" OR abs:\"chemical process\" OR abs:\"chemical plant\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:bioprocess OR abs:\"manufacturing process\" OR abs:\"anomaly detection\")",
+  "max": 150
+ },
+ {
+  "qid": "09x3",
+  "src": "arxiv",
+  "q": "(abs:\"state estimation\" OR abs:\"moving horizon estimation\" OR abs:\"Kalman filter\" OR abs:observer) AND (abs:\"chemical process\" OR abs:\"chemical reactor\" OR abs:bioprocess OR abs:bioreactor OR abs:distillation OR abs:\"process plant\" OR abs:\"wastewater\")",
+  "max": 150
+ },
+ {
+  "qid": "09x4",
+  "src": "arxiv",
+  "q": "(ti:\"system identification\" OR ti:\"model identification\" OR ti:\"process identification\") AND (abs:\"chemical process\" OR abs:\"process control\" OR abs:reactor OR abs:\"industrial process\" OR abs:\"process systems\")",
+  "max": 100
+ },
+ {
+  "qid": "09x5",
+  "src": "arxiv",
+  "q": "(abs:\"physics-informed\" OR abs:\"physics-guided\" OR abs:\"physics-constrained\" OR abs:\"mechanism-based\" OR abs:\"knowledge-informed\") AND (abs:\"soft sensor\" OR abs:\"fault diagnosis\" OR abs:\"process monitoring\" OR abs:\"anomaly detection\" OR abs:\"fault detection\") AND (abs:\"industrial process\" OR abs:chemical OR abs:plant OR abs:reactor)",
+  "max": 150
+ },
+ {
+  "qid": "09x6",
+  "src": "doaj",
+  "q": "bibjson.title:(\"digital twin\" OR \"hybrid model\" OR \"hybrid modeling\" OR \"hybrid modelling\" OR \"physics-informed\" OR \"grey-box\") AND bibjson.abstract:(fault OR monitoring OR diagnosis OR \"soft sensor\" OR \"state estimation\") AND bibjson.abstract:(\"chemical\" OR \"process industry\" OR reactor OR bioprocess OR fermentation OR \"wastewater\" OR \"steel\")",
+  "max": 300
+ },
+ {
+  "qid": "09x7",
+  "src": "hal",
+  "q": "abstract_t:(\"fault detection and isolation\" OR \"residual generation\" OR \"unknown input observer\" OR \"parity\" OR \"model-based diagnosis\" OR \"interval observer\" OR \"parameter estimation\") AND abstract_t:(process OR reactor OR plant OR bioprocess)",
+  "max": 150
+ },
+ {
+  "qid": "09x8",
+  "src": "epmc",
+  "q": "ABSTRACT:(\"hybrid model\" OR \"hybrid modeling\" OR \"hybrid modelling\" OR \"physics-informed\" OR \"digital twin\" OR \"mechanistic model\") AND ABSTRACT:(bioprocess OR bioreactor OR fermentation OR \"chemical process\" OR \"process monitoring\" OR \"soft sensor\")",
+  "max": 200
+ },
+ {
+  "qid": "09c1",
+  "src": "cite",
+  "q": "fwd:10.1016/j.compchemeng.2022.107898",
+  "max": 120
+ },
+ {
+  "qid": "09c2",
+  "src": "cite",
+  "q": "fwd:10.1016/j.compchemeng.2013.08.008",
+  "max": 120
+ },
+ {
+  "qid": "09c3",
+  "src": "cite",
+  "q": "bwd:10.3390/fermentation9100922",
+  "max": 120
+ },
+ {
+  "qid": "09x9",
+  "src": "arxiv",
+  "q": "abs:\"hybrid model\" AND abs:chemical",
+  "max": 120
+ },
+ {
+  "qid": "09x10",
+  "src": "arxiv",
+  "q": "abs:\"physics-informed\" AND abs:\"chemical process\"",
+  "max": 120
+ },
+ {
+  "qid": "09x11",
+  "src": "arxiv",
+  "q": "abs:\"digital twin\" AND abs:\"fault diagnosis\"",
+  "max": 120
+ },
+ {
+  "qid": "09x12",
+  "src": "arxiv",
+  "q": "abs:\"state estimation\" AND abs:chemical",
+  "max": 120
+ },
+ {
+  "qid": "09x13",
+  "src": "arxiv",
+  "q": "abs:\"soft sensor\" AND (abs:\"first-principles\" OR abs:mechanistic OR abs:\"physics-informed\" OR abs:hybrid)",
+  "max": 120
+ }
 ]

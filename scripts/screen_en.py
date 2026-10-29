@@ -26,6 +26,8 @@ def route(c):
         return "pmc"
     if c.get("hal_pdf"):
         return "hal"
+    if c.get("pdf_url"):
+        return "pubpdf"
     doi = c.get("doi", "")
     if doi.startswith("10.1109/"):
         return "ieee"
